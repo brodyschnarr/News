@@ -8,30 +8,58 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="header-inner">
             <h1>📰 Daily Brief</h1>
             <p class="date" id="current-date"></p>
         </div>
     </header>
 
-    <main class="container">
-        <!-- North American News Section -->
-        <section class="news-section">
-            <h2 class="section-title">🇺🇸 North American News</h2>
-            <div class="news-grid" id="na-news"></div>
-        </section>
+    <div class="layout">
+        <!-- Left Sidebar Nav -->
+        <nav class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="#top-stories" class="nav-link active">🏆 Top Stories</a></li>
+                <li><a href="#canadian-news" class="nav-link">🍁 Canadian News</a></li>
+                <li><a href="#canadian-politics" class="nav-link">🏛️ Canadian Politics</a></li>
+                <li><a href="#us-politics" class="nav-link">🇺🇸 American Politics</a></li>
+                <li><a href="#ai-tech" class="nav-link">🤖 AI & Tech</a></li>
+            </ul>
+            <div class="sidebar-footer">
+                <p>❤️ <span id="like-count">0</span> likes today</p>
+            </div>
+        </nav>
 
-        <!-- AI & Tech Section -->
-        <section class="news-section">
-            <h2 class="section-title">🤖 AI & Tech Industry</h2>
-            <div class="news-grid" id="tech-news"></div>
-        </section>
-    </main>
+        <!-- Main Content -->
+        <main class="content">
+            <section id="top-stories" class="news-section">
+                <h2 class="section-title">🏆 Top Stories</h2>
+                <div class="news-grid" id="grid-top-stories"></div>
+            </section>
+
+            <section id="canadian-news" class="news-section">
+                <h2 class="section-title">🍁 Canadian News</h2>
+                <div class="news-grid" id="grid-canadian-news"></div>
+            </section>
+
+            <section id="canadian-politics" class="news-section">
+                <h2 class="section-title">🏛️ Canadian Politics</h2>
+                <div class="news-grid" id="grid-canadian-politics"></div>
+            </section>
+
+            <section id="us-politics" class="news-section">
+                <h2 class="section-title">🇺🇸 American Politics</h2>
+                <div class="news-grid" id="grid-us-politics"></div>
+            </section>
+
+            <section id="ai-tech" class="news-section">
+                <h2 class="section-title">🤖 AI & Tech</h2>
+                <div class="news-grid" id="grid-ai-tech"></div>
+            </section>
+        </main>
+    </div>
 
     <footer>
-        <div class="container">
-            <p>Curated daily at 5:30 AM EST</p>
-        </div>
+        <p>Curated daily at 5:30 AM EST · <a href="#top-stories">Back to top ↑</a></p>
     </footer>
 
     <script src="app.js"></script>
