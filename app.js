@@ -4,30 +4,39 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Monday, February 17, 2026',
+    date: 'Tuesday, February 17, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'Canada Faces Unprecedented Pressure as US Tariff Threats Intensify',
-            summary: 'The Canadian government is navigating a diplomatic tightrope as the United States escalates tariff threats targeting key exports including lumber, dairy, and auto parts. Prime Minister Mark Carney convened an emergency cabinet session to assess retaliatory options, while provincial premiers called for a unified response. Economists warn that broad 25% tariffs could shave 2.4% off Canadian GDP in the near term, with Ontario\'s auto corridor considered the most vulnerable sector.',
-            tags: ['Canada', 'trade', 'economy', 'tariffs'],
+            headline: 'Jesse Jackson, Civil Rights Leader and Presidential Hopeful, Dies at 84',
+            summary: 'The Rev. Jesse Jackson, a towering figure in the American civil rights movement and close associate of Martin Luther King Jr., has died at the age of 84. Jackson twice ran for the Democratic presidential nomination and spent decades as one of the most prominent voices for racial justice, economic equality, and voter registration in the United States. His Rainbow/PUSH Coalition became a powerful force in American politics, and tributes have poured in from world leaders recognizing his lifetime of activism and service.',
+            tags: ['Jesse Jackson', 'civil rights', 'obituary', 'US'],
             category: 'top-stories',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com' },
-                { title: 'CBC News', url: 'https://www.cbc.ca/news' },
-                { title: 'Reuters', url: 'https://www.reuters.com' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-jesse-jackson-civil-rights-leader-and-presidential-hopeful-dies-at-84/' },
+                { title: 'AP News', url: 'https://apnews.com' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'OpenAI Launches ChatGPT Lockdown Mode to Block Data Exfiltration',
-            summary: 'OpenAI introduced Lockdown Mode for ChatGPT, a new enterprise security feature that tightly constrains how the AI interacts with external systems, specifically designed to prevent sophisticated prompt-injection attacks from leaking user data. The feature, described as unnecessary for most casual users, arrives amid growing concerns that AI assistants can be manipulated by malicious content embedded in documents or web pages to send sensitive information to bad actors.',
-            tags: ['AI', 'OpenAI', 'ChatGPT', 'security'],
+            headline: 'Robert Duvall, Oscar-Winning Actor and Godfather Star, Dies at 95',
+            summary: 'Robert Duvall, one of the most celebrated actors in American cinema history, has died at 95. Best known for his iconic roles as Tom Hagen in The Godfather, Lieutenant Colonel Kilgore in Apocalypse Now, and his Oscar-winning turn in Tender Mercies, Duvall brought quiet intensity and authenticity to every performance across a career spanning six decades. Al Pacino, Francis Ford Coppola, and numerous collaborators have paid tribute to an artist widely considered one of the greatest character actors of all time.',
+            tags: ['Robert Duvall', 'obituary', 'Hollywood', 'entertainment'],
             category: 'top-stories',
             sources: [
-                { title: 'OpenAI Blog', url: 'https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/' },
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
+                { title: 'AP News', url: 'https://apnews.com/article/robert-duvall-dead-6ddb67ba5e2242ba9dd96f29b4ce242a' },
+                { title: 'The Verge', url: 'https://www.theverge.com' }
+            ]
+        },
+        {
+            id: 'top-3',
+            headline: 'Shooting at Rhode Island Youth Hockey Game Leaves 3 Dead Including Gunman',
+            summary: 'A shooting at a youth hockey rink in Pawtucket, Rhode Island left three people dead, including the shooter, and three more wounded. The incident occurred during a game involving young players, sending shockwaves through the community and reigniting debates over gun violence in everyday American settings. Law enforcement officials are investigating the motive, while local officials called for calm and offered support to the families affected by the tragedy.',
+            tags: ['shooting', 'Rhode Island', 'gun violence', 'US'],
+            category: 'top-stories',
+            sources: [
+                { title: 'AP News', url: 'https://apnews.com/article/pawtucket-hockey-rink-shooting-rhode-island-c8ac3e8067ce2f2ce07e4d98009ecdaa' }
             ]
         }
     ],
@@ -35,24 +44,33 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Bank of Canada Holds Rate Steady Amid Trade Uncertainty',
-            summary: 'The Bank of Canada held its benchmark interest rate steady at 3.0% in its latest announcement, citing trade policy uncertainty as a key reason for caution despite inflation trending near target. Governor Tiff Macklem warned that escalating tariff threats from the US represent the single largest downside risk to the Canadian economic outlook, and signalled the Bank is prepared to cut aggressively if trade conditions deteriorate materially in the coming months.',
-            tags: ['Canada', 'economy', 'Bank of Canada', 'interest rates'],
+            headline: 'Canada Women\'s Hockey Beats Switzerland 2-1, Sets Up Gold Medal Showdown with US',
+            summary: 'Team Canada narrowly escaped disaster in the Olympic women\'s hockey semifinal, edging Switzerland 2-1 to advance to the gold medal game at the Milan-Cortina 2026 Winter Olympics. The win sets up yet another heated Canada-USA rivalry showdown for gold, a matchup that has defined women\'s hockey for over two decades. The Canadian squad had to rally after a shaky start, with their goaltender making several key saves to preserve the slim lead in a tense third period.',
+            tags: ['Olympics', 'hockey', 'Canada', 'Winter Games', 'Milan-Cortina'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news' },
-                { title: 'Financial Post', url: 'https://financialpost.com' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/sports/olympics/article-winter-olympics-2026-canada-vs-switzerland-womens-hockey-semifinal/' },
+                { title: 'AP News', url: 'https://apnews.com' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Toronto Transit Commission Approves Subway Expansion Funding',
-            summary: 'The TTC board approved a landmark funding agreement with the federal and Ontario governments to accelerate the Ontario Line and Scarborough Subway Extension projects. The combined $12.5 billion commitment marks the largest single transit investment in Toronto\'s history, with the Ontario Line now projected to open its first stations by 2030. Critics noted that the timeline remains aggressive given ongoing labour shortages and supply chain pressures in the construction sector.',
-            tags: ['Toronto', 'transit', 'infrastructure', 'Ontario'],
+            headline: 'Organized Crime Groups Targeting Police Data Across Canada, Report Says',
+            summary: 'A national analysis has revealed that major organized crime groups across Canada are actively targeting police data systems, posing a significant infiltration risk to law enforcement agencies. The report highlights how criminal organizations are attempting to access sensitive policing information through insider recruitment, cyber intrusion, and social engineering. Experts warn that compromised police data could endanger officers, undermine investigations, and erode public trust in the justice system.',
+            tags: ['Canada', 'crime', 'cybersecurity', 'policing'],
             category: 'canadian-news',
             sources: [
-                { title: 'Toronto Star', url: 'https://www.thestar.com' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-organized-crime-groups-targeting-police-data-across-canada-report-says/' }
+            ]
+        },
+        {
+            id: 'cdn-3',
+            headline: 'Tumbler Ridge Community Reels as Ties to B.C. Mass Shooting Tragedy Spread Across Country',
+            summary: 'Communities far beyond Tumbler Ridge, B.C. are feeling the shockwaves of the recent mass shooting, with the small town of Lawn, Newfoundland discovering it lost three relatives from the Strang family in the tragedy. Temporary school trailers are arriving in Tumbler Ridge this week as the town weighs a return to classes, and grief counsellors are being deployed across multiple provinces as the full scope of the tragedy\'s impact on extended families and tight-knit communities becomes clear.',
+            tags: ['Canada', 'Tumbler Ridge', 'B.C.', 'tragedy'],
+            category: 'canadian-news',
+            sources: [
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-across-the-country-from-tumbler-ridge-another-tiny-town-is-shaken-by/' }
             ]
         }
     ],
@@ -60,24 +78,22 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'PM Carney Defends National Security Posture Amid NATO Spending Debate',
-            summary: 'Prime Minister Mark Carney defended Canada\'s updated defence spending commitments in the House of Commons, pledging to reach NATO\'s 2% GDP target by 2030 — two years ahead of the previous plan. The announcement came under pressure from both US officials and opposition leaders who argued Canada has long relied on American military coverage. The NDP questioned whether the spending increase would focus on domestic industrial capacity or foreign procurement contracts.',
-            tags: ['Canada', 'Carney', 'NATO', 'defence', 'politics'],
+            headline: 'Carney Set to Release Ottawa\'s New Defence Industrial Strategy',
+            summary: 'Prime Minister Mark Carney is preparing to unveil a new defence industrial strategy focused on a "buy Canadian" approach to military procurement. The strategy is expected to prioritize domestic manufacturers for future defence contracts, aiming to both bolster national security and stimulate Canada\'s industrial base amid growing pressure from NATO allies and the United States to increase military spending. The announcement comes as Canada faces heightened expectations to demonstrate self-sufficiency in defence production.',
+            tags: ['Canada', 'Carney', 'defence', 'procurement', 'politics'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC Politics', url: 'https://www.cbc.ca/news/politics' },
-                { title: 'National Post', url: 'https://nationalpost.com' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-mark-carney-defence-industrial-strategy-buy-canadian/' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'Conservative Leadership Race Heats Up as Poilievre Faces Internal Criticism',
-            summary: 'Conservative Party leader Pierre Poilievre faces growing internal pressure from caucus members who argue his confrontational approach to US-Canada trade tensions is backfiring with moderate voters. A Leger poll released this week shows the Liberals narrowing the gap to just 4 points nationally, down from a 12-point Conservative lead three months ago. Poilievre\'s office pushed back, calling the polling shift a temporary rally-around-the-flag effect that will fade.',
-            tags: ['Canada', 'Conservatives', 'Poilievre', 'politics', 'polling'],
+            headline: 'Immigration Minister Defends Proposed Asylum Rule Changes Through Border Bill',
+            summary: 'Canada\'s Immigration Minister appeared before a Senate committee to defend Bill C-12, which proposes significant changes to the country\'s asylum and refugee rules as part of a broader border security overhaul. Senators raised fears that tightening the rules could disproportionately affect LGBTQ claimants and women fleeing persecution, while the minister argued the changes are necessary to maintain the integrity of the immigration system and respond to record-high asylum claims at the border.',
+            tags: ['Canada', 'immigration', 'asylum', 'Bill C-12', 'politics'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com' },
-                { title: 'Leger Polling', url: 'https://leger360.com' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-immigration-minister-bill-c-12-refugee-asylum-rules-senate-committee/' }
             ]
         }
     ],
@@ -85,25 +101,33 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Trump Administration Moves to Expand Executive Control Over Federal Agencies',
-            summary: 'The Trump White House unveiled a sweeping executive order requiring all major federal regulatory agencies to submit proposed rules to the Office of Management and Budget for approval before publication, a move critics say would give the president unprecedented control over independent bodies like the EPA and FTC. Legal scholars are divided on constitutionality, with challenges expected at the DC Circuit Court. Proponents argue it brings accountability and eliminates unelected bureaucratic overreach.',
-            tags: ['Trump', 'executive order', 'federal agencies', 'US politics'],
+            headline: 'Trump and Maryland Governor Battle Over Potomac River Sewage Spill Response',
+            summary: 'A public feud has erupted between the Trump administration and Maryland Governor Wes Moore over responsibility for a major sewage spill into the Potomac River. Both sides have traded blame over the response timeline and cleanup efforts, with the incident becoming a flashpoint in the broader tensions between the federal government and Democratic-led states. Environmental groups warn that the political bickering is distracting from the urgent public health threat posed by untreated sewage flowing into a major waterway serving millions.',
+            tags: ['Trump', 'Wes Moore', 'Potomac', 'environment', 'US politics'],
             category: 'us-politics',
             sources: [
-                { title: 'Politico', url: 'https://www.politico.com' },
-                { title: 'The Atlantic', url: 'https://www.theatlantic.com' },
-                { title: 'Reuters', url: 'https://www.reuters.com' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-wes-moore-potomac-sewage-spill-bc43a446ea2db477501d90f1725a8935' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'Senate Passes Revised Budget Framework in Narrow Vote',
-            summary: 'The US Senate passed a revised budget resolution 52-48 along party lines, advancing a framework that pairs significant tax cuts with spending reductions to Medicaid and federal housing programs. Democrats warned the cuts would strip healthcare from millions of low-income Americans, while Republican sponsors argued the fiscal consolidation is essential to address the $36 trillion national debt. The resolution now goes to the House, where a handful of moderate Republicans have signalled reservations.',
-            tags: ['Senate', 'budget', 'tax cuts', 'Medicaid', 'US politics'],
+            headline: 'Texas Republican Paxton Steps Up Senate Bid Against GOP Sen. Cornyn',
+            summary: 'Texas Attorney General Ken Paxton is escalating his primary challenge against incumbent Republican Senator John Cornyn ahead of early voting, setting up one of the most consequential intra-party battles of the 2026 midterm cycle. Paxton, who survived an impeachment trial in 2023, is positioning himself as the more Trump-aligned candidate and attacking Cornyn\'s record on immigration and spending. The race is being closely watched as a barometer of how far right the Republican base has shifted in deep-red states.',
+            tags: ['Texas', 'Paxton', 'Cornyn', 'Senate', 'GOP', 'US politics'],
             category: 'us-politics',
             sources: [
-                { title: 'NBC News', url: 'https://www.nbcnews.com' },
-                { title: 'Washington Post', url: 'https://www.washingtonpost.com' }
+                { title: 'AP News', url: 'https://apnews.com/article/texas-senate-ken-paxton-cornyn-fe2787bbac917c5cb22918ac1e34c458' }
+            ]
+        },
+        {
+            id: 'uspol-3',
+            headline: 'DHS Pressing Social Media Platforms for Info on ICE Critics',
+            summary: 'The Department of Homeland Security has sent hundreds of subpoenas to Google, Reddit, Discord, and Meta seeking names, email addresses, and phone numbers associated with accounts that track or criticize Immigration and Customs Enforcement, according to a New York Times report. The revelation has alarmed civil liberties groups who say the government is using its subpoena power to chill free speech and target political dissent. Several platforms are reportedly pushing back on the requests, citing user privacy protections.',
+            tags: ['DHS', 'ICE', 'social media', 'privacy', 'US politics'],
+            category: 'us-politics',
+            sources: [
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
+                { title: 'New York Times', url: 'https://www.nytimes.com' }
             ]
         }
     ],
@@ -111,35 +135,35 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'Apple Vision Pro Gains Foveated Streaming in visionOS 26.4 Beta',
-            summary: 'Apple introduced foveated streaming in the first visionOS 26.4 developer beta, bringing an advanced rendering technique popularised by Valve to the Vision Pro headset. The technology tracks where a user\'s eyes are focused and renders that area at maximum fidelity while reducing quality in peripheral vision, cutting GPU load dramatically. Early developer feedback has been enthusiastic, with one studio reporting a 40% performance improvement on GPU-bound streaming workloads.',
-            tags: ['Apple', 'Vision Pro', 'visionOS', 'VR', 'AR'],
+            headline: 'EU Opens Privacy Investigation Into Musk\'s Grok Chatbot Over Deepfake Images',
+            summary: 'Ireland\'s Data Protection Commission has launched a formal investigation into Elon Musk\'s Grok AI chatbot over its generation of sexualized deepfake images, marking the latest EU regulatory action targeting AI-generated content. The probe centres on whether Grok\'s image generation capabilities violate GDPR provisions around consent and the processing of personal data. The investigation follows growing backlash over the chatbot producing explicit images of real public figures without permission, raising urgent questions about AI safety guardrails.',
+            tags: ['AI', 'Grok', 'EU', 'privacy', 'deepfakes', 'Musk'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
-                { title: '9to5Mac', url: 'https://9to5mac.com' }
+                { title: 'AP News', url: 'https://apnews.com/article/ireland-grok-deepfakes-eu-privacy-9d3d096a1f4dc0baddde3d5d91e050b7' },
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'NPR Host Sues Google Over Unauthorised AI Voice Clone',
-            summary: 'Former NPR Morning Edition host David Greene filed a lawsuit against Google alleging the company cloned his voice without consent to power an AI podcast narrator. The case is expected to set a significant precedent in an area where US law has lagged the rapid advance of voice synthesis technology. Greene\'s legal team is seeking both damages and an injunction to have the AI voice removed from Google\'s platforms, and several other broadcast journalists are reportedly preparing similar suits.',
-            tags: ['Google', 'AI', 'voice cloning', 'lawsuit', 'media'],
+            headline: 'Meta and YouTube Face Landmark Trial Over Social Media Addiction in Children',
+            summary: 'Meta and YouTube are heading to trial in Los Angeles to face claims that their platforms are designed to be addictive to children, in what could become a landmark case for tech regulation. Instagram chief Adam Mosseri testified that he does not believe people can become clinically addicted to social media, a claim that drew sharp pushback from plaintiffs\' attorneys presenting research on dopamine-driven engagement loops. The outcome could reshape how social media companies design features targeting younger users.',
+            tags: ['Meta', 'YouTube', 'social media', 'addiction', 'children', 'trial'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
-                { title: 'Wired', url: 'https://www.wired.com' }
+                { title: 'AP News', url: 'https://apnews.com/article/meta-instagram-youtube-social-media-addiction-los-angeles-1b409b31438e5ba46e2e8c064229b51a' },
+                { title: 'AP News', url: 'https://apnews.com/article/instagram-social-media-addiction-trial-mosseri-los-angeles-a49f64e21682e8bc1b98fbdf3d061579' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'TikTok Retains 95% of US Users After Ownership Handover',
-            summary: 'Despite a rocky transition to its new American ownership consortium — Oracle, MGX, and Silver Lake — TikTok has held onto approximately 95% of its US daily active users, according to new Sensor Tower data. The platform briefly went down following the handover, causing widespread feed disruptions, but recovered quickly. Analysts suggest the loyalty data significantly strengthens the new owners\' negotiating position in ongoing talks with advertisers who had paused spending during the uncertainty.',
-            tags: ['TikTok', 'social media', 'US', 'Oracle'],
+            headline: 'Disney Accuses ByteDance\'s New AI Video Model of Infringing on Its Characters',
+            summary: 'Disney has sent a cease-and-desist letter to ByteDance alleging that its new Seedance 2.0 AI video generation model is producing content featuring copyrighted characters like Spider-Man and Darth Vader without authorization. Disney\'s attorney accused ByteDance of "hijacking Disney\'s characters by reproducing, distributing, and creating derivative works," escalating the growing legal battle between entertainment giants and AI companies over training data and generated outputs that closely replicate protected intellectual property.',
+            tags: ['Disney', 'ByteDance', 'AI', 'copyright', 'Seedance'],
             category: 'ai-tech',
             sources: [
-                { title: 'CNBC', url: 'https://www.cnbc.com' },
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
+                { title: 'Axios', url: 'https://www.axios.com/2026/02/13/disney-bytedance-seedance' }
             ]
         }
     ]
