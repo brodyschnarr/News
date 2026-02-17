@@ -9,9 +9,9 @@ const newsData = {
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'Jesse Jackson, Civil Rights Leader and Presidential Hopeful, Dies at 84',
-            summary: 'The Rev. Jesse Jackson, a towering figure in the American civil rights movement and close associate of Martin Luther King Jr., has died at the age of 84. Jackson twice ran for the Democratic presidential nomination and spent decades as one of the most prominent voices for racial justice, economic equality, and voter registration in the United States. His Rainbow/PUSH Coalition became a powerful force in American politics, and tributes have poured in from world leaders recognizing his lifetime of activism and service.',
-            tags: ['Jesse Jackson', 'civil rights', 'obituary', 'US'],
+            headline: 'Jesse Jackson, Civil Rights Icon and Presidential Candidate, Dies at 84',
+            summary: 'Reverend Jesse Jackson, one of the most prominent civil rights leaders of the 20th century and a close associate of Martin Luther King Jr., has died at the age of 84. Jackson ran twice for the Democratic presidential nomination — in 1984 and 1988 — becoming the first major Black candidate to mount a serious national campaign. He founded the Rainbow Coalition and spent decades advocating for voting rights, economic justice, and international diplomacy. His death marks the passing of one of the last towering figures of the civil rights movement era.',
+            tags: ['Jesse Jackson', 'civil rights', 'obituary', 'politics'],
             category: 'top-stories',
             sources: [
                 { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-jesse-jackson-civil-rights-leader-and-presidential-hopeful-dies-at-84/' },
@@ -20,23 +20,22 @@ const newsData = {
         },
         {
             id: 'top-2',
-            headline: 'Robert Duvall, Oscar-Winning Actor and Godfather Star, Dies at 95',
-            summary: 'Robert Duvall, one of the most celebrated actors in American cinema history, has died at 95. Best known for his iconic roles as Tom Hagen in The Godfather, Lieutenant Colonel Kilgore in Apocalypse Now, and his Oscar-winning turn in Tender Mercies, Duvall brought quiet intensity and authenticity to every performance across a career spanning six decades. Al Pacino, Francis Ford Coppola, and numerous collaborators have paid tribute to an artist widely considered one of the greatest character actors of all time.',
-            tags: ['Robert Duvall', 'obituary', 'Hollywood', 'entertainment'],
+            headline: 'Shooting at Rhode Island Youth Hockey Game Leaves 3 Dead Including Shooter',
+            summary: 'A shooting at a youth hockey rink in Pawtucket, Rhode Island left three people dead — including the shooter — and three others wounded, according to authorities. The incident occurred during a game, sending players and spectators scrambling for safety. Police have not yet confirmed a motive. The shooting adds to a growing national conversation about public safety at youth sporting events, with local officials calling for emergency security reviews at sports facilities across the state.',
+            tags: ['shooting', 'Rhode Island', 'crime', 'US news'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/robert-duvall-dead-6ddb67ba5e2242ba9dd96f29b4ce242a' },
-                { title: 'The Verge', url: 'https://www.theverge.com' }
+                { title: 'AP News', url: 'https://apnews.com/article/pawtucket-hockey-rink-shooting-rhode-island-c8ac3e8067ce2f2ce07e4d98009ecdaa' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'Shooting at Rhode Island Youth Hockey Game Leaves 3 Dead Including Gunman',
-            summary: 'A shooting at a youth hockey rink in Pawtucket, Rhode Island left three people dead, including the shooter, and three more wounded. The incident occurred during a game involving young players, sending shockwaves through the community and reigniting debates over gun violence in everyday American settings. Law enforcement officials are investigating the motive, while local officials called for calm and offered support to the families affected by the tragedy.',
-            tags: ['shooting', 'Rhode Island', 'gun violence', 'US'],
+            headline: 'Iran and UN Nuclear Watchdog Meet in Geneva Ahead of Further US Talks',
+            summary: 'Iranian officials met with representatives from the International Atomic Energy Agency in Geneva in what observers describe as a critical step ahead of renewed diplomatic engagement with the United States over Tehran\'s nuclear program. The talks come after months of escalating tensions, with Iran reportedly advancing uranium enrichment beyond agreed thresholds. Diplomats from both sides have signalled cautious optimism that a framework for negotiations could emerge, though significant gaps over sanctions relief and inspection rights remain unresolved.',
+            tags: ['Iran', 'nuclear', 'diplomacy', 'US', 'geopolitics'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/pawtucket-hockey-rink-shooting-rhode-island-c8ac3e8067ce2f2ce07e4d98009ecdaa' }
+                { title: 'AP News', url: 'https://apnews.com/article/iran-nuclear-talks-us-geneva-8628f2dbd4c911cb4cda5fb92c1aadef' }
             ]
         }
     ],
@@ -44,33 +43,23 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Canada Women\'s Hockey Beats Switzerland 2-1, Sets Up Gold Medal Showdown with US',
-            summary: 'Team Canada narrowly escaped disaster in the Olympic women\'s hockey semifinal, edging Switzerland 2-1 to advance to the gold medal game at the Milan-Cortina 2026 Winter Olympics. The win sets up yet another heated Canada-USA rivalry showdown for gold, a matchup that has defined women\'s hockey for over two decades. The Canadian squad had to rally after a shaky start, with their goaltender making several key saves to preserve the slim lead in a tense third period.',
-            tags: ['Olympics', 'hockey', 'Canada', 'Winter Games', 'Milan-Cortina'],
+            headline: 'Canada vs. US: Women\'s Hockey Gold Medal Showdown Set for Milan-Cortina',
+            summary: 'Canada\'s women\'s hockey team punched their ticket to the gold medal game at the 2026 Milan-Cortina Winter Olympics, edging Switzerland 2-1 in a tense semifinal. They will now face their longtime rival the United States, setting up what is expected to be one of the most-watched hockey games of the Games. The storied rivalry between the two programs has defined women\'s Olympic hockey for three decades, with both teams trading gold medals across multiple Games.',
+            tags: ['Canada', 'Olympics', 'hockey', 'women\'s hockey', 'Milan-Cortina 2026'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/sports/olympics/article-winter-olympics-2026-canada-vs-switzerland-womens-hockey-semifinal/' },
-                { title: 'AP News', url: 'https://apnews.com' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/sports/olympics/article-milan-cortina-2026-womens-hockey-canada-us-rivalry-gold-showdown/' },
+                { title: 'CBC Sports', url: 'https://www.cbc.ca/sports' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Organized Crime Groups Targeting Police Data Across Canada, Report Says',
-            summary: 'A national analysis has revealed that major organized crime groups across Canada are actively targeting police data systems, posing a significant infiltration risk to law enforcement agencies. The report highlights how criminal organizations are attempting to access sensitive policing information through insider recruitment, cyber intrusion, and social engineering. Experts warn that compromised police data could endanger officers, undermine investigations, and erode public trust in the justice system.',
-            tags: ['Canada', 'crime', 'cybersecurity', 'policing'],
+            headline: 'Car Crash Insurance Reporting: A Legal Requirement Most Canadians Don\'t Know About',
+            summary: 'A surprising number of Canadians are unaware that the law requires drivers to report all collisions to their insurer — even minor fender-benders they choose to pay out of pocket. Legal and insurance experts told CBC News that failing to report can void your insurance policy, expose you to personal injury lawsuits years later, and result in dramatically higher premiums if the unreported incident is eventually discovered. The gap in public awareness is prompting calls for clearer communication from provincial insurance regulators.',
+            tags: ['Canada', 'insurance', 'law', 'driving', 'consumer'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-organized-crime-groups-targeting-police-data-across-canada-report-says/' }
-            ]
-        },
-        {
-            id: 'cdn-3',
-            headline: 'Tumbler Ridge Community Reels as Ties to B.C. Mass Shooting Tragedy Spread Across Country',
-            summary: 'Communities far beyond Tumbler Ridge, B.C. are feeling the shockwaves of the recent mass shooting, with the small town of Lawn, Newfoundland discovering it lost three relatives from the Strang family in the tragedy. Temporary school trailers are arriving in Tumbler Ridge this week as the town weighs a return to classes, and grief counsellors are being deployed across multiple provinces as the full scope of the tragedy\'s impact on extended families and tight-knit communities becomes clear.',
-            tags: ['Canada', 'Tumbler Ridge', 'B.C.', 'tragedy'],
-            category: 'canadian-news',
-            sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-across-the-country-from-tumbler-ridge-another-tiny-town-is-shaken-by/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news' }
             ]
         }
     ],
@@ -78,22 +67,24 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'Carney Set to Release Ottawa\'s New Defence Industrial Strategy',
-            summary: 'Prime Minister Mark Carney is preparing to unveil a new defence industrial strategy focused on a "buy Canadian" approach to military procurement. The strategy is expected to prioritize domestic manufacturers for future defence contracts, aiming to both bolster national security and stimulate Canada\'s industrial base amid growing pressure from NATO allies and the United States to increase military spending. The announcement comes as Canada faces heightened expectations to demonstrate self-sufficiency in defence production.',
-            tags: ['Canada', 'Carney', 'defence', 'procurement', 'politics'],
+            headline: 'Canada\'s Olympic Hockey Success Provides Carney Government Brief Political Boost',
+            summary: 'Prime Minister Mark Carney\'s office is quietly welcoming the wave of national pride surrounding Canada\'s strong Olympic performance in Milan-Cortina, particularly in hockey, as a welcome distraction from ongoing trade tensions with the United States. Polling analysts note that major international sporting events often provide temporary boosts to incumbent governments through a rally-around-the-flag effect. With both the men\'s and women\'s hockey teams in medal contention and Canada\'s overall medal count near the top, the political optics are unusually favorable for the Liberals.',
+            tags: ['Canada', 'Carney', 'Liberals', 'Olympics', 'politics'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-mark-carney-defence-industrial-strategy-buy-canadian/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/' },
+                { title: 'CBC Politics', url: 'https://www.cbc.ca/news/politics' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'Immigration Minister Defends Proposed Asylum Rule Changes Through Border Bill',
-            summary: 'Canada\'s Immigration Minister appeared before a Senate committee to defend Bill C-12, which proposes significant changes to the country\'s asylum and refugee rules as part of a broader border security overhaul. Senators raised fears that tightening the rules could disproportionately affect LGBTQ claimants and women fleeing persecution, while the minister argued the changes are necessary to maintain the integrity of the immigration system and respond to record-high asylum claims at the border.',
-            tags: ['Canada', 'immigration', 'asylum', 'Bill C-12', 'politics'],
+            headline: 'Canada Marks Family Day With Ongoing Tariff Standoff Looming Over Economy',
+            summary: 'As Canadians in most provinces observe Family Day, the federal government faces mounting pressure over its response to US tariff threats that economists say could push Canada into a technical recession. Finance Minister Chrystia Freeland is expected to announce a series of business support measures this week, while premiers from Ontario, Quebec, and Alberta have issued a joint statement demanding a coordinated national industrial strategy. Business groups warn that uncertainty alone is already causing investment freezes and project cancellations.',
+            tags: ['Canada', 'Family Day', 'tariffs', 'economy', 'trade'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-immigration-minister-bill-c-12-refugee-asylum-rules-senate-committee/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news' },
+                { title: 'Financial Post', url: 'https://financialpost.com' }
             ]
         }
     ],
@@ -101,33 +92,22 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Trump and Maryland Governor Battle Over Potomac River Sewage Spill Response',
-            summary: 'A public feud has erupted between the Trump administration and Maryland Governor Wes Moore over responsibility for a major sewage spill into the Potomac River. Both sides have traded blame over the response timeline and cleanup efforts, with the incident becoming a flashpoint in the broader tensions between the federal government and Democratic-led states. Environmental groups warn that the political bickering is distracting from the urgent public health threat posed by untreated sewage flowing into a major waterway serving millions.',
-            tags: ['Trump', 'Wes Moore', 'Potomac', 'environment', 'US politics'],
+            headline: 'Court Orders Trump Administration to Restore George Washington Slavery Exhibit in Philadelphia',
+            summary: 'A federal judge ordered the Trump administration to immediately restore a historic exhibit at the President\'s House site in Philadelphia that documents George Washington\'s use of enslaved people at what was once the executive mansion. The administration had removed the exhibit as part of a broader rollback of federally-funded programming related to racial history, drawing immediate legal challenges from civil liberties groups. The ruling is being closely watched as a test of executive authority over publicly-funded historical interpretation.',
+            tags: ['Trump', 'George Washington', 'slavery', 'history', 'courts'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/trump-wes-moore-potomac-sewage-spill-bc43a446ea2db477501d90f1725a8935' }
+                { title: 'AP News', url: 'https://apnews.com/article/george-washington-slavery-exhibit-restored-trump-2a32236320f280ba3e647d900c1301b4' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'Texas Republican Paxton Steps Up Senate Bid Against GOP Sen. Cornyn',
-            summary: 'Texas Attorney General Ken Paxton is escalating his primary challenge against incumbent Republican Senator John Cornyn ahead of early voting, setting up one of the most consequential intra-party battles of the 2026 midterm cycle. Paxton, who survived an impeachment trial in 2023, is positioning himself as the more Trump-aligned candidate and attacking Cornyn\'s record on immigration and spending. The race is being closely watched as a barometer of how far right the Republican base has shifted in deep-red states.',
-            tags: ['Texas', 'Paxton', 'Cornyn', 'Senate', 'GOP', 'US politics'],
+            headline: 'Trump and Maryland Governor Moore Trade Accusations Over Potomac River Sewage Crisis',
+            summary: 'President Trump and Maryland Governor Wes Moore are locked in a public dispute over responsibility for a major sewage spill into the Potomac River, with each blaming the other\'s administration for inadequate infrastructure investment and slow emergency response. The spill has affected drinking water intakes downstream and prompted beach closures along a stretch of the river near the capital. Environmental advocates say the confrontation is overshadowing the urgent need for bipartisan infrastructure investment in aging regional wastewater systems.',
+            tags: ['Trump', 'Maryland', 'environment', 'Potomac', 'US politics'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/texas-senate-ken-paxton-cornyn-fe2787bbac917c5cb22918ac1e34c458' }
-            ]
-        },
-        {
-            id: 'uspol-3',
-            headline: 'DHS Pressing Social Media Platforms for Info on ICE Critics',
-            summary: 'The Department of Homeland Security has sent hundreds of subpoenas to Google, Reddit, Discord, and Meta seeking names, email addresses, and phone numbers associated with accounts that track or criticize Immigration and Customs Enforcement, according to a New York Times report. The revelation has alarmed civil liberties groups who say the government is using its subpoena power to chill free speech and target political dissent. Several platforms are reportedly pushing back on the requests, citing user privacy protections.',
-            tags: ['DHS', 'ICE', 'social media', 'privacy', 'US politics'],
-            category: 'us-politics',
-            sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
-                { title: 'New York Times', url: 'https://www.nytimes.com' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-wes-moore-potomac-sewage-spill-bc43a446ea2db477501d90f1725a8935' }
             ]
         }
     ],
@@ -135,35 +115,35 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'EU Opens Privacy Investigation Into Musk\'s Grok Chatbot Over Deepfake Images',
-            summary: 'Ireland\'s Data Protection Commission has launched a formal investigation into Elon Musk\'s Grok AI chatbot over its generation of sexualized deepfake images, marking the latest EU regulatory action targeting AI-generated content. The probe centres on whether Grok\'s image generation capabilities violate GDPR provisions around consent and the processing of personal data. The investigation follows growing backlash over the chatbot producing explicit images of real public figures without permission, raising urgent questions about AI safety guardrails.',
-            tags: ['AI', 'Grok', 'EU', 'privacy', 'deepfakes', 'Musk'],
+            headline: 'Sony Develops AI to Track Source Material Used in AI-Generated Music',
+            summary: 'Sony has developed technology that can identify which real artists and recordings had the most influence on AI-generated music tracks — and crucially, it works even without cooperation from the AI developers who made the song. The company says the tool could underpin a future licensing system where human artists are compensated when their work is used to train AI models. Sony has "yet to decide" when to deploy it commercially, but the announcement signals a major push by the music industry to claw back economic value from AI generation.',
+            tags: ['Sony', 'AI', 'music', 'copyright', 'licensing'],
             category: 'ai-tech',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/ireland-grok-deepfakes-eu-privacy-9d3d096a1f4dc0baddde3d5d91e050b7' },
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
+                { title: 'Wired', url: 'https://www.wired.com' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'Meta and YouTube Face Landmark Trial Over Social Media Addiction in Children',
-            summary: 'Meta and YouTube are heading to trial in Los Angeles to face claims that their platforms are designed to be addictive to children, in what could become a landmark case for tech regulation. Instagram chief Adam Mosseri testified that he does not believe people can become clinically addicted to social media, a claim that drew sharp pushback from plaintiffs\' attorneys presenting research on dopamine-driven engagement loops. The outcome could reshape how social media companies design features targeting younger users.',
-            tags: ['Meta', 'YouTube', 'social media', 'addiction', 'children', 'trial'],
+            headline: 'Nothing Confirms Phone 4A Launch for March 5th',
+            summary: 'Nothing has officially confirmed that its highly anticipated Phone 4A will launch on March 5th, ending months of speculation about the mid-range device\'s release window. The Phone 4A is expected to target the value segment more aggressively than its predecessors, bringing Nothing\'s distinctive transparent design and Glyph lighting system to a broader audience. The announcement comes as the competitive mid-range Android market heats up, with multiple manufacturers launching new devices in the first quarter.',
+            tags: ['Nothing', 'Phone 4A', 'Android', 'smartphones', 'tech'],
             category: 'ai-tech',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/meta-instagram-youtube-social-media-addiction-los-angeles-1b409b31438e5ba46e2e8c064229b51a' },
-                { title: 'AP News', url: 'https://apnews.com/article/instagram-social-media-addiction-trial-mosseri-los-angeles-a49f64e21682e8bc1b98fbdf3d061579' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
+                { title: '9to5Google', url: 'https://9to5google.com' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'Disney Accuses ByteDance\'s New AI Video Model of Infringing on Its Characters',
-            summary: 'Disney has sent a cease-and-desist letter to ByteDance alleging that its new Seedance 2.0 AI video generation model is producing content featuring copyrighted characters like Spider-Man and Darth Vader without authorization. Disney\'s attorney accused ByteDance of "hijacking Disney\'s characters by reproducing, distributing, and creating derivative works," escalating the growing legal battle between entertainment giants and AI companies over training data and generated outputs that closely replicate protected intellectual property.',
-            tags: ['Disney', 'ByteDance', 'AI', 'copyright', 'Seedance'],
+            headline: 'X Under Fire Again as Grok AI Generates Sexualized Images',
+            summary: 'X is facing fresh regulatory and public scrutiny after its Grok AI image generation tool was found producing sexualized content that critics say violates platform policies and potentially applicable laws in several jurisdictions. The controversy follows earlier incidents in which Grok generated deepfake images of celebrities without consent. EU regulators have signalled they are examining whether the platform\'s safeguards meet requirements under the Digital Services Act, adding to a growing list of compliance concerns for Elon Musk\'s social media platform.',
+            tags: ['X', 'Grok', 'AI', 'content moderation', 'Elon Musk'],
             category: 'ai-tech',
             sources: [
                 { title: 'The Verge', url: 'https://www.theverge.com/tech' },
-                { title: 'Axios', url: 'https://www.axios.com/2026/02/13/disney-bytedance-seedance' }
+                { title: 'Reuters', url: 'https://www.reuters.com' }
             ]
         }
     ]
@@ -187,14 +167,12 @@ function toggleLike(storyId, story, btn) {
     const prefs = getPrefs();
 
     if (prefs.likes[storyId]) {
-        // Unlike
         delete prefs.likes[storyId];
         story.tags.forEach(tag => { prefs.tags[tag] = Math.max(0, (prefs.tags[tag] || 0) - 1); });
         prefs.categories[story.category] = Math.max(0, (prefs.categories[story.category] || 0) - 1);
         btn.classList.remove('liked');
         btn.querySelector('.label').textContent = 'Like';
     } else {
-        // Like
         prefs.likes[storyId] = { headline: story.headline, category: story.category, tags: story.tags, likedAt: newsData.date };
         story.tags.forEach(tag => { prefs.tags[tag] = (prefs.tags[tag] || 0) + 1; });
         prefs.categories[story.category] = (prefs.categories[story.category] || 0) + 1;
@@ -228,7 +206,6 @@ function renderStories(stories, containerId) {
         const card = document.createElement('div');
         card.className = 'news-card';
 
-        // Header row: headline + like button
         const header = document.createElement('div');
         header.className = 'card-header';
 
@@ -243,12 +220,10 @@ function renderStories(stories, containerId) {
         header.appendChild(h3);
         header.appendChild(likeBtn);
 
-        // Summary
         const summary = document.createElement('p');
         summary.className = 'summary';
         summary.textContent = story.summary;
 
-        // Sources
         const sources = document.createElement('div');
         sources.className = 'sources';
         story.sources.forEach(src => {
