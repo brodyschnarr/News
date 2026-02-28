@@ -4,38 +4,40 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Tuesday, February 17, 2026',
+    date: 'Saturday, February 28, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'Jesse Jackson, Civil Rights Icon and Presidential Candidate, Dies at 84',
-            summary: 'Reverend Jesse Jackson, one of the most prominent civil rights leaders of the 20th century and a close associate of Martin Luther King Jr., has died at the age of 84. A Baptist minister who twice ran for the Democratic presidential nomination in 1984 and 1988, Jackson became the first major Black candidate to mount a serious national campaign. He founded the Rainbow Coalition and spent decades advocating for voting rights, economic justice, and international diplomacy. Tributes are pouring in from across the political spectrum, marking the passing of one of the last towering figures of the civil rights movement era.',
-            tags: ['Jesse Jackson', 'civil rights', 'obituary', 'politics'],
+            headline: 'U.S. and Israel Launch Major Military Attack on Iran',
+            summary: 'The United States and Israel have launched what officials describe as "massive and ongoing" military strikes against Iran, with explosions reported across multiple Iranian locations including Tehran. President Trump posted a video urging Iranians to "take over" their government once the attack is complete, while Iran has launched retaliatory missiles. Iran\'s foreign minister says the supreme leader and president are alive "as far as I know." The strikes represent the most significant U.S. military action in the Middle East in decades, sending shockwaves through global markets and disrupting flights across the region.',
+            tags: ['Iran', 'U.S. military', 'Israel', 'Middle East', 'Trump'],
             category: 'top-stories',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-jesse-jackson-civil-rights-leader-and-presidential-hopeful-dies-at-84/' },
-                { title: 'AP News', url: 'https://apnews.com/article/jesse-jackson-dies-43abb84d2ffc76d967f9a5596ebd0be1' }
+                { title: 'AP News', url: 'https://apnews.com/article/iran-us-explosion-tehran-c2f11247d8a66e36929266f2c557a54c' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-israel-launches-attack-on-iran-declares-state-of-emergency/' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'Robert Duvall, Oscar-Winning Actor and Godfather Star, Dies at 95',
-            summary: 'Robert Duvall, the legendary actor known for iconic roles in The Godfather, Apocalypse Now, and Tender Mercies — for which he won the Academy Award for Best Actor — has died at 95. Duvall\'s career spanned over six decades and earned him seven Oscar nominations, cementing his reputation as one of the greatest character actors in Hollywood history. Al Pacino and Francis Ford Coppola led an outpouring of tributes, with Coppola calling Duvall\'s portrayal of Tom Hagen "one of the most perfect performances ever committed to film."',
-            tags: ['Robert Duvall', 'obituary', 'Hollywood', 'film', 'The Godfather'],
+            headline: 'Neil Sedaka, Iconic Singer-Songwriter Behind Decades of Hits, Dies at 86',
+            summary: 'Neil Sedaka, the prolific singer-songwriter who defined an era of American pop music with hits like "Breaking Up Is Hard to Do," "Calendar Girl," and "Laughter in the Rain," has died at the age of 86. Sedaka\'s career spanned from the late 1950s through the 1970s, during which he wrote or co-wrote more than 500 songs and sold tens of millions of records worldwide. His ability to reinvent himself across musical eras — from doo-wop to soft rock — made him one of the most enduring figures in popular music history.',
+            tags: ['Neil Sedaka', 'obituary', 'music', 'entertainment'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/robert-duvall-dead-6ddb67ba5e2242ba9dd96f29b4ce242a' }
+                { title: 'AP News', url: 'https://apnews.com/article/neil-sedaka-dead-c1002e2c903a458380d2078a47ab75b5' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/culture/music/article-neil-sedaka-singer-songwriter-dies-rock-n-roll/' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'Shooting at Rhode Island Youth Hockey Game Leaves 3 Dead Including Shooter',
-            summary: 'A shooting at a youth hockey rink in Pawtucket, Rhode Island left three people dead — including the shooter — and three others wounded, according to authorities. The incident occurred during a game, sending players, children, and spectators scrambling for safety. Police have not yet confirmed a motive but say the incident does not appear to be random. The shooting adds to a growing national conversation about public safety at youth sporting events, with local officials calling for emergency security reviews at sports facilities across the state.',
-            tags: ['shooting', 'Rhode Island', 'crime', 'US news'],
+            headline: 'Paramount\'s Bid to Buy Warner Bros. Discovery Raises Major Hollywood Consolidation Fears',
+            summary: 'Paramount\'s move to acquire Warner Bros. Discovery is being called a "full-blown Hollywood inferno" by industry analysts, with critics warning the mega-merger could dramatically reduce choices for viewers and squeeze out independent voices in entertainment. The deal would combine two of the oldest and most storied studios in film history under one corporate umbrella, raising antitrust questions and concerns about the future of creative competition. If approved, the merged entity would control a massive library of intellectual property and could reshape the streaming landscape.',
+            tags: ['Paramount', 'Warner Bros', 'Hollywood', 'media', 'merger'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/pawtucket-hockey-rink-shooting-rhode-island-c8ac3e8067ce2f2ce07e4d98009ecdaa' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/culture/film-and-tv/film/article-paramount-warner-bros-deal-netflix/' },
+                { title: 'AP News', url: 'https://apnews.com/article/warner-bros-paramount-deal-explained-7c05a7455e3cef11875dd53784dbf9d2' }
             ]
         }
     ],
@@ -43,33 +45,33 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Canada vs. USA Women\'s Hockey Gold Medal Game Set at Milan-Cortina Olympics',
-            summary: 'Canada\'s women\'s hockey team survived a scare against Switzerland in the semifinals, narrowly advancing to set up the ultimate showdown against the United States for Olympic gold at the 2026 Milan-Cortina Winter Games. The storied rivalry between the two programs has defined women\'s Olympic hockey for three decades, with both teams trading gold medals across multiple Games. Meanwhile, Mikaël Kingsbury ended Canada\'s gold medal drought with a win in men\'s dual moguls, and Canada is in the finals of women\'s long-track team pursuit.',
-            tags: ['Canada', 'Olympics', 'hockey', 'women\'s hockey', 'Milan-Cortina 2026'],
+            headline: 'Canadian Passports Are About to Get More Expensive',
+            summary: 'The cost of Canadian passports is set to rise, and plans by Prime Minister Mark Carney\'s government to overhaul the way it sets prices could push them even higher in the future. The fee increase comes as Canadians face growing travel costs across the board, and the government\'s broader pricing review has drawn criticism from opposition parties who argue it amounts to a stealth tax on Canadians during a cost-of-living crisis. The passport fee hike is part of a wider modernization effort that officials say will improve processing times and service delivery.',
+            tags: ['Canada', 'passports', 'cost of living', 'government fees'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/sports/olympics/article-milan-cortina-2026-womens-hockey-canada-us-rivalry-gold-showdown/' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/sports/olympics/article-winter-olympics-2026-canada-vs-switzerland-womens-hockey-semifinal/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/canadian-passport-price-increase-9.7109168' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Organized Crime Groups Targeting Police Data Across Canada, Report Warns',
-            summary: 'A national analysis reveals that Canada\'s biggest organized crime groups are actively attempting to infiltrate and access police databases, posing a serious risk to law enforcement operations and public safety. The report highlights that criminal organizations are using increasingly sophisticated methods — including recruiting insiders and exploiting digital vulnerabilities — to compromise sensitive police intelligence. Experts warn the threat extends beyond data theft, as compromised information could be used to identify informants, obstruct investigations, and undermine the justice system.',
-            tags: ['Canada', 'crime', 'police', 'cybersecurity', 'national security'],
+            headline: 'Canada\'s Airline Regulator to Probe Puerto Vallarta Flight Disruptions',
+            summary: 'Canada\'s transportation regulator has launched an investigation into the recent flight disruptions that stranded Canadian travellers in Puerto Vallarta, Mexico, as cartel violence destabilized the popular tourist destination. The probe will examine how Canadian airlines handled the crisis, including communication with passengers, rebooking procedures, and safety protocols. The disruptions left hundreds of Canadians stranded for days as the Mexican Navy moved in to secure the city, raising questions about travel advisory systems and airline responsibilities during security emergencies abroad.',
+            tags: ['Canada', 'airlines', 'Puerto Vallarta', 'Mexico', 'travel'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-organized-crime-groups-targeting-police-data-across-canada-report-says/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/business/canadian-transportation-agency-puerto-vallarta-flight-disruptions-9.7107452' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-mexicans-and-canadians-in-puerto-vallarta-watch-their-step-in-a-cartel/' }
             ]
         },
         {
             id: 'cdn-3',
-            headline: 'Canada\'s Annual Inflation Rate Edges Down in January as Gasoline Costs Drop',
-            summary: 'Statistics Canada reports that the country\'s annual inflation rate dipped slightly in January, helped by declining gasoline prices that offset continued pressure from food and shelter costs. The modestly lower reading gives the Bank of Canada some breathing room as it weighs its next interest rate decision amid growing concerns about the economic drag from US tariff threats. Economists note that underlying core inflation measures remain sticky, suggesting the path back to the Bank\'s 2% target will be gradual.',
-            tags: ['Canada', 'inflation', 'economy', 'Bank of Canada', 'gasoline'],
+            headline: 'Bell Canada and Telus Reach Agreement Over Network-Sharing Impasse',
+            summary: 'Bell Canada and Telus have resolved a long-standing dispute over their wireless network-sharing arrangement, averting a potential CRTC intervention that could have disrupted service for millions of Canadian mobile customers. The two telecom giants had been locked in disagreement over the terms of their partnership, which allows them to share infrastructure in certain regions to reduce costs and expand coverage. The deal is seen as a win for consumers, as a breakdown in the arrangement could have led to coverage gaps in rural areas and higher costs.',
+            tags: ['Canada', 'Bell', 'Telus', 'telecom', 'CRTC'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/economy/article-canada-inflation-rate-january-2026-statistics-canada/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/article-bell-canada-telus-agreement-network-sharing-impasse-crtc/' }
             ]
         }
     ],
@@ -77,32 +79,34 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'Carney Set to Release Ottawa\'s New Defence Industrial Strategy',
-            summary: 'Prime Minister Mark Carney is expected to unveil a new defence industrial strategy focused on buying Canadian-made military equipment, a move aimed at both strengthening national security and boosting domestic manufacturing. The strategy comes as Canada faces mounting pressure from NATO allies — and pointed criticism from Washington — to meet its defence spending commitments. The "buy Canadian" approach signals a shift from decades of relying heavily on American and European defence contractors, though industry experts question whether Canadian firms can scale up quickly enough to meet demand.',
-            tags: ['Canada', 'Carney', 'defence', 'military', 'industrial strategy'],
+            headline: 'Carney Backs U.S. Strikes on Iran, Tells Canadians in Iran to Shelter in Place',
+            summary: 'Prime Minister Mark Carney has expressed Canada\'s support for the U.S.-led military strikes on Iran\'s nuclear program, calling it a necessary action to prevent nuclear proliferation. Speaking during his trade visit to India, Carney urged Canadians in Iran to shelter in place while Foreign Affairs Minister Anand advised Canadians in Israel, Palestine, and Lebanon to leave immediately. The crisis has thrust foreign policy to the top of the Canadian political agenda, with opposition leaders pressing for an emergency debate in Parliament on Canada\'s role and response.',
+            tags: ['Canada', 'Carney', 'Iran', 'foreign policy', 'military'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-mark-carney-defence-industrial-strategy-buy-canadian/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-anand-urges-canadians-to-leave-israel-palestine-and-lebanon-as/' },
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/livestory/conflict-with-iran-9.7109761' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'Immigration Minister Defends Bill C-12 Asylum Changes Amid Senate Pushback',
-            summary: 'Canada\'s Immigration Minister appeared before a Senate committee to defend proposed changes to asylum rules contained in the border security bill C-12, which would tighten requirements for refugee claimants entering through irregular crossings. Senators raised pointed concerns that the new rules could disproportionately affect LGBTQ+ claimants and women fleeing persecution, who often lack the documentation the bill would require. The minister argued the changes are necessary to restore public confidence in the immigration system while maintaining Canada\'s humanitarian obligations.',
-            tags: ['Canada', 'immigration', 'asylum', 'Bill C-12', 'Senate'],
+            headline: 'Carney Aims to Complete Canada-India Trade Deal by Year\'s End',
+            summary: 'Prime Minister Carney told business leaders in Mumbai that his government is targeting the completion of a comprehensive trade deal with India before the end of 2026, signalling a dramatic thaw in relations that had been frozen by the diplomatic crisis over the killing of Hardeep Singh Nijjar. Carney said Canada can work with partners even when it disagrees on certain issues, while Foreign Affairs Minister Anand separately stated there will be "no exemptions for India on foreign interference concerns." Canadian universities also signed new partnership agreements with Indian counterparts during the visit.',
+            tags: ['Canada', 'India', 'trade', 'Carney', 'diplomacy'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-immigration-minister-bill-c-12-refugee-asylum-rules-senate-committee/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-canada-india-trade-deal-carney-speech/' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-no-exemptions-for-india-on-foreign-interference-concerns-anand-says/' }
             ]
         },
         {
             id: 'cdnpol-3',
-            headline: 'Ottawa Faces Calls to Send Oil and Aid to Cuba Amid Fuel Shortage',
-            summary: 'The Canadian government is under growing pressure from opposition parties and humanitarian organizations to send emergency oil shipments and aid to Cuba, which is experiencing its worst fuel crisis in decades. Rolling blackouts and severe gasoline rationing have paralyzed the island\'s economy, with hospitals and schools struggling to maintain basic operations. Critics say Canada has a moral obligation given its historically close diplomatic ties with Havana, while government officials say they are evaluating options within the framework of existing sanctions policy.',
-            tags: ['Canada', 'Cuba', 'oil', 'foreign aid', 'diplomacy'],
+            headline: 'Smith Blames Ottawa\'s Immigration Policies for Alberta\'s Budget Deficit',
+            summary: 'Alberta Premier Danielle Smith is pinning her province\'s budget deficit on the federal government\'s immigration policies, claiming an influx of newcomers has strained provincial services beyond capacity. However, Alberta\'s own budget documents don\'t actually support the claim — Provincial Finance Minister Nate Horner admitted he didn\'t have the numbers on how newcomers specifically impacted Alberta\'s bottom line. Critics say Smith is scapegoating immigrants for fiscal challenges driven by volatile oil revenues and the province\'s refusal to implement a sales tax.',
+            tags: ['Alberta', 'Danielle Smith', 'immigration', 'budget', 'provincial politics'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-ottawa-faces-calls-to-send-oil-and-aid-to-cuba-amid-fuel-shortage/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/alberta/article-smith-pins-alberta-deficit-on-ottawas-immigration-policies-but-the/' }
             ]
         }
     ],
@@ -110,32 +114,33 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Partial Government Shutdown Over DHS Oversight Drags On',
-            summary: 'A partial US government shutdown triggered by a standoff over Department of Homeland Security oversight appears poised to drag on with no resolution in sight. Congressional Democrats have refused to approve DHS funding without new oversight provisions they say are necessary to monitor immigration enforcement operations, while the White House has rejected any conditions it views as limiting executive authority. Federal workers affected by the shutdown face another week without pay, and public services tied to DHS — including airport security staffing — are beginning to show strain.',
-            tags: ['government shutdown', 'DHS', 'Congress', 'US politics'],
+            headline: 'Trump Takes His Biggest Gamble Yet with Iran Strikes',
+            summary: 'President Trump\'s decision to launch military strikes against Iran represents the most consequential and risky move of his presidency, analysts say. The attack on Iran\'s nuclear infrastructure has united some hawks in both parties but drawn fierce criticism from anti-war lawmakers and foreign policy experts who warn of unpredictable escalation. Trump framed the strikes as necessary to prevent Iran from developing nuclear weapons capable of reaching the United States, but the move risks dragging America into a broader Middle East conflict at a time when the administration is already managing economic turbulence from its tariff policies.',
+            tags: ['Trump', 'Iran', 'military', 'foreign policy', 'Middle East'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/live/trump-dhs-government-shutdown-2-17-2026' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/us-politics/article-trump-iran-strikes-news-analysis/' },
+                { title: 'AP News', url: 'https://apnews.com/live/live-updates-israel-iran-february-28-2026' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'Court Orders Trump Administration to Restore George Washington Slavery Exhibit',
-            summary: 'A federal judge ordered the Trump administration to immediately restore a historic exhibit at the President\'s House site in Philadelphia that documents George Washington\'s use of enslaved people at what was once the executive mansion. The administration had removed the exhibit as part of a broader rollback of federally-funded programming related to racial history, drawing immediate legal challenges from civil liberties groups. The ruling is being closely watched as a test of executive authority over publicly-funded historical interpretation and cultural heritage sites.',
-            tags: ['Trump', 'George Washington', 'slavery', 'history', 'courts'],
+            headline: 'Treasury Department Terminates Union Contracts for IRS and Fiscal Service Workers',
+            summary: 'The Treasury Department has terminated union contracts for workers at the IRS and the Bureau of the Fiscal Service, escalating the Trump administration\'s confrontation with the federal workforce. The move affects thousands of government employees and is part of a broader push to restructure federal agencies and reduce what the administration calls bureaucratic resistance to its agenda. Union leaders have vowed legal challenges, calling the terminations illegal and retaliatory, while congressional Democrats warned the action could cripple tax enforcement and revenue collection.',
+            tags: ['IRS', 'unions', 'Treasury', 'Trump', 'federal workforce'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/george-washington-slavery-exhibit-restored-trump-2a32236320f280ba3e647d900c1301b4' }
+                { title: 'AP News', url: 'https://apnews.com/article/treasury-irs-fiscal-service-union-contracts-dcd42250d58c8e4d46a2c0256064a857' }
             ]
         },
         {
             id: 'uspol-3',
-            headline: 'Texas Republican Paxton Steps Up Senate Bid Against Incumbent Cornyn',
-            summary: 'Texas Attorney General Ken Paxton is intensifying his primary challenge against sitting Republican Senator John Cornyn ahead of early voting, positioning himself as the more conservative choice in what has become one of the most closely watched intra-party battles of the 2026 midterms. Paxton, who survived an impeachment trial in the Texas state senate, is leaning heavily into his combative brand and close ties to former President Trump. Cornyn, a longtime Senate leader, has responded by emphasizing his legislative record and endorsements from the Texas business establishment.',
-            tags: ['Texas', 'Paxton', 'Cornyn', 'Senate', '2026 elections'],
+            headline: 'Attorney General Indicts 30 More People Who Protested at Minnesota Church',
+            summary: 'The U.S. Attorney General has announced indictments against 30 additional people who participated in protests at a Minnesota church where immigration enforcement agents attempted to detain congregants. The latest round of charges brings the total number of people facing federal prosecution over the incident to over 50, in what civil liberties groups are calling an unprecedented crackdown on the right to protest. The church protests became a flashpoint in the national immigration debate after dramatic footage of the confrontation went viral on social media.',
+            tags: ['immigration', 'protests', 'Minnesota', 'church', 'indictments'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/texas-senate-ken-paxton-cornyn-fe2787bbac917c5cb22918ac1e34c458' }
+                { title: 'AP News', url: 'https://apnews.com/article/immigration-church-minnesota-837d2ebc7a121340a7eaf73600cba019' }
             ]
         }
     ],
@@ -143,34 +148,33 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'Meta and YouTube Head to Landmark Trial Over Children\'s Social Media Addiction',
-            summary: 'Meta and YouTube are facing claims of social media addiction in children in what is being called a landmark trial in Los Angeles. The case could set sweeping legal precedent for how tech companies are held responsible for the mental health impacts of their platforms on minors. Instagram chief Adam Mosseri testified that he does not believe people can become "clinically addicted" to social media — a claim that drew sharp pushback from plaintiffs\' attorneys who presented internal research showing the companies were aware of harmful engagement patterns among young users.',
-            tags: ['Meta', 'YouTube', 'social media', 'children', 'addiction', 'trial'],
+            headline: 'Trump Orders U.S. Agencies to Phase Out Anthropic\'s AI Over Security Concerns',
+            summary: 'The Trump administration has directed federal agencies to phase out their use of Anthropic\'s AI products after the Pentagon flagged the startup as a supply risk. The move is a significant blow to one of the leading AI companies, which had been building relationships with government clients. The decision reportedly stems from concerns about Anthropic\'s corporate structure, foreign investment ties, and what officials described as insufficient cooperation with national security reviews. The order could reshape the competitive landscape for government AI contracts, benefiting rivals like OpenAI and Google.',
+            tags: ['Anthropic', 'AI', 'Pentagon', 'Trump', 'government'],
             category: 'ai-tech',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/meta-instagram-youtube-social-media-addiction-los-angeles-1b409b31438e5ba46e2e8c064229b51a' },
-                { title: 'AP News', url: 'https://apnews.com/article/instagram-social-media-addiction-trial-mosseri-los-angeles-a49f64e21682e8bc1b98fbdf3d061579' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-trump-directs-us-agencies-to-phase-out-anthropics-ai-as-pentagon-calls/' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'Sony Develops AI to Track Source Material Used in AI-Generated Music',
-            summary: 'Sony has developed technology that can identify which real artists and recordings had the most influence on AI-generated music tracks — and crucially, it works even without cooperation from the AI developers who made the song. The company says the tool could underpin a future licensing system where human artists are compensated when their work is used to train AI models. Sony has "yet to decide" when to deploy it commercially, but the announcement signals a major push by the music industry to establish economic frameworks around AI-generated content.',
-            tags: ['Sony', 'AI', 'music', 'copyright', 'licensing'],
+            headline: 'Block Lays Off 4,000 Workers, Citing AI as the Reason',
+            summary: 'Block, the payments company led by Jack Dorsey, is cutting roughly 4,000 jobs with the CEO claiming AI tools are fundamentally changing "what it means to build and run a company." Dorsey said the layoffs reflect a genuine shift in how software companies operate as AI automates tasks previously done by humans. However, tech industry experts say the narrative is more complicated — pandemic-era overhiring and overly ambitious AI promises have both contributed to the wave of tech layoffs, and companies may be using AI as convenient cover for routine cost-cutting.',
+            tags: ['Block', 'Jack Dorsey', 'AI', 'layoffs', 'tech industry'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/business/block-layoffs-ai-9.7108981' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'ChatGPT Gets Lockdown Mode to Combat Prompt Injection Attacks',
-            summary: 'OpenAI has introduced a new "Lockdown Mode" for ChatGPT that tightly restricts how the AI can interact with external systems, aimed at reducing the risk of prompt injection-based data exfiltration. The feature — which OpenAI says is "not necessary" for most users — is designed for high-security environments where adversaries might attempt to manipulate ChatGPT into leaking sensitive information through carefully crafted inputs. The move comes as enterprises increasingly integrate AI assistants into workflows involving confidential data, making security hardening a competitive differentiator.',
-            tags: ['OpenAI', 'ChatGPT', 'security', 'prompt injection', 'AI safety'],
+            headline: 'Canada\'s Minister to Meet OpenAI CEO Over AI Safety After B.C. Shooting',
+            summary: 'Canada\'s innovation minister says OpenAI is still not doing enough to address AI safety concerns in the wake of a shooting in Tumbler Ridge, B.C. that was linked to an individual\'s interactions with an AI chatbot. The minister plans to meet directly with CEO Sam Altman to discuss stronger safety policies. The Globe and Mail reports that the tragedy has underscored the urgent need for regulation around AI chatbots, particularly regarding how companies handle users who express violent ideation — though experts warn that getting regulation wrong could be just as dangerous.',
+            tags: ['OpenAI', 'AI safety', 'Canada', 'regulation', 'Tumbler Ridge'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
-                { title: 'OpenAI', url: 'https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/open-ai-tumbler-ridge-safety-policies-9.7109001' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-tumbler-ridge-ai-chatbots-regulation/' }
             ]
         }
     ]
