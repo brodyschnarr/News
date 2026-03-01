@@ -4,40 +4,40 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Saturday, February 28, 2026',
+    date: 'Sunday, March 1, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'U.S. and Israel Launch Major Military Attack on Iran',
-            summary: 'The United States and Israel have launched what officials describe as "massive and ongoing" military strikes against Iran, with explosions reported across multiple Iranian locations including Tehran. President Trump posted a video urging Iranians to "take over" their government once the attack is complete, while Iran has launched retaliatory missiles. Iran\'s foreign minister says the supreme leader and president are alive "as far as I know." The strikes represent the most significant U.S. military action in the Middle East in decades, sending shockwaves through global markets and disrupting flights across the region.',
-            tags: ['Iran', 'U.S. military', 'Israel', 'Middle East', 'Trump'],
+            headline: 'Ayatollah Khamenei Dead at 86 as U.S.-Israeli Strikes Devastate Iran',
+            summary: 'Iran\'s Supreme Leader Ayatollah Ali Khamenei has been confirmed dead at age 86 following devastating U.S. and Israeli military strikes that targeted Iran\'s nuclear infrastructure and leadership. Explosions continued to ring out across central Tehran as Israel and Iran exchanged retaliatory attacks throughout the day. Three U.S. service members have been killed since the operation began. Iranian officials announced a new leadership council "has begun its work," raising urgent questions about succession and whether the strikes will lead to regime change or deeper regional instability. The operation marks the most significant Western military action in the Middle East in decades.',
+            tags: ['Iran', 'Khamenei', 'U.S. military', 'Israel', 'Middle East'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/iran-us-explosion-tehran-c2f11247d8a66e36929266f2c557a54c' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-israel-launches-attack-on-iran-declares-state-of-emergency/' }
+                { title: 'AP News', url: 'https://apnews.com/article/iran-supreme-leader-ayatollah-ali-khamenei-dead-5b13b69b708c4ed38e8f95f5fb41a597' },
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/livestory/conflict-with-iran-9.7109761' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-tehran-israel-us-attacks-ayatollah-khamenei-donald-trump/' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'Neil Sedaka, Iconic Singer-Songwriter Behind Decades of Hits, Dies at 86',
-            summary: 'Neil Sedaka, the prolific singer-songwriter who defined an era of American pop music with hits like "Breaking Up Is Hard to Do," "Calendar Girl," and "Laughter in the Rain," has died at the age of 86. Sedaka\'s career spanned from the late 1950s through the 1970s, during which he wrote or co-wrote more than 500 songs and sold tens of millions of records worldwide. His ability to reinvent himself across musical eras — from doo-wop to soft rock — made him one of the most enduring figures in popular music history.',
-            tags: ['Neil Sedaka', 'obituary', 'music', 'entertainment'],
+            headline: 'Oil Jumps 10% After Iran Attacks, Analysts Warn of $100 a Barrel',
+            summary: 'Global oil prices surged 10% in the immediate aftermath of the strikes on Iran, with analysts warning crude could spike to $100 a barrel if the conflict escalates further or threatens the Strait of Hormuz. The price shock sent ripples through global financial markets and darkened economic forecasts worldwide. Hundreds of thousands of travelers have been stranded by flight disruptions as airspace closures spread across the Middle East. Economists warn that a prolonged conflict could trigger a full-blown energy crisis, compounding the economic pain already caused by ongoing tariff disputes.',
+            tags: ['oil prices', 'Iran', 'energy', 'markets', 'economy'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/neil-sedaka-dead-c1002e2c903a458380d2078a47ab75b5' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/culture/music/article-neil-sedaka-singer-songwriter-dies-rock-n-roll/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/article-oil-crude-iran-hormuz/' },
+                { title: 'AP News', url: 'https://apnews.com/article/iran-israel-us-flights-airspace-travel-0346e29ee99eaee2838c8e08f4facb78' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'Paramount\'s Bid to Buy Warner Bros. Discovery Raises Major Hollywood Consolidation Fears',
-            summary: 'Paramount\'s move to acquire Warner Bros. Discovery is being called a "full-blown Hollywood inferno" by industry analysts, with critics warning the mega-merger could dramatically reduce choices for viewers and squeeze out independent voices in entertainment. The deal would combine two of the oldest and most storied studios in film history under one corporate umbrella, raising antitrust questions and concerns about the future of creative competition. If approved, the merged entity would control a massive library of intellectual property and could reshape the streaming landscape.',
-            tags: ['Paramount', 'Warner Bros', 'Hollywood', 'media', 'merger'],
+            headline: 'Bar Shooting in Austin Leaves 3 Dead, 14 Injured',
+            summary: 'A mass shooting at a bar in Austin, Texas has left three people dead — including the suspect — and 14 others injured, authorities said. The incident occurred late Saturday night in what police described as a chaotic scene on a busy entertainment strip. Emergency services responded rapidly but the scale of the attack overwhelmed nearby hospitals, with some victims transported to trauma centers across the city. The shooting adds to a grim tally of gun violence in the United States and is already reigniting debate about firearms regulations at both the state and federal level.',
+            tags: ['Austin', 'shooting', 'gun violence', 'Texas'],
             category: 'top-stories',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/culture/film-and-tv/film/article-paramount-warner-bros-deal-netflix/' },
-                { title: 'AP News', url: 'https://apnews.com/article/warner-bros-paramount-deal-explained-7c05a7455e3cef11875dd53784dbf9d2' }
+                { title: 'AP News', url: 'https://apnews.com/article/austin-texas-bar-shooting-7690f931ba00f950c1828cef25399bb6' }
             ]
         }
     ],
@@ -45,33 +45,32 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Canadian Passports Are About to Get More Expensive',
-            summary: 'The cost of Canadian passports is set to rise, and plans by Prime Minister Mark Carney\'s government to overhaul the way it sets prices could push them even higher in the future. The fee increase comes as Canadians face growing travel costs across the board, and the government\'s broader pricing review has drawn criticism from opposition parties who argue it amounts to a stealth tax on Canadians during a cost-of-living crisis. The passport fee hike is part of a wider modernization effort that officials say will improve processing times and service delivery.',
-            tags: ['Canada', 'passports', 'cost of living', 'government fees'],
+            headline: 'Iranian Canadians See Strikes as Possible Turning Point for Democracy',
+            summary: 'For many Iranian Canadians, the U.S.-Israeli strikes that killed Supreme Leader Khamenei signal a potential turning point — an opportunity to end theocratic rule and restore democracy in their homeland. Community members expressed cautious hope that the power vacuum could lead to meaningful political change, though many also worry about the humanitarian toll and the risk of prolonged instability. Canada is home to one of the largest Iranian diaspora populations in the world, and the community\'s reaction reflects deep divisions between those who see military intervention as liberation and those who fear it will only deepen suffering.',
+            tags: ['Canada', 'Iran', 'Iranian Canadians', 'diaspora', 'democracy'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/canadian-passport-price-increase-9.7109168' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-for-some-iranian-canadians-strikes-on-iran-signal-a-possible-turning/' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Canada\'s Airline Regulator to Probe Puerto Vallarta Flight Disruptions',
-            summary: 'Canada\'s transportation regulator has launched an investigation into the recent flight disruptions that stranded Canadian travellers in Puerto Vallarta, Mexico, as cartel violence destabilized the popular tourist destination. The probe will examine how Canadian airlines handled the crisis, including communication with passengers, rebooking procedures, and safety protocols. The disruptions left hundreds of Canadians stranded for days as the Mexican Navy moved in to secure the city, raising questions about travel advisory systems and airline responsibilities during security emergencies abroad.',
-            tags: ['Canada', 'airlines', 'Puerto Vallarta', 'Mexico', 'travel'],
+            headline: 'Nova Scotia Premier Booed at African Heritage Month Gala Over Budget Cuts',
+            summary: 'Nova Scotia Premier Tim Houston was loudly booed as he delivered remarks at the African Heritage Month gala in Halifax on Saturday night. The hostile reception came after Houston\'s government delivered a budget last week that included cuts to programs specifically aimed at Black and African Nova Scotian communities. Community leaders say the cuts will roll back years of progress on equity initiatives, while the premier\'s office defended the budget as fiscally responsible. The incident highlights growing tensions between the provincial government and minority communities over austerity measures.',
+            tags: ['Nova Scotia', 'Tim Houston', 'budget cuts', 'African Heritage Month'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/business/canadian-transportation-agency-puerto-vallarta-flight-disruptions-9.7107452' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-mexicans-and-canadians-in-puerto-vallarta-watch-their-step-in-a-cartel/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/nova-scotia/premier-tim-houston-booed-african-heritage-month-gala-budget-9.7110291' }
             ]
         },
         {
             id: 'cdn-3',
-            headline: 'Bell Canada and Telus Reach Agreement Over Network-Sharing Impasse',
-            summary: 'Bell Canada and Telus have resolved a long-standing dispute over their wireless network-sharing arrangement, averting a potential CRTC intervention that could have disrupted service for millions of Canadian mobile customers. The two telecom giants had been locked in disagreement over the terms of their partnership, which allows them to share infrastructure in certain regions to reduce costs and expand coverage. The deal is seen as a win for consumers, as a breakdown in the arrangement could have led to coverage gaps in rural areas and higher costs.',
-            tags: ['Canada', 'Bell', 'Telus', 'telecom', 'CRTC'],
+            headline: 'The Rise of Singlehood Could Reshape Canada\'s Housing and Tax Policies',
+            summary: 'A growing wave of singlehood across Canada and the world is poised to impact everything from housing policy to the tax system, according to a new CBC analysis. For decades the number of single people has been increasing, but the trend has recently accelerated and is fundamentally changing how policymakers think about social services, urban planning, and economic support systems. With more Canadians living alone, demand for smaller housing units is surging, and experts argue the tax code — still largely designed around dual-income households — needs a major overhaul to reflect modern reality.',
+            tags: ['Canada', 'housing', 'demographics', 'singlehood', 'taxes'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/article-bell-canada-telus-agreement-network-sharing-impasse-crtc/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/rise-of-singles-economy-dating-social-change-9.7107437' }
             ]
         }
     ],
@@ -79,34 +78,35 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'Carney Backs U.S. Strikes on Iran, Tells Canadians in Iran to Shelter in Place',
-            summary: 'Prime Minister Mark Carney has expressed Canada\'s support for the U.S.-led military strikes on Iran\'s nuclear program, calling it a necessary action to prevent nuclear proliferation. Speaking during his trade visit to India, Carney urged Canadians in Iran to shelter in place while Foreign Affairs Minister Anand advised Canadians in Israel, Palestine, and Lebanon to leave immediately. The crisis has thrust foreign policy to the top of the Canadian political agenda, with opposition leaders pressing for an emergency debate in Parliament on Canada\'s role and response.',
-            tags: ['Canada', 'Carney', 'Iran', 'foreign policy', 'military'],
+            headline: 'Carney Backs Iran Strikes, Calls Destruction of Nuclear Program Necessary',
+            summary: 'Prime Minister Mark Carney has publicly endorsed the U.S.-led military strikes on Iran, saying Canada supports the destruction of Iran\'s nuclear weapons program. Speaking from India where he\'s on a trade mission, Carney told Canadians in Iran to shelter in place while officials work to ensure their safety. A retired Canadian general told CBC that Canadian military members were likely involved in planning the strikes through intelligence-sharing arrangements. The crisis has overshadowed Carney\'s India trip and thrust national security to the forefront of Canadian political debate heading into a potential election.',
+            tags: ['Carney', 'Iran', 'nuclear', 'Canada', 'foreign policy'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-anand-urges-canadians-to-leave-israel-palestine-and-lebanon-as/' },
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/livestory/conflict-with-iran-9.7109761' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/canada-carney-us-attack-trump-iran-nuclear-weapon-9.7109886' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-anand-urges-canadians-to-leave-israel-palestine-and-lebanon-as/' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'Carney Aims to Complete Canada-India Trade Deal by Year\'s End',
-            summary: 'Prime Minister Carney told business leaders in Mumbai that his government is targeting the completion of a comprehensive trade deal with India before the end of 2026, signalling a dramatic thaw in relations that had been frozen by the diplomatic crisis over the killing of Hardeep Singh Nijjar. Carney said Canada can work with partners even when it disagrees on certain issues, while Foreign Affairs Minister Anand separately stated there will be "no exemptions for India on foreign interference concerns." Canadian universities also signed new partnership agreements with Indian counterparts during the visit.',
-            tags: ['Canada', 'India', 'trade', 'Carney', 'diplomacy'],
+            headline: 'Carney Hails India as "Natural Partner," Targets Trade Deal by Year\'s End',
+            summary: 'Prime Minister Carney\'s Indian charm offensive continued over the weekend as he set aside any notion of bilateral bad blood and hailed the South Asian country as a "natural partner" for Canada. Speaking to business leaders in Mumbai, Carney said his government aims to complete a comprehensive free trade deal before the end of 2026 — a dramatic shift from the diplomatic freeze triggered by the Nijjar affair. Canadian universities also signed new partnership agreements with Indian counterparts. Meanwhile, Foreign Affairs Minister Anand stated there would be "no exemptions for India on foreign interference concerns."',
+            tags: ['Carney', 'India', 'trade', 'diplomacy', 'universities'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-canada-india-trade-deal-carney-speech/' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-no-exemptions-for-india-on-foreign-interference-concerns-anand-says/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/india-natural-partner-carney-free-trade-deal-9.7110248' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-canada-india-trade-deal-carney-speech/' }
             ]
         },
         {
             id: 'cdnpol-3',
-            headline: 'Smith Blames Ottawa\'s Immigration Policies for Alberta\'s Budget Deficit',
-            summary: 'Alberta Premier Danielle Smith is pinning her province\'s budget deficit on the federal government\'s immigration policies, claiming an influx of newcomers has strained provincial services beyond capacity. However, Alberta\'s own budget documents don\'t actually support the claim — Provincial Finance Minister Nate Horner admitted he didn\'t have the numbers on how newcomers specifically impacted Alberta\'s bottom line. Critics say Smith is scapegoating immigrants for fiscal challenges driven by volatile oil revenues and the province\'s refusal to implement a sales tax.',
-            tags: ['Alberta', 'Danielle Smith', 'immigration', 'budget', 'provincial politics'],
+            headline: 'Poilievre Says Canada Should Not Hold Election Before Reviewing CUSMA Trade Deal',
+            summary: 'Conservative Leader Pierre Poilievre says Canada should not head to the polls before completing its review of the CUSMA trade agreement with the United States and Mexico, arguing that an election campaign would weaken Canada\'s negotiating position. In a wide-ranging interview, Poilievre also revealed he has offered to travel to Washington to make Canada\'s case directly to American officials — a move that would be unusual for an opposition leader. The remarks come as Carney\'s Liberals and Poilievre\'s Conservatives remain locked in a tight race, with both sides jockeying over who can best handle the U.S. relationship.',
+            tags: ['Poilievre', 'CUSMA', 'trade', 'election', 'Conservatives'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/alberta/article-smith-pins-alberta-deficit-on-ottawas-immigration-policies-but-the/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/poilievre-election-interview-the-bridge-floor-crosser-washington-trump-usa-9.7110025' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-pierre-poilievre-peter-mansbridge-podcast-us-trade-tariffs/' }
             ]
         }
     ],
@@ -114,33 +114,32 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Trump Takes His Biggest Gamble Yet with Iran Strikes',
-            summary: 'President Trump\'s decision to launch military strikes against Iran represents the most consequential and risky move of his presidency, analysts say. The attack on Iran\'s nuclear infrastructure has united some hawks in both parties but drawn fierce criticism from anti-war lawmakers and foreign policy experts who warn of unpredictable escalation. Trump framed the strikes as necessary to prevent Iran from developing nuclear weapons capable of reaching the United States, but the move risks dragging America into a broader Middle East conflict at a time when the administration is already managing economic turbulence from its tariff policies.',
-            tags: ['Trump', 'Iran', 'military', 'foreign policy', 'Middle East'],
+            headline: 'War Powers Debate Intensifies After Trump Strikes Iran Without Congressional Approval',
+            summary: 'The constitutional debate over war powers has erupted in Washington after President Trump ordered the massive military operation against Iran without seeking approval from Congress. Lawmakers from both parties are demanding answers about the legal authority for the strikes, with anti-war members arguing the action violates the War Powers Act. Trump\'s allies contend the president has broad authority to act against imminent threats to national security, pointing to Iran\'s advancing nuclear program. The dispute could lead to a formal congressional vote on authorizing military force — a politically fraught prospect for both parties heading into the 2026 midterms.',
+            tags: ['Trump', 'Iran', 'war powers', 'Congress', 'Constitution'],
             category: 'us-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/us-politics/article-trump-iran-strikes-news-analysis/' },
-                { title: 'AP News', url: 'https://apnews.com/live/live-updates-israel-iran-february-28-2026' }
+                { title: 'AP News', url: 'https://apnews.com/article/congress-war-powers-trump-iran-constitution-37ec6685d9ded1d467a719f91e537487' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'Treasury Department Terminates Union Contracts for IRS and Fiscal Service Workers',
-            summary: 'The Treasury Department has terminated union contracts for workers at the IRS and the Bureau of the Fiscal Service, escalating the Trump administration\'s confrontation with the federal workforce. The move affects thousands of government employees and is part of a broader push to restructure federal agencies and reduce what the administration calls bureaucratic resistance to its agenda. Union leaders have vowed legal challenges, calling the terminations illegal and retaliatory, while congressional Democrats warned the action could cripple tax enforcement and revenue collection.',
-            tags: ['IRS', 'unions', 'Treasury', 'Trump', 'federal workforce'],
+            headline: 'Trump Was Once Wary of Regime Change in Iran — Here\'s What Changed His Mind',
+            summary: 'For years, Donald Trump publicly expressed skepticism about regime change operations and costly foreign entanglements. But intelligence briefings showing Iran was closer than ever to a functional nuclear weapon — combined with pressure from hawkish advisors and Israeli officials — ultimately convinced the president to authorize the most aggressive U.S. military action in the region since the Iraq War. AP News reports that the shift happened gradually over several months as Trump became convinced that diplomacy had failed and that a nuclear Iran posed an existential threat to both Israel and American military bases in the region.',
+            tags: ['Trump', 'Iran', 'regime change', 'foreign policy', 'nuclear'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/treasury-irs-fiscal-service-union-contracts-dcd42250d58c8e4d46a2c0256064a857' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-iran-ayatollah-khamenei-ad853dc1d5606fd9202b65a75bdbfc2f' }
             ]
         },
         {
             id: 'uspol-3',
-            headline: 'Attorney General Indicts 30 More People Who Protested at Minnesota Church',
-            summary: 'The U.S. Attorney General has announced indictments against 30 additional people who participated in protests at a Minnesota church where immigration enforcement agents attempted to detain congregants. The latest round of charges brings the total number of people facing federal prosecution over the incident to over 50, in what civil liberties groups are calling an unprecedented crackdown on the right to protest. The church protests became a flashpoint in the national immigration debate after dramatic footage of the confrontation went viral on social media.',
-            tags: ['immigration', 'protests', 'Minnesota', 'church', 'indictments'],
+            headline: 'Supreme Court to Hear Case on Whether Marijuana Users Can Own Guns',
+            summary: 'The Supreme Court is set to take up a case that has created unusual political alliances: whether marijuana users have a constitutional right to own firearms. The case pits Second Amendment advocates — who argue gun rights should not be stripped over legal cannabis use — against law enforcement groups who say drug users and firearms are a dangerous combination. With marijuana now legal in most states but still banned federally, the case highlights a growing tension in American law. A ruling could have far-reaching implications for millions of Americans who use cannabis legally under state law but remain technically barred from gun ownership.',
+            tags: ['Supreme Court', 'marijuana', 'guns', 'Second Amendment', 'cannabis'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/immigration-church-minnesota-837d2ebc7a121340a7eaf73600cba019' }
+                { title: 'AP News', url: 'https://apnews.com/article/supreme-court-marijuana-gun-control-drug-users-8d764ddacc9d753314910b99ebc7e6a4' }
             ]
         }
     ],
@@ -148,33 +147,34 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'Trump Orders U.S. Agencies to Phase Out Anthropic\'s AI Over Security Concerns',
-            summary: 'The Trump administration has directed federal agencies to phase out their use of Anthropic\'s AI products after the Pentagon flagged the startup as a supply risk. The move is a significant blow to one of the leading AI companies, which had been building relationships with government clients. The decision reportedly stems from concerns about Anthropic\'s corporate structure, foreign investment ties, and what officials described as insufficient cooperation with national security reviews. The order could reshape the competitive landscape for government AI contracts, benefiting rivals like OpenAI and Google.',
-            tags: ['Anthropic', 'AI', 'Pentagon', 'Trump', 'government'],
+            headline: 'U.S. Used Anthropic\'s AI for Iran Strikes Hours After Trump Banned It',
+            summary: 'In a stunning irony, the U.S. military relied on Anthropic\'s Claude AI for intelligence assessments and target identification during Saturday\'s strikes against Iran — just hours after President Trump announced a ban on federal use of the company\'s products. The Wall Street Journal reports that planning for the operation was already underway using Claude when the ban was announced, forcing a hasty walk-back from an "immediate cease" order to a six-month phaseout. The episode highlights the deep entanglement between cutting-edge AI companies and military operations, and raises questions about whether the government can realistically disentangle itself from tools already embedded in critical national security workflows.',
+            tags: ['Anthropic', 'AI', 'military', 'Iran strikes', 'Pentagon'],
             category: 'ai-tech',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-trump-directs-us-agencies-to-phase-out-anthropics-ai-as-pentagon-calls/' }
+                { title: 'The Verge', url: 'https://www.theverge.com/policy/886489/pentagon-anthropic-trump-dod' },
+                { title: 'AP News', url: 'https://apnews.com/article/anthropic-pentagon-ai-dario-amodei-hegseth-0c464a054359b9fdc80cf18b0d4f690c' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'Block Lays Off 4,000 Workers, Citing AI as the Reason',
-            summary: 'Block, the payments company led by Jack Dorsey, is cutting roughly 4,000 jobs with the CEO claiming AI tools are fundamentally changing "what it means to build and run a company." Dorsey said the layoffs reflect a genuine shift in how software companies operate as AI automates tasks previously done by humans. However, tech industry experts say the narrative is more complicated — pandemic-era overhiring and overly ambitious AI promises have both contributed to the wave of tech layoffs, and companies may be using AI as convenient cover for routine cost-cutting.',
-            tags: ['Block', 'Jack Dorsey', 'AI', 'layoffs', 'tech industry'],
+            headline: 'What Do AI Firms Do When Users Share Dark, Violent Thoughts?',
+            summary: 'A Globe and Mail investigation examines the difficult question facing AI companies: what should chatbots do when users express violent ideation or dark thoughts? The piece comes in the wake of the Tumbler Ridge, B.C. shooting linked to a user\'s interactions with an AI chatbot, and explores how different companies handle crisis situations on their platforms. Some firms flag concerning conversations for human review while others rely entirely on automated systems. Experts say the industry is woefully unprepared for the mental health implications of increasingly human-like AI conversations, and regulation remains fragmented and inconsistent across jurisdictions.',
+            tags: ['AI safety', 'chatbots', 'regulation', 'mental health', 'Tumbler Ridge'],
             category: 'ai-tech',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/business/block-layoffs-ai-9.7108981' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-tumbler-ridge-ai-chatbots-regulation/' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'Canada\'s Minister to Meet OpenAI CEO Over AI Safety After B.C. Shooting',
-            summary: 'Canada\'s innovation minister says OpenAI is still not doing enough to address AI safety concerns in the wake of a shooting in Tumbler Ridge, B.C. that was linked to an individual\'s interactions with an AI chatbot. The minister plans to meet directly with CEO Sam Altman to discuss stronger safety policies. The Globe and Mail reports that the tragedy has underscored the urgent need for regulation around AI chatbots, particularly regarding how companies handle users who express violent ideation — though experts warn that getting regulation wrong could be just as dangerous.',
-            tags: ['OpenAI', 'AI safety', 'Canada', 'regulation', 'Tumbler Ridge'],
+            headline: 'MWC 2026: Honor Unveils World\'s Thinnest Foldable and a Robot Phone',
+            summary: 'Mobile World Congress 2026 kicked off in Barcelona with a flurry of hardware announcements, headlined by Honor\'s Magic V6 — now the thinnest foldable phone ever made — which somehow packs a bigger battery than any previous foldable. Honor also teased more details on its ambitious "Robot Phone" concept, complete with robotic arms and modular magnetic components. Meanwhile, Xiaomi unveiled a Leica-branded rotating camera phone, a concept EV hypercar, and new tablets. The show floor is dominated by rotating camera rings, AI-powered assistants, and ultra-thin devices that push the boundaries of what\'s physically possible in a smartphone form factor.',
+            tags: ['MWC', 'Honor', 'Xiaomi', 'foldable phones', 'smartphones'],
             category: 'ai-tech',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/open-ai-tumbler-ridge-safety-policies-9.7109001' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-tumbler-ridge-ai-chatbots-regulation/' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech/887104/honor-magic-v6-thinnest-battery-launch-mwc' },
+                { title: 'The Verge', url: 'https://www.theverge.com/tech/882980/mwc-2026-news-phones-gadgets-announcements' }
             ]
         }
     ]
