@@ -4,40 +4,42 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Tuesday, March 3, 2026',
+    date: 'Wednesday, March 4, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'U.S. and Israel Launch New Wave of Strikes on Beirut and Tehran as War Escalates',
-            summary: 'The United States and Israel have launched a fresh wave of devastating strikes on Beirut and Tehran, dramatically widening a conflict that shows no signs of slowing down. Trump told reporters the operation in Iran could last four to five weeks, while Defense Secretary Pete Hegseth confirmed there are no U.S. ground troops in Iran but pointedly refused to rule out their deployment. Iran retaliated by striking targets across the Gulf — hitting Saudi Arabia, Qatar, the UAE, Bahrain, Kuwait, Jordan, and even a British airbase in Cyprus. The U.S. embassy in Riyadh was also attacked. Gulf states have warned they will retaliate if Iran continues strikes in the region, raising the specter of an all-out regional war that could reshape the Middle East for a generation.',
-            tags: ['Iran', 'Israel', 'U.S. military', 'Beirut', 'Middle East war'],
+            headline: 'U.S. Submarine Torpedoes Iranian Warship as Conflict Enters Day 5',
+            summary: 'The Iran war escalated dramatically on Day 5 as Defense Secretary Pete Hegseth confirmed a U.S. submarine torpedoed and sank an Iranian warship in international waters off Sri Lanka in the Indian Ocean. Hegseth declared the bombing campaign is "just getting started," trumpeting reduced Iranian military capabilities and the death of an official charged with a Trump assassination plot. Israel simultaneously launched strikes on Iranian security sites, prompting Tehran to respond with a fresh barrage of missiles and drones. Congress is now set to vote on war powers as lawmakers from both parties question the conflict\'s costs, risks, and long-term strategy amid mounting concerns about regional destabilization.',
+            tags: ['Iran war', 'U.S. military', 'submarine', 'Hegseth', 'Congress'],
             category: 'top-stories',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-us-israel-lebanon-hezbollah-trump-ayatollah-ali-khamenei-live-updates/' },
-                { title: 'AP News', url: 'https://apnews.com/article/iran-trump-israel-war-where-things-stand-e3c003aef4479cd179967a63bb1236f4' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/us-politics/article-trump-us-iran-military-weeks/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/livestory/conflict-with-iran-9.7109761' },
+                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-lebanon-march-04-2026' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'Markets Crater as Iran War Stokes Energy Crisis — TSX Drops Over 3.5%',
-            summary: 'Global financial markets are in freefall as the escalating Iran conflict sends shockwaves through the world economy. The TSX plunged over 3.5% on Monday as energy prices surged following tanker disruptions and facility shutdowns that have rattled global oil supply. RBC analysts now project oil could hit $100 per barrel if the Strait of Hormuz is further threatened. Thousands of travelers remain stranded across the Middle East as flight routes are rerouted or canceled entirely, with limited evacuation flights only now beginning from the UAE. Economists warn the combination of war-driven energy spikes and ongoing trade tariff disputes could tip several major economies into recession.',
-            tags: ['markets', 'TSX', 'oil prices', 'Iran', 'energy crisis'],
+            headline: 'Markets Rise on Reports of Iran\'s Secret Diplomatic Outreach to U.S.',
+            summary: 'North American stock indexes climbed Wednesday following reports that Iran has made secret diplomatic overtures to the United States, offering a glimmer of hope that the five-day-old conflict could find an off-ramp. The news calmed jittery energy markets after Trump vowed to protect oil and gas tankers passing through the Strait of Hormuz — though gasoline and diesel prices had already spiked overnight as anxious drivers rushed to fill their tanks. Economists warn the supply chain disruptions from the war could raise prices for drugs, electronics, and other goods even if a ceasefire materializes, while Iranian strikes on Amazon data centers in the Gulf have highlighted the tech industry\'s vulnerability to physical disasters.',
+            tags: ['markets', 'Iran diplomacy', 'oil prices', 'supply chain', 'Amazon'],
             category: 'top-stories',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/investing/markets/inside-the-market/article-markets-today-wall-street-futures-fall-as-middle-east-conflict-stokes/' },
-                { title: 'AP News', url: 'https://apnews.com/article/oil-prices-iran-us-hormuz-tanker-8a6d6fb35c89d9b0db4c4846f290c2c3' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/investing/markets/inside-the-market/article-stock-market-today-tsx-sp-500-live-updates-march-4-2026/' },
+                { title: 'AP News', url: 'https://apnews.com/article/iran-oil-gas-gallon-aaa-e2daee318b8e3e6a1124713909a410e4' },
+                { title: 'AP News', url: 'https://apnews.com/article/amazon-aws-data-center-uae-iran-bahrain-71066b0a822c4cfd88b61e3fe79af917' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'Macron Offers to Deploy Nuclear-Armed Jets to European Allies',
-            summary: 'In a dramatic escalation of European defense posturing, French President Emmanuel Macron announced that France will allow the temporary deployment of nuclear-armed fighter jets to allied European nations. The move — unprecedented in modern NATO history — comes as the continent grapples with heightened security anxieties amid the Iran war and ongoing Russian aggression in Ukraine. Macron framed the offer as a step toward a credible European nuclear deterrent that doesn\'t rely solely on the United States. The announcement has drawn mixed reactions, with some allies welcoming the solidarity while others worry it could provoke further destabilization.',
-            tags: ['France', 'Macron', 'nuclear weapons', 'Europe', 'NATO'],
+            headline: 'Macron Orders Aircraft Carrier to Mediterranean as France Flexes Military Muscle',
+            summary: 'French President Emmanuel Macron has ordered France\'s nuclear-powered aircraft carrier Charles de Gaulle to the Mediterranean Sea, a significant show of force as Europe grapples with the widening Iran conflict. The deployment signals France\'s intent to play a major independent role in the crisis rather than simply deferring to American leadership. Meanwhile, Spain\'s Prime Minister has stood firm in opposing the Iran strikes and pushed back on Trump\'s criticism after the President threatened to cut off trade with Spain for refusing to allow U.S. use of joint military bases. The transatlantic rift over the war is deepening, with NATO allies increasingly split on both strategy and legality.',
+            tags: ['France', 'Macron', 'aircraft carrier', 'Spain', 'NATO'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/france-nuclear-weapons-macron-deterrence-ccbcfb03ef4a1e3efe287fb744adb148' }
+                { title: 'AP News', url: 'https://apnews.com/article/france-macron-aircraft-carrier-charles-de-gaulle-mediterranean-dd185933de5e5cee87828768c0046fba' },
+                { title: 'AP News', url: 'https://apnews.com/article/trump-spain-iran-trade-defense-nato-spending-43e0f13e7b1c7e6ebcc4b558474aacdc' }
             ]
         }
     ],
@@ -45,32 +47,32 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Vancouver General Diverts Pregnant Patients Due to OB-GYN Shortage',
-            summary: 'Vancouver General Hospital — British Columbia\'s largest — is diverting pregnant patients with complex medical conditions to other facilities because of a severe shortage of obstetrician-gynecologists. Doctors at the hospital say the province had more than a year to address the staffing crisis but failed to act, leaving vulnerable patients scrambling for care during high-risk pregnancies. The situation highlights a growing healthcare staffing crisis across Canada, where specialist shortages are increasingly forcing hospitals to ration services. Patient advocates are calling it a failure of provincial health planning that puts mothers and babies at unnecessary risk.',
-            tags: ['Vancouver', 'healthcare', 'OB-GYN shortage', 'British Columbia', 'hospitals'],
+            headline: 'Time Running Out for Humboldt Broncos Crash Driver Facing Deportation',
+            summary: 'Jaskirat Singh Sidhu, the truck driver responsible for the devastating 2018 Humboldt Broncos bus crash that killed 16 people, could be deported to India within weeks. Sidhu is leaving behind a wife and two children in Canada who are pleading with the government to let him stay. The case has reignited a painful national debate: some families of the victims say Sidhu should have been removed from the country years ago, while others question whether deportation on top of prison time constitutes double punishment. The looming removal forces Canadians to grapple once again with the intersection of immigration enforcement, criminal justice, and the lasting trauma of one of the country\'s worst sporting tragedies.',
+            tags: ['Humboldt Broncos', 'deportation', 'Sidhu', 'immigration', 'Saskatchewan'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-vancouver-general-diverting-pregnant-women-with-complex-conditions/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/manitoba/jaskirat-singh-sidhu-humboldt-crash-victims-9.7111384' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Quebec\'s Bill 21 Violates Charter Rights, Challengers Argue at Supreme Court',
-            summary: 'Challengers of Quebec\'s controversial Bill 21 — which bans religious symbols for public servants in positions of authority — brought their case to the Supreme Court of Canada on Monday, arguing the law violates fundamental Charter rights to religious freedom and equality. Quebec\'s government countered that the top court should not even consider the question of Charter violations because the province invoked the notwithstanding clause to shield the law from judicial review. The case is being closely watched across the country as a test of the limits of provincial power versus individual rights, with implications for religious minorities who work as teachers, police officers, and judges.',
-            tags: ['Quebec', 'Bill 21', 'Supreme Court', 'Charter rights', 'religious freedom'],
+            headline: 'B.C. Moving to Permanent Daylight Time — Could Your Province Be Next?',
+            summary: 'British Columbia is set to change its clocks for the final time this weekend as the province officially moves to permanent daylight saving time, ending the biannual ritual of springing forward and falling back. The announcement by Premier David Eby has reignited conversations across the country about abolishing time changes entirely. Alberta Premier Danielle Smith said it\'s time to consider following suit, and several other provinces have confirmed discussions are underway. The move aligns B.C. with the U.S. states of Washington and Oregon, which passed similar legislation contingent on federal approval. Health experts have long argued that permanent daylight time reduces seasonal depression and car accidents during darker winter evenings.',
+            tags: ['daylight saving', 'British Columbia', 'time change', 'Alberta', 'provinces'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-quebec-bill-21-charter-rights-supreme-court-challengers/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/daylight-saving-time-canada-9.7113377' }
             ]
         },
         {
             id: 'cdn-3',
-            headline: 'White Nationalist Fight Clubs Pose Risk of Extreme Violence in Canada',
-            summary: 'A growing network of white nationalist "active clubs" — essentially fight clubs that combine mixed martial arts training with far-right ideology — poses a serious risk of extreme violence in Canada, according to an internal Public Safety Canada brief obtained by CBC News. The report details how these groups recruit young men through fitness culture and social media, then radicalize them with accelerationist ideology that glorifies racial violence. The clubs have chapters in multiple Canadian cities and maintain ties to international white supremacist networks. Security experts say the movement represents one of the most dangerous domestic terrorism threats currently facing the country.',
-            tags: ['white nationalism', 'extremism', 'Public Safety', 'domestic terrorism', 'Canada'],
+            headline: 'Vancouver Teachers Pulled from Classrooms After Ministry Emails Land in Spam',
+            summary: 'Dozens of teachers across British Columbia\'s Lower Mainland were suddenly suspended without pay after emails from the Ministry of Education about updating their criminal record checks were filtered into spam folders. The teachers had no idea their teaching licences were at risk until they were abruptly pulled from their classrooms. One Vancouver teacher described the experience as a "gut punch," saying the sudden suspension upended her life and left students without their regular instructor. The affected educators are now demanding to know whether the Ministry will compensate them for lost wages, and the incident has raised serious questions about the government\'s reliance on email for time-sensitive regulatory communications.',
+            tags: ['teachers', 'B.C. education', 'Vancouver', 'email', 'suspension'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/active-clubs-report-public-safety-canada-9.7109011' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/british-columbia/vancouver-teacher-pay-suspension-emails-9.7113444' }
             ]
         }
     ],
@@ -78,32 +80,35 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'Defence Minister Defends Canada\'s Backing of U.S.-Israel Air Strikes on Iran',
-            summary: 'Defence Minister David McGuinty pushed back against critics of Canada\'s support for the U.S.-Israeli military operation against Iran, calling Iran\'s former supreme leader a "force for evil" and defending the government\'s stance as consistent with Canadian values. McGuinty acknowledged the Liberal party is a "big tent with a broad range of views" on the issue but said the destruction of Iran\'s nuclear program serves global security. The remarks come amid growing unease within the Liberal caucus, where some MPs have privately expressed discomfort with Canada\'s alignment on what has become an increasingly destructive military campaign with mounting civilian casualties.',
-            tags: ['McGuinty', 'Iran', 'defence', 'Canada', 'air strikes'],
+            headline: 'Carney Speaks Frankly on Trump: "It\'s Not Easy, Let\'s Be Clear"',
+            summary: 'Prime Minister Mark Carney pulled back the curtain on his relationship with Donald Trump during an event at Australia\'s Lowy Institute, saying bluntly that dealing with the U.S. President is "not easy" and that he must choose his words carefully to avoid blowback. Carney framed the Canada-Australia critical minerals alliance as an example of middle-power strength, arguing that countries like Canada and Australia have more leverage than they realize — especially in resources essential to the global energy transition. The candid remarks represent a rare moment of diplomatic frankness from a leader who has largely tried to maintain a measured tone with Washington amid escalating tariff threats and the Iran conflict.',
+            tags: ['Carney', 'Trump', 'Australia', 'critical minerals', 'diplomacy'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-irans-former-leader-was-force-for-evil-defence-minister-says-as-he/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/carney-trump-it-is-not-easy-lets-be-clear-9.7113807' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-critical-minerals-alliance-with-australia-an-example-of-middle-power/' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'India Dismisses Nijjar Consulate Link as Carney Trade Mission Continues',
-            summary: 'India has flatly dismissed allegations of a connection between an Indian consulate official and the assassination of Hardeep Singh Nijjar in British Columbia, calling the claims baseless. The denial came as Canadian federal leaders — sent on a trade mission to India by Prime Minister Carney — conspicuously declined to comment on the explosive new revelations. The awkward timing underscores the impossible balancing act at the heart of Canada-India relations: Ottawa wants to reset trade ties and court India as a counterweight to U.S. tariff aggression, but the unresolved Nijjar affair and foreign interference concerns continue to cast a long shadow over the diplomatic thaw.',
-            tags: ['India', 'Nijjar', 'Carney', 'trade', 'foreign interference'],
+            headline: 'Carney Backs Iran War "With Regret" as Ottawa Scrambles to Help Stranded Canadians',
+            summary: 'Prime Minister Carney said Canada\'s support for the U.S.-Israeli strikes on Iran was taken "with regret," acknowledging that the U.S. and Israel acted without engaging the UN or its allies and leaving open the question of where the conflict goes from here. Meanwhile, Foreign Affairs Minister Anand confirmed Ottawa is working to help Canadians stranded across the Middle East as commercial flights remain disrupted and evacuation options are limited. Canadians in the Persian Gulf told CBC they are living "by the grace of missile defence systems." The government faces mounting pressure from both hawks who want stronger support and doves who question Canada\'s complicity in a war that lacks clear international legal authority.',
+            tags: ['Carney', 'Iran', 'Middle East', 'Anand', 'evacuations'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-carney-india-trip-anand-comment-indian-consul-nijjar-killing/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-carney-us-israeli-strikes-iran-position/' },
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/canadians-gulf-air-defence-expats-tourists-9.7113371' }
             ]
         },
         {
             id: 'cdnpol-3',
-            headline: 'Advocates Call for Public Inquiry into Alleged Toronto Police Corruption',
-            summary: 'Community advocates are demanding a full public inquiry into alleged corruption within the Toronto Police Service following Project South — a major internal investigation that led to the arrest of seven active Toronto officers and one retired constable. The probe uncovered a web of alleged misconduct including bribery, evidence tampering, and ties to organized crime. Advocates say the arrests represent only the tip of the iceberg and that systemic corruption within Canada\'s largest municipal police force requires an independent, public accounting. Toronto\'s police chief has called the arrests "deeply troubling" but resisted calls for an external inquiry, saying internal reforms are underway.',
-            tags: ['Toronto Police', 'corruption', 'Project South', 'public inquiry', 'law enforcement'],
+            headline: 'U.S. Could Hold "Red Card" Over Canada\'s Fighter Jet Options',
+            summary: 'Canada\'s search for a next-generation fighter jet has hit a geopolitical snag, with analysts warning the U.S. could effectively veto Ottawa\'s consideration of Sweden\'s Saab Gripen as an alternative to the American-made F-35. Saab has pitched Canada as a "great" partner to co-design future fighter jets, but the aircraft relies on American-made components that could be subject to export controls — giving Washington a potential "red card" over the deal. The fighter jet debate takes on new urgency amid the Iran war and Carney\'s push to boost defence spending, with a BlackRock executive also being named deputy minister of international trade in the latest federal shuffle.',
+            tags: ['fighter jets', 'Gripen', 'F-35', 'Saab', 'defence'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-project-south-advocates-public-inquiry-toronto-police-service/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/canada-f35-gripen-trump-saab-lockheed-fighters-9.7113580' },
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/saab-canada-fighter-jets-9.7112654' }
             ]
         }
     ],
@@ -111,33 +116,33 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Trump Pushes Back on Critics: Iran Operation Could Last Four to Five Weeks',
-            summary: 'President Trump doubled down on his Iran strategy Monday, pushing back against growing criticism from both parties about the scope and legality of the military operation. Trump told reporters the campaign could last four to five weeks and dismissed concerns about mission creep, insisting the strikes are precisely targeted at Iran\'s nuclear and military infrastructure. His MAGA base has shown cracks over the intervention, with prominent voices questioning whether the operation contradicts Trump\'s long-standing promises to avoid foreign wars. The administration is sending mixed messages about its ultimate objectives — oscillating between destroying nuclear capabilities and broader regime change ambitions.',
-            tags: ['Trump', 'Iran', 'military', 'MAGA', 'regime change'],
+            headline: 'Trump Threatens to Cut Off Trade with Spain Over Iran Base Access',
+            summary: 'President Trump threatened to sever trade relations with Spain after Madrid refused to allow American forces to use joint military bases for operations in the Iran war. Spanish Prime Minister Pedro Sánchez stood by his opposition to the strikes and pushed back forcefully on Trump\'s criticism, calling the threat disproportionate and a violation of alliance norms. The confrontation has deepened fractures within NATO, with member states increasingly divided over the legality and scope of the U.S.-led campaign. The trade threat adds economic coercion to what was already a tense diplomatic standoff, and European leaders are warning that Trump\'s approach risks permanently damaging transatlantic security cooperation.',
+            tags: ['Trump', 'Spain', 'NATO', 'Iran', 'trade threats'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/trump-iran-maga-regime-change-2758513ac034ffb75beaa12db68c7bd7' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/us-politics/article-trump-us-iran-military-weeks/' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-spain-iran-trade-defense-nato-spending-43e0f13e7b1c7e6ebcc4b558474aacdc' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'Supreme Court Blocks California Law Protecting Transgender Students from Being Outed',
-            summary: 'The U.S. Supreme Court has blocked a California law that prohibited schools from disclosing students\' transgender status to their parents without the student\'s consent. The ruling is a significant setback for LGBTQ+ advocates who argued the law was essential to protecting vulnerable trans youth from potentially hostile home environments. Conservative justices sided with parents\' rights groups who contended that the law unconstitutionally interfered with parental authority. The decision could have sweeping implications as similar battles play out in state legislatures across the country, and it further cements the current court\'s willingness to reshape the legal landscape around gender identity issues.',
-            tags: ['Supreme Court', 'transgender', 'California', 'LGBTQ+', 'schools'],
+            headline: 'Tensions Flare as Lawmakers Question Iran War\'s Costs, Risks and Strategy',
+            summary: 'Bipartisan tensions erupted on Capitol Hill as lawmakers grilled Secretary of State Marco Rubio on the Iran war\'s ballooning costs, strategic risks, and the absence of a clear exit plan. Members of Congress from both parties expressed frustration that the administration launched military operations without adequate consultation, and a vote on war powers authorization is now imminent. The hearing grew heated when several senators demanded to know whether the administration\'s ultimate goal is destroying nuclear capabilities or full regime change — a distinction with enormous implications for how long American forces stay engaged. Meanwhile, U.S. soldiers killed in the conflict are being remembered as devoted parents and reservists.',
+            tags: ['Congress', 'Iran war', 'Rubio', 'war powers', 'strategy'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/supreme-court-transgender-students-california-cca311ae39d267f31c1392a0bcf780cd' }
+                { title: 'AP News', url: 'https://apnews.com/article/iran-war-marco-rubio-middle-east-9b9dfac9c40c8cf171e229e0a0a6980f' },
+                { title: 'AP News', url: 'https://apnews.com/article/us-soldiers-who-died-iran-war-46f54df716fe1c5290363da0a15f99f3' }
             ]
         },
         {
             id: 'uspol-3',
-            headline: 'Federal Court Rejects Trump Administration Attempt to Slow Tariff Refund Process',
-            summary: 'A federal court has rejected the Trump administration\'s attempt to slow down the process of refunding tariffs that were previously ruled unlawful, dealing a blow to the White House\'s trade agenda. The ruling means billions of dollars in disputed tariff payments could be returned to importers faster than the administration wanted, potentially undermining its leverage in ongoing trade negotiations. The decision comes as the economic fallout from both tariff disputes and the Iran conflict compound pressure on American businesses and consumers. Trade lawyers say the ruling signals growing judicial impatience with the administration\'s use of emergency powers to reshape trade policy.',
-            tags: ['tariffs', 'trade', 'federal court', 'Trump', 'economy'],
+            headline: 'Noem Defends Portrayal of Killed Minneapolis Protesters as "Agitators" at Senate Hearing',
+            summary: 'Kristi Noem faced sharp questioning during her Senate confirmation hearing as lawmakers pressed her on her characterization of protesters killed by law enforcement in Minneapolis as "agitators." The heated exchange underscored the ongoing political divisions over policing, protest rights, and the use of force that have defined American politics since 2020. Noem defended her position while outlining her vision for immigration enforcement at the Department of Homeland Security. The hearing comes at a volatile moment for the administration, which is simultaneously managing a foreign war, domestic policy battles, and growing public anxiety about the direction of the country.',
+            tags: ['Noem', 'Senate hearing', 'DHS', 'Minneapolis', 'immigration'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/tariffs-trump-refunds-supreme-court-cc2ace8576e59d10034e7e525737539d' }
+                { title: 'AP News', url: 'https://apnews.com/article/noem-testifies-congress-homeland-security-immigration-enforcement-ebb715699e3f4f6dd6fdd22157b4e1a7' }
             ]
         }
     ],
@@ -145,33 +150,32 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'Hegseth Warns Anthropic: Let the Military Use Your AI or Face Consequences',
-            summary: 'Defense Secretary Pete Hegseth has issued a stark warning to AI company Anthropic, demanding the company allow the U.S. military to use its technology "as it sees fit" without restrictions, according to AP sources. The confrontation escalates tensions between the Pentagon and Silicon Valley over the ethical boundaries of AI in warfare — a debate supercharged by revelations that Anthropic\'s Claude AI was used in planning the Iran strikes. Hegseth\'s ultimatum puts Anthropic in an impossible position: comply and abandon the safety principles that define its brand, or resist and risk being cut off from lucrative government contracts and potential regulatory retaliation.',
-            tags: ['Anthropic', 'Pentagon', 'Hegseth', 'AI military', 'AI ethics'],
+            headline: 'Iranian Strikes Hit Amazon Data Centers, Exposing Cloud Infrastructure Vulnerability',
+            summary: 'Iranian missile strikes on Amazon Web Services data centers in the UAE and Bahrain have sent shockwaves through the tech industry, exposing the physical vulnerability of cloud infrastructure that underpins much of the modern internet. The attacks disrupted services for thousands of businesses worldwide and raised urgent questions about the concentration of critical digital infrastructure in geopolitically unstable regions. Amazon is scrambling to reroute traffic and restore services, but analysts warn the incident could accelerate a broader rethinking of where companies locate their data centers. The disruption also highlights how a conventional military conflict can cascade into a global technology crisis within hours.',
+            tags: ['Amazon', 'AWS', 'data centers', 'Iran', 'cloud infrastructure'],
             category: 'ai-tech',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/anthropic-hegseth-ai-pentagon-military-3d86c9296fe953ec0591fcde6a613aba' }
+                { title: 'AP News', url: 'https://apnews.com/article/amazon-aws-data-center-uae-iran-bahrain-71066b0a822c4cfd88b61e3fe79af917' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'Meta Tests AI Shopping Tool to Rival ChatGPT and Gemini',
-            summary: 'Meta is rolling out an AI-powered shopping research tool to testers in the United States, directly challenging similar features already available in OpenAI\'s ChatGPT and Google\'s Gemini. The tool lets users describe what they\'re looking for in natural language and receive curated product recommendations with comparisons, reviews, and purchase links — all within Meta\'s ecosystem. Bloomberg reports the feature is part of Meta\'s broader push to monetize its AI investments by keeping users inside its platforms for the entire shopping journey from discovery to purchase. The move signals that AI-assisted commerce is becoming the next major battleground among tech giants.',
-            tags: ['Meta', 'AI shopping', 'ChatGPT', 'Gemini', 'e-commerce'],
+            headline: 'OpenAI Building a GitHub Rival as Code Repository Competition Heats Up',
+            summary: 'OpenAI is in the early stages of developing its own code repository platform to compete directly with Microsoft\'s GitHub, prompted in part by recent GitHub outages that frustrated developers. The project is still months from completion, but the company is reportedly considering making it available to OpenAI customers — putting the ChatGPT creator in direct competition with Microsoft, which holds a significant stake in OpenAI. The move raises fascinating questions about the increasingly tangled relationship between the two companies and signals OpenAI\'s ambition to become a full-stack developer platform rather than just an AI model provider. Developer tools are becoming the next frontier in the AI arms race.',
+            tags: ['OpenAI', 'GitHub', 'Microsoft', 'developer tools', 'code repository'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
-                { title: 'Bloomberg', url: 'https://www.bloomberg.com/news/articles/2026-03-03/meta-tests-ai-shopping-research-tool-to-rival-chatgpt-gemini' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'MWC 2026: GrapheneOS Partners with Motorola, Qualcomm Unveils Wi-Fi 8',
-            summary: 'Mobile World Congress 2026 is in full swing in Barcelona with two major announcements shaking up the industry. GrapheneOS — the privacy-focused Android fork previously limited to Google Pixel devices — has struck a long-term partnership with Motorola to bring its hardened security to a wider range of smartphones, potentially making enterprise-grade privacy accessible to millions more users. Meanwhile, Qualcomm debuted its "AI-native" Wi-Fi 8 portfolio led by the FastConnect 8800 chip, promising speeds over 10 Gbps while packing Bluetooth 7.0, UWB, and Thread onto a single silicon package. Commercial products are expected by late 2026 — two years before Wi-Fi 8 is officially ratified.',
-            tags: ['MWC 2026', 'GrapheneOS', 'Motorola', 'Qualcomm', 'Wi-Fi 8'],
+            headline: 'Spellbook Secures $40M from RBC to Acquire Smaller Legal AI Startups',
+            summary: 'Canadian legal AI company Spellbook has raised $40 million from RBC to fund an acquisition spree targeting smaller generative AI startups in the legal technology space. The deal signals growing confidence in AI\'s ability to transform the legal profession and positions Spellbook as a potential consolidator in a fragmented market. The funding comes as law firms worldwide are increasingly adopting AI tools for contract review, legal research, and document drafting. RBC\'s investment also reflects a broader trend of Canadian financial institutions betting big on homegrown AI companies, particularly as the federal government pushes to establish Canada as a global AI hub amid fierce competition from the U.S. and China.',
+            tags: ['Spellbook', 'legal AI', 'RBC', 'Canadian tech', 'acquisitions'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech/882980/mwc-2026-news-phones-gadgets-announcements' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/article-spellbook-secures-us40-million-from-rbc-to-snap-up-smaller-generative/' }
             ]
         }
     ]
