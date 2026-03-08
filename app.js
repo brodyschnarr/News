@@ -4,39 +4,41 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Saturday, March 7, 2026',
+    date: 'Sunday, March 8, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'Iranian President Apologizes to Neighbours as Trump Vows to Hit Iran Harder',
-            summary: 'The Iran war entered its second week with Iranian President Pezeshkian issuing an extraordinary apology to neighbouring countries for the fallout from the conflict, while firmly rejecting President Trump\'s demands for "unconditional surrender." Trump responded on social media warning that Iran "will be hit very hard," signalling no de-escalation is forthcoming. Oil and gas prices continue to climb rapidly as the war shows no signs of letting up, squeezing consumers worldwide and rattling global energy markets. Evidence has also emerged suggesting that a deadly blast at an Iranian girls\' school was likely a U.S. airstrike, a revelation that could intensify international criticism of the American-led campaign.',
-            tags: ['Iran war', 'Trump', 'Pezeshkian', 'oil prices', 'Middle East'],
+            headline: 'Israel Strikes Tehran Fuel Depots and Beirut Hotel as Iran Nears Naming New Supreme Leader',
+            summary: 'The Iran war escalated dramatically on Sunday as Israeli strikes hit oil storage facilities in Tehran, sending massive plumes of smoke across the capital, and struck a hotel in Beirut. Iran is accused of launching attacks in the UAE and Bahrain, expanding the conflict beyond its original borders. Meanwhile, Iranian media reports that a panel has reached consensus on a successor to Supreme Leader Khamenei, a momentous political shift happening under the fog of war. The widening conflict is threatening essential desalinated water supplies across the Persian Gulf, putting millions of civilians at risk in a region almost entirely dependent on desalination plants for drinking water.',
+            tags: ['Iran war', 'Israel', 'Tehran', 'Khamenei successor', 'Middle East'],
             category: 'top-stories',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/' },
-                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-03-07-2026' },
-                { title: 'AP News', url: 'https://apnews.com/article/iran-minab-girls-school-airstrike-us-israel-c3095dc9729881b567277a1c5c47efb2' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/livestory/iran-israel-us-war-day-9-9.7119190' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-supreme-leader-successor/' },
+                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-03-08-2026' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'Russia Providing Iran With Intelligence to Help Strike U.S. Military, Sources Say',
-            summary: 'Russia has been providing Iran with intelligence information that could help Tehran target U.S. military assets in the region, according to AP sources familiar with the matter. The revelation represents a dangerous new dimension to the conflict, linking Moscow\'s ongoing geopolitical rivalry with Washington directly to the battlefield in the Middle East. The intelligence sharing reportedly includes data that could assist Iranian forces in striking American positions, raising the stakes dramatically for U.S. troops deployed in the region. The news comes as Pentagon chief tech officer publicly clashed with AI company Anthropic over autonomous warfare capabilities, highlighting the intersection of emerging technology and the escalating conflict.',
-            tags: ['Russia', 'Iran', 'intelligence', 'U.S. military', 'geopolitics'],
+            headline: 'Explosion at U.S. Embassy in Oslo May Have Been Deliberate Attack',
+            summary: 'Norwegian police are investigating an explosion at the U.S. embassy in Oslo that they say may have been a deliberate attack, adding a chilling new dimension to global security tensions during the Iran war. Details remain scarce, but the incident comes at a time of heightened anti-American sentiment in parts of Europe and the Middle East over Washington\'s military campaign against Iran. Security has been tightened at U.S. diplomatic facilities worldwide in response. The blast underscores the far-reaching consequences of the conflict, with threats now extending well beyond the Middle Eastern theatre to Western capitals that have largely felt insulated from the violence.',
+            tags: ['Oslo', 'U.S. embassy', 'attack', 'Norway', 'security'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/trump-iran-russia-intelligence-35afae34198408d670941f971d383378' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-us-embassy-blast-oslo-norway/' },
+                { title: 'AP News', url: 'https://apnews.com/article/us-embassy-blast-oslo-norway/' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'Tornadoes Kill 6 in Michigan and Oklahoma as Severe Storms Batter the Midwest',
-            summary: 'A devastating series of tornadoes tore through Michigan and Oklahoma on Saturday, killing at least six people as powerful storms hammered the nation\'s midsection. The severe weather system brought destructive winds, large hail, and multiple tornado touchdowns across several states, leaving communities reeling and emergency responders stretched thin. The death toll is expected to rise as search and rescue operations continue in the hardest-hit areas. The storms come at an already tense moment for the country, with the federal government\'s emergency response capabilities under scrutiny amid the ongoing Iran war and recent budget cuts to disaster relief programs.',
-            tags: ['tornadoes', 'severe weather', 'Michigan', 'Oklahoma', 'Midwest'],
+            headline: 'Trump Tells U.K. He Doesn\'t Need Help to Win War With Iran',
+            summary: 'President Trump rebuffed British offers of military assistance in the Iran conflict, telling UK Prime Minister Keir Starmer that the United States does not need allied help to win the war. The blunt dismissal strains the "special relationship" at a critical moment and raises questions about Trump\'s go-it-alone approach to the most significant U.S. military engagement in decades. Meanwhile, Trump downplayed reports that Russia has been sharing intelligence with Iran to help it target American forces, calling the claims exaggerated despite mounting evidence. Oil prices continue to soar, but Trump is resisting calls to tap the Strategic Petroleum Reserve, insisting the economy remains strong despite growing signs of consumer strain.',
+            tags: ['Trump', 'UK', 'Iran war', 'oil prices', 'Russia intelligence'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/severe-weather-storm-tornado-midwest-oklahoma-f4666951e5ef045520e839923b788cba' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-donald-trump-keir-starmer-iran-war-aircraft-carriers/' },
+                { title: 'AP News', url: 'https://apnews.com/article/iran-russia-intelligence-sharing-trump-oil-prices-109923968208e549fe1d674d7cb71978' }
             ]
         }
     ],
@@ -44,32 +46,32 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Canadians Buying Less Alcohol Than Ever as Sales Hit Record Annual Drop',
-            summary: 'Canadians are drinking less than at any point in the past two decades, with beer, wine, spirits, and cider sales recording their largest annual drop since Statistics Canada began tracking the data 20 years ago. The decline reflects a broader cultural shift, particularly among younger Canadians who are increasingly embracing sober-curious lifestyles, non-alcoholic alternatives, and wellness-focused habits. The trend has significant implications for Canada\'s alcohol industry, provincial liquor boards, and the tax revenues they generate. Industry analysts point to a confluence of factors including health awareness campaigns, the rising cost of living, and the growing availability of high-quality non-alcoholic beverages that are making it easier than ever to skip the drink.',
-            tags: ['alcohol', 'Statistics Canada', 'health', 'consumer trends', 'economy'],
+            headline: 'Millions of Americans Can Now Claim Canadian Citizenship by Descent Under New Rules',
+            summary: 'Amid rising tensions in the United States and increased global volatility, millions of Americans are looking northward — and to their family roots — for a possible escape route following recent changes to Canada\'s citizenship rules under Bill C-3. The new law expands eligibility for citizenship by descent, allowing people with Canadian parents or grandparents to claim citizenship even if they were born abroad. Interest has surged as Americans face uncertainty over the Iran war, immigration crackdowns, and a polarized political landscape. However, applicants face a complex process requiring extensive documentation to prove their lineage, and processing times are expected to be lengthy given the anticipated wave of applications.',
+            tags: ['citizenship', 'Bill C-3', 'Americans', 'immigration', 'Canada'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/montreal/bill-c-3-canadian-citizenship-by-descent-american-interest-9.7112724' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Canada Building Stronger Business Ties With India as It Overtakes Japan\'s Economy',
-            summary: 'Canada is aggressively ramping up business ties with India, which recently overtook Japan to become the world\'s fourth-largest economy and represents a massive untapped opportunity for Canadian exporters. The diplomatic reset comes after years of strained relations following the Nijjar affair, with Ottawa now signalling that economic pragmatism must take priority. Canadian businesses in sectors ranging from agriculture and mining to technology and education are eyeing the Indian market, while New Delhi is looking for reliable partners to supply critical minerals and energy. The push to diversify trade relationships beyond the U.S. has taken on new urgency amid Trump\'s ongoing tariff threats and the economic uncertainty caused by the Iran war.',
-            tags: ['India', 'trade', 'economy', 'diversification', 'Canada'],
+            headline: 'Natalie Wilkie Wins Canada\'s First Gold at Milano-Cortina Paralympics',
+            summary: 'Canadian para-athlete Natalie Wilkie captured the country\'s first gold medal at the 2026 Milano-Cortina Winter Paralympics, winning the women\'s standing 12.5-kilometre biathlon event. The victory is a triumphant moment for Canada\'s Paralympic team and cements Wilkie\'s status as one of the country\'s top winter sport athletes. The win comes as Canada looks to build momentum early in the Games, with strong medal contenders across multiple disciplines. Wilkie\'s performance in the gruelling biathlon — which combines cross-country skiing and rifle shooting — was dominant from start to finish, pulling away from the field in the final kilometres to claim gold convincingly.',
+            tags: ['Paralympics', 'Natalie Wilkie', 'biathlon', 'Milano-Cortina', 'gold medal'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/article-canada-business-ties-india-trade/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/sports/paralympics/natalie-wilkie-womens-standing-biathlon-gold-2026-paralympics-9.7119443' }
             ]
         },
         {
             id: 'cdn-3',
-            headline: 'Fertility Rates in Canada\'s Major Cities in Steep Decline',
-            summary: 'Fertility rates across Canada\'s largest cities are plummeting, with new data revealing a steep decline that\'s reshaping the face of urban Canada. The cost of living — particularly housing — along with delayed family formation, career prioritization, and shifting cultural norms are all contributing to the trend. Toronto, Vancouver, and Montreal are seeing some of the sharpest drops, with young Canadians increasingly saying they simply cannot afford to have children. The declining birth rate has major long-term implications for everything from immigration policy and pension sustainability to school enrollments and the future workforce, prompting calls for more aggressive family support policies from all levels of government.',
-            tags: ['fertility', 'demographics', 'cost of living', 'housing', 'urban Canada'],
+            headline: 'Towing Industry at the Root of Many Police Corruption Cases Across Canada',
+            summary: 'A Globe and Mail investigation reveals that Canada\'s towing industry has become a breeding ground for police corruption, with organized crime networks infiltrating the fraud-rife sector and pulling officers into their web. The investigation documents how the lucrative and loosely regulated industry creates fertile conditions for kickbacks, bid-rigging, and outright criminal partnerships between tow operators and law enforcement. Cases span multiple provinces, suggesting a systemic problem rather than isolated incidents. The findings raise urgent questions about oversight of an industry that generates billions in revenue annually and operates at the critical intersection of emergency services, insurance, and vehicle storage.',
+            tags: ['towing', 'police corruption', 'organized crime', 'investigation', 'regulation'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/life/article-canada-major-cities-fertility-rates-decline-what-happened/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-towing-industry-police-corruption/' }
             ]
         }
     ],
@@ -77,33 +79,32 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'Carney Says Canada Could Be Called to Help NATO Allies in Middle East',
-            summary: 'Prime Minister Mark Carney acknowledged that Canada could be called upon to provide military assistance to NATO allies in the Middle East as the Iran war intensifies, though he stressed that no formal requests have come in yet. The statement marks Carney\'s most direct comments on potential Canadian military involvement in the conflict and comes amid growing pressure from allies — and domestically — for Canada to move beyond rhetorical support. Carney is walking a diplomatic tightrope, trying to demonstrate solidarity with the U.S.-led coalition while avoiding the kind of open-ended military commitment that could prove politically toxic at home. The comments coincide with reports that the Iran war is complicating Ottawa\'s push to attract Middle Eastern investment capital.',
-            tags: ['Carney', 'NATO', 'Middle East', 'military', 'Iran war'],
+            headline: 'Carney Calls Byelections in Quebec and Two Toronto Ridings',
+            summary: 'Prime Minister Mark Carney has called byelections in the Quebec riding of Terrebonne and the Toronto ridings of University-Rosedale and Scarborough Southwest — three races the Liberals will want to win to secure a thin majority government. The byelections are a critical test of Carney\'s early political capital and will reveal whether his honeymoon as PM translates into actual voter support in diverse ridings. University-Rosedale and Scarborough Southwest represent very different demographics, while Terrebonne is a bellwether Quebec seat. The NDP and Conservatives are expected to mount strong campaigns in all three, making these races an early referendum on Carney\'s leadership and the Liberal brand heading into a potential general election.',
+            tags: ['Carney', 'byelections', 'Terrebonne', 'Toronto', 'Liberals'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-iran-war-military-gulf-allies-middle-east/' },
-                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-03-07-2026' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/carney-byelection-terrebonne-scarborough-southwest-university-rosedale-ndp-conservatives-9.7119497' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'Carney Calls for Prince Andrew\'s Removal From Line of Succession',
-            summary: 'In a striking intervention into Commonwealth affairs, Prime Minister Mark Carney has called for Prince Andrew — the Duke of York also known as Mountbatten-Windsor — to be removed from the British line of succession. The move positions Canada as a leading voice within the Commonwealth pushing for modernization of the monarchy, and comes amid Andrew\'s ongoing public disgrace following his association with Jeffrey Epstein. The call is likely to resonate with Canadians who have grown increasingly ambivalent about the monarchy, though it also risks complicating Canada\'s relationship with the United Kingdom at a time when both nations are navigating the fallout from the Iran war and shifting transatlantic alliances.',
-            tags: ['Carney', 'Prince Andrew', 'monarchy', 'Commonwealth', 'succession'],
+            headline: 'U.S. Customs Searched Record Number of Electronic Devices Last Year',
+            summary: 'U.S. customs officers conducted a record number of searches of electronic devices belonging to travellers last year, and a recent update to their directives expands the list of searchable items to include smartwatches, SIM cards, and flash drives. The revelation is particularly alarming for Canadians crossing the border, who are already navigating heightened scrutiny amid the Trump administration\'s aggressive enforcement posture. Privacy advocates warn that the expanded search powers amount to a warrantless invasion of travellers\' digital lives, with virtually no legal recourse available at the border. The news has prompted calls from Canadian officials for clearer guidance to travellers about their rights and what to expect at U.S. ports of entry.',
+            tags: ['U.S. customs', 'device searches', 'privacy', 'border', 'travel'],
             category: 'canadian-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/canada-carney-andrew-succession-a7dc4996e0c091e956bcf0daf39c56ad' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/united-states-customs-border-protection-phone-search-9.7118271' }
             ]
         },
         {
             id: 'cdnpol-3',
-            headline: 'Liberals Move to End Conservative Filibuster Over Religious Hate Speech Exemption',
-            summary: 'The Liberal government is moving to end a Conservative filibuster over a proposed religious exemption to federal hate speech laws, escalating a bitter parliamentary battle over the limits of free expression and religious freedom. The Conservatives argue that the government\'s anti-hate bill would chill religious speech and expose faith leaders to prosecution for expressing traditional beliefs, while the Liberals maintain the legislation is narrowly targeted at incitement to violence and discrimination. The filibuster has ground parliamentary business to a halt at a time when the government is juggling the Iran war response, trade negotiations with the U.S., and preparation for a possible spring election. The dispute has exposed deep fault lines between urban progressive and rural religious constituencies.',
-            tags: ['Liberals', 'Conservatives', 'filibuster', 'hate speech', 'religious freedom'],
+            headline: 'Critics Say Ottawa\'s Sustainable Jobs Plan Offers No New Support for Energy Workers',
+            summary: 'Ottawa\'s newly released sustainable jobs action plan is drawing sharp criticism from labour groups and opposition parties who say it offers no meaningful new support for energy workers facing the transition away from fossil fuels. The plan, which was supposed to deliver on the Liberal government\'s promise of a "just transition," has been described as a repackaging of existing programs rather than the bold new investment workers were expecting. Alberta and Saskatchewan politicians have been particularly vocal, arguing that the plan ignores the economic realities facing oil and gas communities. The backlash puts Carney in a difficult position as he tries to balance climate commitments with the political imperative of not alienating resource-dependent provinces ahead of a possible election.',
+            tags: ['sustainable jobs', 'energy transition', 'labour', 'climate', 'Alberta'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-liberals-move-to-end-conservative-filibuster-over-religious-exemption/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/sustainable-jobs-action-plan-just-transition-9.7116866' }
             ]
         }
     ],
@@ -111,33 +112,32 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Kristi Noem\'s DHS Tenure Ends With $220 Million Ad Blitz and Public Split With Trump',
-            summary: 'Kristi Noem\'s turbulent tenure as Homeland Security Secretary has come to an end, marked by a $220 million advertising campaign and a dramatic public split with President Trump over immigration enforcement. The departure caps one of the most chaotic tenures at DHS in recent memory, with Noem clashing repeatedly with the White House over strategy and messaging. Her exit comes amid broader turmoil in Trump\'s cabinet as the administration struggles to manage the Iran war while maintaining its hardline domestic agenda. The massive ad spend has drawn particular scrutiny, with critics questioning whether taxpayer money was used effectively or simply served as a vanity project for Noem\'s political brand.',
-            tags: ['Noem', 'DHS', 'Trump', 'immigration', 'advertising'],
+            headline: 'Federal Judge Rules Trump\'s Actions to Dismantle Voice of America Are Illegal',
+            summary: 'A federal judge has ruled that the Trump administration\'s efforts to dismantle Voice of America — the U.S. government\'s international broadcasting service — are illegal, delivering a sharp rebuke to the White House\'s campaign against independent media institutions. The ruling blocks the administration from further gutting the agency, which Trump has long accused of liberal bias. VOA, led by controversial appointee Kari Lake, has seen mass firings, editorial interference, and budget slashing under the current administration. Press freedom advocates hailed the ruling as a critical defence of independent journalism, while the White House signalled it would appeal. The case is the latest in a growing list of judicial checks on Trump\'s executive overreach.',
+            tags: ['Voice of America', 'press freedom', 'Trump', 'Kari Lake', 'courts'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/kristi-noem-border-immigration-kennedy-ad-campaign-bc1525f1d10a468c892d0cb5cf3907b0' }
+                { title: 'AP News', url: 'https://apnews.com/article/voice-of-america-kari-lake-press-freedom-7e9257d1a69907e1bb7489dfd32de833' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'Pentagon Tech Chief Clashes With Anthropic Over Autonomous Warfare',
-            summary: 'The Pentagon\'s chief technology officer has publicly clashed with AI safety company Anthropic over the use of artificial intelligence in autonomous warfare, revealing deep tensions between the military establishment and Silicon Valley over the ethics of AI-powered weapons. The dispute centres on the Pentagon\'s "Golden Dome" missile defence program and whether AI systems should be allowed to make lethal decisions without human oversight. Anthropic, which has positioned itself as a leader in AI safety, reportedly pushed back against military applications that would cross its ethical red lines. The clash highlights the growing friction between the defence sector\'s appetite for cutting-edge AI and the tech industry\'s stated commitments to responsible development.',
-            tags: ['Pentagon', 'Anthropic', 'AI', 'autonomous weapons', 'Golden Dome'],
+            headline: 'Trump\'s FDA Vaccine Chief Leaves for Second Time Amid Administration Turmoil',
+            summary: 'The Trump administration\'s embattled FDA vaccine chief Vinay Prasad is leaving the agency for the second time, capping a chaotic tenure marked by clashes with career scientists and controversy over the administration\'s skeptical approach to vaccine regulation. Prasad\'s departure comes as public health experts warn that the administration\'s anti-vaccine rhetoric and policy decisions are undermining confidence in routine immunizations. The revolving door at the FDA reflects broader instability across Trump\'s health agencies, which have seen unprecedented turnover as political appointees clash with established scientific processes. The vacancy leaves critical vaccine oversight in limbo at a time when seasonal flu and COVID booster campaigns are being planned.',
+            tags: ['FDA', 'vaccines', 'Vinay Prasad', 'Trump', 'public health'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/ai-anthropic-pentagon-golden-dome-autonomous-weapons-6f3c45ff46172c1bf8658dea0098f3fe' }
+                { title: 'AP News', url: 'https://apnews.com/article/vinay-prasad-fda-trump-vaccine-moderna-fired-bf56fe9852def8c9f1b9a648e5bb92df' }
             ]
         },
         {
             id: 'uspol-3',
-            headline: 'Appeals Court Blocks Trump From Ending Protections for 350,000 Haitians',
-            summary: 'A U.S. appeals court has ruled that the Trump administration cannot end Temporary Protected Status for more than 350,000 Haitian nationals, dealing another legal blow to the president\'s aggressive immigration agenda. The ruling maintains protections that shield Haitians from deportation due to ongoing instability in their home country, and marks the latest in a string of judicial setbacks for the administration\'s immigration policies. The decision comes as ICE arrests of a Spanish-language news reporter in Tennessee sparked outrage among press freedom advocates and immigrant communities. Trump\'s immigration enforcement machinery continues to face legal and political headwinds even as the administration insists it has broad authority to reshape the immigration system.',
-            tags: ['Haiti', 'TPS', 'immigration', 'appeals court', 'Trump'],
+            headline: 'Trump\'s "Roaring" Economy Meets a Rough Start to 2026',
+            summary: 'Despite President Trump\'s insistence that the American economy is "roaring," the latest economic data tells a more complicated story as 2026 gets off to a bumpy start. Soaring oil prices driven by the Iran war are pushing gas costs higher, inflation remains stubbornly above target, and consumer confidence is flagging. The jobs picture, while still technically strong, is showing signs of softening in key sectors. Trump continues to downplay the economic headwinds, dismissing concerns about the need to tap the Strategic Petroleum Reserve and blaming any negative indicators on media bias. Economists warn that the combination of war-driven energy costs and lingering tariff impacts could tip the economy into a slowdown if the conflict drags on.',
+            tags: ['economy', 'inflation', 'oil prices', 'jobs', 'Trump'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/trump-cannot-end-protections-for-more-than-350000-haitians-us-appeals/' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-trump-cannot-end-protections-for-more-than-350000-haitians-us-appeals/' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-economy-iran-inflation-jobs-gas-prices-7fbd5e99e3b6023963dd3de226aee4e4' }
             ]
         }
     ],
@@ -145,33 +145,34 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'OpenAI Delays ChatGPT "Adult Mode" to Focus on Intelligence and Personalization',
-            summary: 'OpenAI has pushed back the launch of ChatGPT\'s controversial "adult mode" feature, which was expected to debut this quarter, in order to focus on what the company says are higher priorities for users. According to an OpenAI spokesperson, the team is redirecting resources toward "gains in intelligence, personality improvements, personalization, and making the experience more proactive." Separately, OpenAI launched Codex Security, a new AI agent in research preview focused on identifying and fixing application security vulnerabilities, and expanded its Codex Open Source Fund to include conditional access to the security tool. The moves suggest OpenAI is prioritizing developer tools and core model capabilities over more controversial consumer features.',
-            tags: ['OpenAI', 'ChatGPT', 'adult mode', 'Codex', 'AI safety'],
+            headline: 'Meta to Temporarily Allow Rival AI Chatbots on WhatsApp in the EU',
+            summary: 'Meta has announced it will temporarily allow competing AI chatbots on WhatsApp in the European Union, reversing its previous policy of blocking rival services like ChatGPT and Copilot from the platform. The move is a strategic concession to appease European Commission antitrust regulators who have been scrutinizing Meta\'s dominance in messaging. Meta says it will support "general purpose AI chatbots using the WhatsApp Business API in Europe" for 12 months, though competitors will need to pay a fee for access. The decision highlights how EU regulatory pressure continues to force Big Tech companies into opening up their platforms — a dynamic that could eventually benefit consumers through greater choice and competition in AI assistants.',
+            tags: ['Meta', 'WhatsApp', 'AI chatbots', 'EU regulation', 'antitrust'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
+                { title: 'The Verge', url: 'https://www.theverge.com/news/829808/chatgpt-copilot-ai-llm-leaving-whatsapp-meta' },
+                { title: 'Reuters', url: 'https://www.reuters.com/legal/litigation/meta-allow-ai-rivals-whatsapp-bid-stave-off-eu-action-2026-03-05/' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'Samsung Still Planning AR Smart Glasses Launch in 2026 With Built-in Camera',
-            summary: 'Samsung confirmed it is still on track to launch its first smart glasses sometime in 2026, with the device connecting to your phone and featuring a built-in camera at "eye level." Jay Kim, Samsung\'s EVP of its mobile division, shared new details with CNBC about the AR glasses the company is building in partnership with Google using the Android XR platform. The glasses represent Samsung\'s most ambitious foray into augmented reality and will compete directly with Meta\'s Ray-Ban smart glasses. The announcement comes as the wearable AR market heats up, with Apple, Meta, and Google all racing to establish dominance in what many believe will be the next major computing platform after smartphones.',
-            tags: ['Samsung', 'AR glasses', 'Google', 'Android XR', 'wearables'],
+            headline: 'Epic v. Google Supreme Court Case Withdrawn as Both Sides Agree to Dismiss',
+            summary: 'The long-running Epic v. Google antitrust case will not be going to the Supreme Court after all, with both companies filing a joint agreement to dismiss the appeal. The landmark case, which resulted in a jury finding that Google\'s app store practices were anticompetitive, had been closely watched as a potential precedent-setter for how app marketplaces operate. Google recently agreed to reduce its app store fees to 20% as part of ongoing remedies, and the mutual withdrawal suggests both sides see more benefit in settling their differences outside the highest court. The dismissal closes one chapter but the broader fight over app store economics — affecting developers, consumers, and platform gatekeepers alike — is far from over.',
+            tags: ['Epic', 'Google', 'antitrust', 'Supreme Court', 'app stores'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/gadgets/869955/samsung-ar-glasses-are-coming-this-year' }
+                { title: 'The Verge', url: 'https://www.theverge.com/policy/889252/google-app-store-fee-reduction-20-percent-epic-v-google' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'Proton Mail Helped FBI Unmask Anonymous Protester Through Payment Data',
-            summary: 'Privacy-focused email provider Proton Mail helped the FBI identify an anonymous Stop Cop City protester by providing payment information tied to their account, according to court records obtained by 404 Media. While Proton\'s end-to-end encryption kept the account\'s content private, the company complied with a request from Swiss authorities for billing metadata — specifically the name of who paid for the account. The case highlights a fundamental tension in privacy-focused services: while message content can be encrypted, payment and account metadata often cannot be fully shielded from law enforcement. The revelation is likely to shake trust among activists and journalists who rely on Proton\'s suite of services precisely because of its privacy promises.',
-            tags: ['Proton Mail', 'privacy', 'FBI', 'encryption', 'surveillance'],
+            headline: 'OpenAI Launches Codex Security Agent and Expands Open Source Fund',
+            summary: 'OpenAI has launched Codex Security, a new AI agent in research preview that\'s designed to identify and fix application security vulnerabilities, alongside an expansion of its Codex Open Source Fund to include conditional access to the security tool. The Codex Security agent represents OpenAI\'s push into the lucrative and critical field of automated security auditing, where AI could dramatically speed up the process of finding and patching bugs before they\'re exploited. Separately, OpenAI confirmed it\'s delaying the controversial ChatGPT "adult mode" to focus on intelligence gains, personalization, and making the experience more proactive. The moves suggest OpenAI is doubling down on developer-facing tools and enterprise features as its primary growth strategy.',
+            tags: ['OpenAI', 'Codex', 'security', 'open source', 'AI developer tools'],
             category: 'ai-tech',
             sources: [
                 { title: 'The Verge', url: 'https://www.theverge.com/tech' },
-                { title: '404 Media', url: 'https://www.404media.co/proton-mail-helped-fbi-unmask-anonymous-stop-cop-city-protestor/' }
+                { title: 'OpenAI', url: 'https://openai.com/index/codex-security-now-in-research-preview/' }
             ]
         }
     ]
