@@ -4,41 +4,41 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Sunday, March 8, 2026',
+    date: 'Monday, March 9, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'Israel Strikes Tehran Fuel Depots and Beirut Hotel as Iran Nears Naming New Supreme Leader',
-            summary: 'The Iran war escalated dramatically on Sunday as Israeli strikes hit oil storage facilities in Tehran, sending massive plumes of smoke across the capital, and struck a hotel in Beirut. Iran is accused of launching attacks in the UAE and Bahrain, expanding the conflict beyond its original borders. Meanwhile, Iranian media reports that a panel has reached consensus on a successor to Supreme Leader Khamenei, a momentous political shift happening under the fog of war. The widening conflict is threatening essential desalinated water supplies across the Persian Gulf, putting millions of civilians at risk in a region almost entirely dependent on desalination plants for drinking water.',
-            tags: ['Iran war', 'Israel', 'Tehran', 'Khamenei successor', 'Middle East'],
+            headline: 'Iran Names Mojtaba Khamenei as New Supreme Leader as Oil Surges Past $100',
+            summary: 'Iran has named Mojtaba Khamenei — son of the late Ayatollah Ali Khamenei — as its new Supreme Leader, signalling that hardliners remain firmly in control even as the country endures devastating strikes on its energy infrastructure. Oil prices surged past $100 a barrel and briefly spiked near $120 before pulling back, as strikes on oil facilities across the Middle East and fears over Strait of Hormuz shipping rattled global markets. Wall Street futures slumped and investor sentiment continues to slide as the conflict shows no sign of abating. The G7 is now discussing tapping strategic oil reserves as Iran vows to use surging prices as leverage against the Western coalition.',
+            tags: ['Iran war', 'Mojtaba Khamenei', 'oil prices', 'Supreme Leader', 'Middle East'],
             category: 'top-stories',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/livestory/iran-israel-us-war-day-9-9.7119190' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-supreme-leader-successor/' },
-                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-03-08-2026' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/livestory/iran-israel-us-war-day-10-9.7119190' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-mojtaba-khamenei-new-supreme-leader/' },
+                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-khamenei-03-09-2026' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'Explosion at U.S. Embassy in Oslo May Have Been Deliberate Attack',
-            summary: 'Norwegian police are investigating an explosion at the U.S. embassy in Oslo that they say may have been a deliberate attack, adding a chilling new dimension to global security tensions during the Iran war. Details remain scarce, but the incident comes at a time of heightened anti-American sentiment in parts of Europe and the Middle East over Washington\'s military campaign against Iran. Security has been tightened at U.S. diplomatic facilities worldwide in response. The blast underscores the far-reaching consequences of the conflict, with threats now extending well beyond the Middle Eastern theatre to Western capitals that have largely felt insulated from the violence.',
-            tags: ['Oslo', 'U.S. embassy', 'attack', 'Norway', 'security'],
+            headline: 'NATO Shoots Down Second Iranian Ballistic Missile Entering Turkey\'s Airspace',
+            summary: 'NATO intercepted and shot down a second Iranian ballistic missile that entered Turkish airspace, a dramatic escalation that draws the Western military alliance closer to direct confrontation with Tehran. The incident underscores how the Iran war is spilling beyond the Middle East and testing NATO\'s collective defence commitments under Article 5. Turkey, which shares a border with Iran, finds itself in an increasingly precarious position as missiles and debris threaten its territory. Meanwhile, Israel has begun ground raids in Lebanon, opening yet another front in a conflict that continues to widen. The missile interception has intensified diplomatic pressure on all sides, with calls for ceasefire negotiations growing louder even as military operations escalate.',
+            tags: ['NATO', 'Turkey', 'Iran', 'ballistic missile', 'Article 5'],
             category: 'top-stories',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-us-embassy-blast-oslo-norway/' },
-                { title: 'AP News', url: 'https://apnews.com/article/us-embassy-blast-oslo-norway/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-war-nato-turkey/' },
+                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-khamenei-03-09-2026' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'Trump Tells U.K. He Doesn\'t Need Help to Win War With Iran',
-            summary: 'President Trump rebuffed British offers of military assistance in the Iran conflict, telling UK Prime Minister Keir Starmer that the United States does not need allied help to win the war. The blunt dismissal strains the "special relationship" at a critical moment and raises questions about Trump\'s go-it-alone approach to the most significant U.S. military engagement in decades. Meanwhile, Trump downplayed reports that Russia has been sharing intelligence with Iran to help it target American forces, calling the claims exaggerated despite mounting evidence. Oil prices continue to soar, but Trump is resisting calls to tap the Strategic Petroleum Reserve, insisting the economy remains strong despite growing signs of consumer strain.',
-            tags: ['Trump', 'UK', 'Iran war', 'oil prices', 'Russia intelligence'],
+            headline: 'Live Nation and DOJ Reach Settlement in Ticketmaster Antitrust Case',
+            summary: 'Live Nation and the U.S. Department of Justice have reached a settlement in the landmark antitrust case that accused the entertainment giant of operating an illegal monopoly through its Ticketmaster subsidiary. The deal reportedly allows Live Nation to keep Ticketmaster but requires significant concessions around exclusive venue contracts and amphitheatre usage. Some state attorneys general may still push ahead with their own cases regardless of the federal settlement. The resolution comes after the trial began last week following a failed bid by Live Nation to have the lawsuit dismissed entirely. The settlement is a mixed result for consumers who hoped the case would force a breakup of the ticketing behemoth that has long been blamed for sky-high concert prices and service fees.',
+            tags: ['Live Nation', 'Ticketmaster', 'antitrust', 'DOJ', 'settlement'],
             category: 'top-stories',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-donald-trump-keir-starmer-iran-war-aircraft-carriers/' },
-                { title: 'AP News', url: 'https://apnews.com/article/iran-russia-intelligence-sharing-trump-oil-prices-109923968208e549fe1d674d7cb71978' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/entertainment/live-nation-doj-settlement-9.7120378' },
+                { title: 'AP News', url: 'https://apnews.com/article/livenation-antitrust-justice-department-0a6ef66f497e5f626096de753bfff8ce' }
             ]
         }
     ],
@@ -46,32 +46,32 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Millions of Americans Can Now Claim Canadian Citizenship by Descent Under New Rules',
-            summary: 'Amid rising tensions in the United States and increased global volatility, millions of Americans are looking northward — and to their family roots — for a possible escape route following recent changes to Canada\'s citizenship rules under Bill C-3. The new law expands eligibility for citizenship by descent, allowing people with Canadian parents or grandparents to claim citizenship even if they were born abroad. Interest has surged as Americans face uncertainty over the Iran war, immigration crackdowns, and a polarized political landscape. However, applicants face a complex process requiring extensive documentation to prove their lineage, and processing times are expected to be lengthy given the anticipated wave of applications.',
-            tags: ['citizenship', 'Bill C-3', 'Americans', 'immigration', 'Canada'],
+            headline: 'Canadian Military Personnel Identified on White Supremacist Dating Site',
+            summary: 'A CBC News visual investigation has revealed that members of the Canadian Armed Forces are among the profiles leaked from a whites-only dating website that promoted white supremacist ideology. The discovery raises serious questions about the military\'s ability to identify and root out extremism within its ranks, an issue that has plagued the institution for years despite repeated pledges to address it. The leaked profiles were cross-referenced with publicly available information to confirm the identities of serving members. Defence experts say the findings underscore the need for more aggressive screening and monitoring, while civil liberties advocates caution that any crackdown must respect due process and privacy rights.',
+            tags: ['Canadian military', 'white supremacy', 'extremism', 'Armed Forces', 'investigation'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/montreal/bill-c-3-canadian-citizenship-by-descent-american-interest-9.7112724' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/whitedate-canada-military-9.7117307' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Natalie Wilkie Wins Canada\'s First Gold at Milano-Cortina Paralympics',
-            summary: 'Canadian para-athlete Natalie Wilkie captured the country\'s first gold medal at the 2026 Milano-Cortina Winter Paralympics, winning the women\'s standing 12.5-kilometre biathlon event. The victory is a triumphant moment for Canada\'s Paralympic team and cements Wilkie\'s status as one of the country\'s top winter sport athletes. The win comes as Canada looks to build momentum early in the Games, with strong medal contenders across multiple disciplines. Wilkie\'s performance in the gruelling biathlon — which combines cross-country skiing and rifle shooting — was dominant from start to finish, pulling away from the field in the final kilometres to claim gold convincingly.',
-            tags: ['Paralympics', 'Natalie Wilkie', 'biathlon', 'Milano-Cortina', 'gold medal'],
+            headline: 'Alberta Schools Pull More Than 160 Titles Under Ban on Explicit Images',
+            summary: 'Alberta school divisions complying with a provincial order have removed more than 160 titles from their shelves, ranging from illustrated versions of literary classics to coming-of-age memoirs and dramatic retellings of mythology. The ban targets books containing explicit images of sexual acts, but critics say the dragnet approach has swept up acclaimed graphic novels that deal thoughtfully with identity, history, and adolescence. Access to information requests reveal the full scope of the removals for the first time, sparking fierce debate over where to draw the line between protecting children and censoring important literary works. Educators and librarians warn that the ban is having a chilling effect on what teachers feel comfortable including in their curricula.',
+            tags: ['Alberta', 'book ban', 'schools', 'graphic novels', 'censorship'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/sports/paralympics/natalie-wilkie-womens-standing-biathlon-gold-2026-paralympics-9.7119443' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/edmonton/alberta-school-book-ban-order-graphic-novels-9.7118495' }
             ]
         },
         {
             id: 'cdn-3',
-            headline: 'Towing Industry at the Root of Many Police Corruption Cases Across Canada',
-            summary: 'A Globe and Mail investigation reveals that Canada\'s towing industry has become a breeding ground for police corruption, with organized crime networks infiltrating the fraud-rife sector and pulling officers into their web. The investigation documents how the lucrative and loosely regulated industry creates fertile conditions for kickbacks, bid-rigging, and outright criminal partnerships between tow operators and law enforcement. Cases span multiple provinces, suggesting a systemic problem rather than isolated incidents. The findings raise urgent questions about oversight of an industry that generates billions in revenue annually and operates at the critical intersection of emergency services, insurance, and vehicle storage.',
-            tags: ['towing', 'police corruption', 'organized crime', 'investigation', 'regulation'],
+            headline: 'Ontario Premier Defends Health-Care Record as Hospitals Warn of Financial Crisis',
+            summary: 'Ontario Premier Doug Ford is defending his government\'s health-care spending record as hospitals across the province warn that a financial crisis is looming. Hospital administrators say years of underfunding, compounded by inflation and surging demand, have pushed the system to a breaking point where facilities may be forced to cut services or close beds. Ford insists his government has invested record amounts in health care, but critics point out that per-capita spending has actually declined when adjusted for inflation and population growth. The clash comes at a politically sensitive time as health care consistently ranks as the top concern for Ontario voters, and opposition parties are seizing on the hospital warnings as evidence of government failure.',
+            tags: ['Ontario', 'health care', 'hospitals', 'Doug Ford', 'funding'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-towing-industry-police-corruption/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/toronto/doug-ford-health-care-spending-9.7116136' }
             ]
         }
     ],
@@ -79,32 +79,33 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'Carney Calls Byelections in Quebec and Two Toronto Ridings',
-            summary: 'Prime Minister Mark Carney has called byelections in the Quebec riding of Terrebonne and the Toronto ridings of University-Rosedale and Scarborough Southwest — three races the Liberals will want to win to secure a thin majority government. The byelections are a critical test of Carney\'s early political capital and will reveal whether his honeymoon as PM translates into actual voter support in diverse ridings. University-Rosedale and Scarborough Southwest represent very different demographics, while Terrebonne is a bellwether Quebec seat. The NDP and Conservatives are expected to mount strong campaigns in all three, making these races an early referendum on Carney\'s leadership and the Liberal brand heading into a potential general election.',
-            tags: ['Carney', 'byelections', 'Terrebonne', 'Toronto', 'Liberals'],
+            headline: 'Carney Calls Special Elections for Three Ridings That Could Deliver Majority Government',
+            summary: 'Prime Minister Mark Carney has called special elections in three federal districts, a strategic move that could hand the Liberals a majority government if they sweep all three seats. The byelections are a critical test of whether Carney\'s early popularity as PM translates into actual ballot-box support. With Parliament sitting as a minority, every seat matters, and the Liberals are betting that Carney\'s honeymoon period and the rally-around-the-flag effect of the Iran war will carry them to victory. The NDP and Conservatives are expected to campaign hard, framing the races as a referendum on Liberal governance rather than a personal vote on Carney\'s appeal.',
+            tags: ['Carney', 'byelections', 'majority government', 'Liberals', 'Parliament'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/carney-byelection-terrebonne-scarborough-southwest-university-rosedale-ndp-conservatives-9.7119497' }
+                { title: 'AP News', url: 'https://apnews.com/article/carney-liberals-election-majority-parliament-1b165c66e00a9f76b0072b815a458d5f' },
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/voting-ndp-leadership-race-convention-9.7119241' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'U.S. Customs Searched Record Number of Electronic Devices Last Year',
-            summary: 'U.S. customs officers conducted a record number of searches of electronic devices belonging to travellers last year, and a recent update to their directives expands the list of searchable items to include smartwatches, SIM cards, and flash drives. The revelation is particularly alarming for Canadians crossing the border, who are already navigating heightened scrutiny amid the Trump administration\'s aggressive enforcement posture. Privacy advocates warn that the expanded search powers amount to a warrantless invasion of travellers\' digital lives, with virtually no legal recourse available at the border. The news has prompted calls from Canadian officials for clearer guidance to travellers about their rights and what to expect at U.S. ports of entry.',
-            tags: ['U.S. customs', 'device searches', 'privacy', 'border', 'travel'],
+            headline: 'Voting Begins for New Federal NDP Leader',
+            summary: 'Voting has officially opened in the federal NDP leadership race, as the party looks to choose a successor who can rebuild its brand and challenge both the Liberals and Conservatives. The race comes at a pivotal moment for the NDP, which is trying to carve out a distinct identity under a new leader while navigating the political complexities of the Iran war and a shifting economic landscape. Candidates have debated issues from housing affordability to pharmacare, with the party\'s activist base pushing for a more aggressive progressive platform. The outcome will shape the NDP\'s strategy heading into potential byelections and an eventual general election, with the winner needing to quickly unify the party and raise its national profile.',
+            tags: ['NDP', 'leadership race', 'federal politics', 'voting', 'progressive'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/united-states-customs-border-protection-phone-search-9.7118271' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/voting-ndp-leadership-race-convention-9.7119241' }
             ]
         },
         {
             id: 'cdnpol-3',
-            headline: 'Critics Say Ottawa\'s Sustainable Jobs Plan Offers No New Support for Energy Workers',
-            summary: 'Ottawa\'s newly released sustainable jobs action plan is drawing sharp criticism from labour groups and opposition parties who say it offers no meaningful new support for energy workers facing the transition away from fossil fuels. The plan, which was supposed to deliver on the Liberal government\'s promise of a "just transition," has been described as a repackaging of existing programs rather than the bold new investment workers were expecting. Alberta and Saskatchewan politicians have been particularly vocal, arguing that the plan ignores the economic realities facing oil and gas communities. The backlash puts Carney in a difficult position as he tries to balance climate commitments with the political imperative of not alienating resource-dependent provinces ahead of a possible election.',
-            tags: ['sustainable jobs', 'energy transition', 'labour', 'climate', 'Alberta'],
+            headline: 'Carney Government Proposes Parliamentary Debate on Iran War',
+            summary: 'The Carney government has proposed a formal House of Commons debate on Canada\'s role in the Iran war, a move that could force all parties to publicly state their positions on the conflict. The proposal comes as Canadians grow increasingly anxious about the war\'s economic fallout — particularly soaring energy prices — and its implications for Canadian troops and diplomats in the region. Opposition parties have called for greater transparency about Canada\'s military contributions and diplomatic strategy, and a debate would provide a forum for those questions. The motion also tests the dynamics of Carney\'s minority Parliament, where he\'ll need opposition support to pass any meaningful resolutions on the conflict.',
+            tags: ['Carney', 'Iran war', 'Parliament', 'debate', 'foreign policy'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/sustainable-jobs-action-plan-just-transition-9.7116866' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-carney-government-debate-iran-war-house-leader/' }
             ]
         }
     ],
@@ -112,32 +113,32 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Federal Judge Rules Trump\'s Actions to Dismantle Voice of America Are Illegal',
-            summary: 'A federal judge has ruled that the Trump administration\'s efforts to dismantle Voice of America — the U.S. government\'s international broadcasting service — are illegal, delivering a sharp rebuke to the White House\'s campaign against independent media institutions. The ruling blocks the administration from further gutting the agency, which Trump has long accused of liberal bias. VOA, led by controversial appointee Kari Lake, has seen mass firings, editorial interference, and budget slashing under the current administration. Press freedom advocates hailed the ruling as a critical defence of independent journalism, while the White House signalled it would appeal. The case is the latest in a growing list of judicial checks on Trump\'s executive overreach.',
-            tags: ['Voice of America', 'press freedom', 'Trump', 'Kari Lake', 'courts'],
+            headline: 'DHS Shutdown Causes Chaos at Airport Security Checkpoints Nationwide',
+            summary: 'Travellers across the United States are encountering hours-long waits at airport security checkpoints as a Department of Homeland Security shutdown disrupts TSA operations. The staffing crisis has left checkpoints understaffed at major airports, with some passengers reporting missing flights due to the delays. The shutdown stems from a congressional budget impasse that has left DHS without funding, and there\'s no clear timeline for resolution. Airlines are urging passengers to arrive at least three hours early for domestic flights, while lawmakers trade blame over the funding gridlock. The disruption highlights the real-world consequences of Washington\'s political dysfunction, hitting millions of ordinary travellers during what is already a stressful travel season.',
+            tags: ['DHS shutdown', 'TSA', 'airports', 'travel delays', 'Congress'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/voice-of-america-kari-lake-press-freedom-7e9257d1a69907e1bb7489dfd32de833' }
+                { title: 'AP News', url: 'https://apnews.com/article/airports-long-lines-tsa-be150ad677e71fe5fd5fecf57ba12a52' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'Trump\'s FDA Vaccine Chief Leaves for Second Time Amid Administration Turmoil',
-            summary: 'The Trump administration\'s embattled FDA vaccine chief Vinay Prasad is leaving the agency for the second time, capping a chaotic tenure marked by clashes with career scientists and controversy over the administration\'s skeptical approach to vaccine regulation. Prasad\'s departure comes as public health experts warn that the administration\'s anti-vaccine rhetoric and policy decisions are undermining confidence in routine immunizations. The revolving door at the FDA reflects broader instability across Trump\'s health agencies, which have seen unprecedented turnover as political appointees clash with established scientific processes. The vacancy leaves critical vaccine oversight in limbo at a time when seasonal flu and COVID booster campaigns are being planned.',
-            tags: ['FDA', 'vaccines', 'Vinay Prasad', 'Trump', 'public health'],
+            headline: 'Trump\'s "Roaring" Economy Meets a Rough Start to 2026',
+            summary: 'Despite President Trump\'s insistence that the American economy is "roaring," the latest numbers paint a grimmer picture as 2026 gets underway. Oil prices driven sky-high by the Iran war are pushing gas costs up sharply, inflation remains stubbornly above target, and consumer confidence is dropping. The jobs picture, while still technically strong, is softening in key sectors as businesses brace for the economic ripple effects of war and lingering tariffs. Trump continues to dismiss the headwinds, rejecting calls to tap the Strategic Petroleum Reserve and blaming negative indicators on media bias. Economists warn that if the conflict drags on, the combination of energy costs and trade disruptions could tip the economy into a genuine slowdown.',
+            tags: ['economy', 'inflation', 'oil prices', 'Trump', 'recession risk'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/vinay-prasad-fda-trump-vaccine-moderna-fired-bf56fe9852def8c9f1b9a648e5bb92df' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-economy-iran-inflation-jobs-gas-prices-7fbd5e99e3b6023963dd3de226aee4e4' }
             ]
         },
         {
             id: 'uspol-3',
-            headline: 'Trump\'s "Roaring" Economy Meets a Rough Start to 2026',
-            summary: 'Despite President Trump\'s insistence that the American economy is "roaring," the latest economic data tells a more complicated story as 2026 gets off to a bumpy start. Soaring oil prices driven by the Iran war are pushing gas costs higher, inflation remains stubbornly above target, and consumer confidence is flagging. The jobs picture, while still technically strong, is showing signs of softening in key sectors. Trump continues to downplay the economic headwinds, dismissing concerns about the need to tap the Strategic Petroleum Reserve and blaming any negative indicators on media bias. Economists warn that the combination of war-driven energy costs and lingering tariff impacts could tip the economy into a slowdown if the conflict drags on.',
-            tags: ['economy', 'inflation', 'oil prices', 'jobs', 'Trump'],
+            headline: 'Fox News Apologizes for Airing Old Footage of Hatless Trump at Dignified Transfer',
+            summary: 'Fox News has issued an apology after broadcasting old video footage showing President Trump without a hat at a dignified transfer ceremony at Dover Air Force Base, where fallen service members\' remains are received. The network admitted the editing error was a mistake and not intentional, but the incident has ignited a firestorm on social media and drawn criticism from both sides of the political aisle. The dignified transfer ceremonies have taken on heightened significance during the Iran war, as the number of American casualties mounts. The gaffe is particularly embarrassing for Fox, which has been Trump\'s most reliable media ally, and it underscores the intense scrutiny surrounding every aspect of the president\'s conduct during wartime.',
+            tags: ['Fox News', 'Trump', 'dignified transfer', 'media', 'Iran war'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/trump-economy-iran-inflation-jobs-gas-prices-7fbd5e99e3b6023963dd3de226aee4e4' }
+                { title: 'AP News', url: 'https://apnews.com/article/baseball-cap-fox-news-trump-dover-dignified-transfer-29a8f2c1a4a6b2218d18daa2eb5109d9' }
             ]
         }
     ],
@@ -145,34 +146,33 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'Meta to Temporarily Allow Rival AI Chatbots on WhatsApp in the EU',
-            summary: 'Meta has announced it will temporarily allow competing AI chatbots on WhatsApp in the European Union, reversing its previous policy of blocking rival services like ChatGPT and Copilot from the platform. The move is a strategic concession to appease European Commission antitrust regulators who have been scrutinizing Meta\'s dominance in messaging. Meta says it will support "general purpose AI chatbots using the WhatsApp Business API in Europe" for 12 months, though competitors will need to pay a fee for access. The decision highlights how EU regulatory pressure continues to force Big Tech companies into opening up their platforms — a dynamic that could eventually benefit consumers through greater choice and competition in AI assistants.',
-            tags: ['Meta', 'WhatsApp', 'AI chatbots', 'EU regulation', 'antitrust'],
+            headline: 'Microsoft Brings Anthropic\'s Claude Cowork to Copilot for Multi-Step AI Tasks',
+            summary: 'Microsoft is integrating Anthropic\'s Claude Cowork feature into its Copilot assistant, a significant collaboration aimed at helping users perform long-running, multi-step tasks. The integration was built in close partnership with Anthropic and represents a notable shift in the AI competitive landscape, with Microsoft embracing a rival\'s technology to enhance its own product. The Cowork feature is designed to handle complex workflows that go beyond simple question-and-answer interactions, such as research projects, document analysis, and code reviews. It\'s currently in testing and will be available to preview later this month through Microsoft\'s Frontier program. The partnership signals that the AI industry may be moving toward more interoperability between competing systems.',
+            tags: ['Microsoft', 'Anthropic', 'Claude', 'Copilot', 'AI agents'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/news/829808/chatgpt-copilot-ai-llm-leaving-whatsapp-meta' },
-                { title: 'Reuters', url: 'https://www.reuters.com/legal/litigation/meta-allow-ai-rivals-whatsapp-bid-stave-off-eu-action-2026-03-05/' }
+                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence/860730/anthropic-cowork-feature-ai-agents-claude-code' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'Epic v. Google Supreme Court Case Withdrawn as Both Sides Agree to Dismiss',
-            summary: 'The long-running Epic v. Google antitrust case will not be going to the Supreme Court after all, with both companies filing a joint agreement to dismiss the appeal. The landmark case, which resulted in a jury finding that Google\'s app store practices were anticompetitive, had been closely watched as a potential precedent-setter for how app marketplaces operate. Google recently agreed to reduce its app store fees to 20% as part of ongoing remedies, and the mutual withdrawal suggests both sides see more benefit in settling their differences outside the highest court. The dismissal closes one chapter but the broader fight over app store economics — affecting developers, consumers, and platform gatekeepers alike — is far from over.',
-            tags: ['Epic', 'Google', 'antitrust', 'Supreme Court', 'app stores'],
+            headline: 'Qualcomm Unveils Arduino Ventuno Q Board for Robots and AI',
+            summary: 'Following its acquisition of Arduino last October, Qualcomm has announced the Arduino Ventuno Q, a new single-board computer designed for building autonomous robots and AI-powered machines. The board is powered by a Dragonwing IQ8 processor with 16GB of RAM and a 40 TOPS neural processing unit, making it a serious contender for edge AI applications. Pricing and availability haven\'t been confirmed yet, but the specs position it as a significant step up from hobby-grade boards. The Ventuno Q is designed to process input from connected sensors and enable machines to function autonomously, targeting the growing market for robotics development platforms that bridge the gap between prototyping and production-ready hardware.',
+            tags: ['Qualcomm', 'Arduino', 'robotics', 'AI hardware', 'edge computing'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/policy/889252/google-app-store-fee-reduction-20-percent-epic-v-google' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
+                { title: 'Arduino Blog', url: 'https://blog.arduino.cc/2026/03/09/introducing-arduino-ventuno-q-your-new-ai-robotics-and-actuation-platform/' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'OpenAI Launches Codex Security Agent and Expands Open Source Fund',
-            summary: 'OpenAI has launched Codex Security, a new AI agent in research preview that\'s designed to identify and fix application security vulnerabilities, alongside an expansion of its Codex Open Source Fund to include conditional access to the security tool. The Codex Security agent represents OpenAI\'s push into the lucrative and critical field of automated security auditing, where AI could dramatically speed up the process of finding and patching bugs before they\'re exploited. Separately, OpenAI confirmed it\'s delaying the controversial ChatGPT "adult mode" to focus on intelligence gains, personalization, and making the experience more proactive. The moves suggest OpenAI is doubling down on developer-facing tools and enterprise features as its primary growth strategy.',
-            tags: ['OpenAI', 'Codex', 'security', 'open source', 'AI developer tools'],
+            headline: 'Apple Launches $599 iPhone 17e and New MacBook in Budget-Friendly Push',
+            summary: 'Apple has kicked off what it\'s calling a "big week" with the launch of two $599 devices aimed squarely at budget-conscious buyers: the iPhone 17e and an updated entry-level MacBook. The dual launch signals Apple\'s recognition that not every customer wants a $1,000+ flagship, especially as inflation and economic uncertainty squeeze consumer spending. The iPhone 17e slots in as Apple\'s most affordable current-generation iPhone while still including key features like the latest A-series chip and improved cameras. The new MacBook targets students and first-time buyers with a competitive price point for Apple silicon. Both launches come as Apple navigates a complicated global market disrupted by the Iran war and tariff uncertainty.',
+            tags: ['Apple', 'iPhone 17e', 'MacBook', 'budget devices', 'consumer tech'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
-                { title: 'OpenAI', url: 'https://openai.com/index/codex-security-now-in-research-preview/' }
+                { title: 'AP News', url: 'https://apnews.com/article/apple-iphone17e-macbook-monitors-ipad-e52b1d9b4df4c0bc6b40b11dc155450b' }
             ]
         }
     ]
