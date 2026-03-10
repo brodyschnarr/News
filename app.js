@@ -4,41 +4,41 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Monday, March 9, 2026',
+    date: 'Tuesday, March 10, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'Iran Names Mojtaba Khamenei as New Supreme Leader as Oil Surges Past $100',
-            summary: 'Iran has named Mojtaba Khamenei — son of the late Ayatollah Ali Khamenei — as its new Supreme Leader, signalling that hardliners remain firmly in control even as the country endures devastating strikes on its energy infrastructure. Oil prices surged past $100 a barrel and briefly spiked near $120 before pulling back, as strikes on oil facilities across the Middle East and fears over Strait of Hormuz shipping rattled global markets. Wall Street futures slumped and investor sentiment continues to slide as the conflict shows no sign of abating. The G7 is now discussing tapping strategic oil reserves as Iran vows to use surging prices as leverage against the Western coalition.',
-            tags: ['Iran war', 'Mojtaba Khamenei', 'oil prices', 'Supreme Leader', 'Middle East'],
+            headline: 'Hegseth Vows "Most Intense Day of Strikes" on Iran as Tehran Targets Gulf States',
+            summary: 'U.S. Secretary of War Pete Hegseth has warned that today will be the "most intense day of strikes inside Iran" yet, as the conflict enters its eleventh day with no sign of a ceasefire. Iran\'s parliament speaker declared the country is "definitely not looking for a ceasefire," while Iranian forces launched barrages targeting both Israel and Gulf state nations. Tehran has threatened to block oil shipments from the Persian Gulf unless U.S. and Israeli attacks cease, weaponizing energy exports as global markets reel. Oil prices remain volatile, with the TSX rising on gold gains even as crude dipped on Trump\'s conflicting comments about ending the war. The escalation has drawn Australia into the conflict, with Prime Minister Albanese announcing defensive military assistance to Gulf nations.',
+            tags: ['Iran war', 'Hegseth', 'Gulf states', 'oil prices', 'Middle East'],
             category: 'top-stories',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/livestory/iran-israel-us-war-day-10-9.7119190' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-mojtaba-khamenei-new-supreme-leader/' },
-                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-khamenei-03-09-2026' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/livestory/iran-israel-us-war-day-11-9.7119190' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-war-us-israel-strikes-oil-exports-trump/' },
+                { title: 'AP News', url: 'https://apnews.com/article/iran-israel-us-march-10-2026-acf2af139d179fbef62927a8bf9bea55' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'NATO Shoots Down Second Iranian Ballistic Missile Entering Turkey\'s Airspace',
-            summary: 'NATO intercepted and shot down a second Iranian ballistic missile that entered Turkish airspace, a dramatic escalation that draws the Western military alliance closer to direct confrontation with Tehran. The incident underscores how the Iran war is spilling beyond the Middle East and testing NATO\'s collective defence commitments under Article 5. Turkey, which shares a border with Iran, finds itself in an increasingly precarious position as missiles and debris threaten its territory. Meanwhile, Israel has begun ground raids in Lebanon, opening yet another front in a conflict that continues to widen. The missile interception has intensified diplomatic pressure on all sides, with calls for ceasefire negotiations growing louder even as military operations escalate.',
-            tags: ['NATO', 'Turkey', 'Iran', 'ballistic missile', 'Article 5'],
+            headline: 'Family of Tumbler Ridge Shooting Victim Sues OpenAI',
+            summary: 'The parents of a 12-year-old injured in the Tumbler Ridge, B.C. mass shooting have filed a lawsuit against OpenAI, alleging the company had specific knowledge that the shooter was using ChatGPT to plan a mass casualty event. The legal claim asserts that OpenAI failed to act on warning signs and bears responsibility for the harm caused. The case could set a major precedent for AI liability, testing whether companies can be held accountable when their tools are used to facilitate violence. It comes amid growing scrutiny of AI safety practices across the industry and adds to mounting legal pressure on OpenAI from multiple jurisdictions. The Tumbler Ridge shooting shocked Canada and reignited debates about both gun control and the unintended consequences of powerful AI systems.',
+            tags: ['OpenAI', 'Tumbler Ridge', 'AI liability', 'lawsuit', 'mass shooting'],
             category: 'top-stories',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-war-nato-turkey/' },
-                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-khamenei-03-09-2026' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/british-columbia/openai-sued-tumbler-ridge-victim-9.7121635' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/british-columbia/article-family-of-12-year-old-injured-in-tumbler-ridge-mass-shooting-sues/' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'Live Nation and DOJ Reach Settlement in Ticketmaster Antitrust Case',
-            summary: 'Live Nation and the U.S. Department of Justice have reached a settlement in the landmark antitrust case that accused the entertainment giant of operating an illegal monopoly through its Ticketmaster subsidiary. The deal reportedly allows Live Nation to keep Ticketmaster but requires significant concessions around exclusive venue contracts and amphitheatre usage. Some state attorneys general may still push ahead with their own cases regardless of the federal settlement. The resolution comes after the trial began last week following a failed bid by Live Nation to have the lawsuit dismissed entirely. The settlement is a mixed result for consumers who hoped the case would force a breakup of the ticketing behemoth that has long been blamed for sky-high concert prices and service fees.',
-            tags: ['Live Nation', 'Ticketmaster', 'antitrust', 'DOJ', 'settlement'],
+            headline: 'Pre-War U.S. Intel Found Iran Intervention Unlikely to Change Leadership',
+            summary: 'A newly revealed pre-war U.S. intelligence assessment concluded that military intervention in Iran was unlikely to change the country\'s leadership, raising serious questions about the strategic rationale for the ongoing strikes. The assessment, which predates the current conflict, found that Iran\'s political establishment was resilient enough to survive external military pressure, and that regime change would require far more than airstrikes alone. The revelation comes as Trump delivers mixed messages about ending the war, at one point saying it could be over soon while insisting the U.S. hasn\'t "won enough" yet. Critics are seizing on the intelligence report as evidence that the administration pursued military action despite its own analysts warning it wouldn\'t achieve its stated goals.',
+            tags: ['Iran war', 'intelligence', 'regime change', 'Trump', 'foreign policy'],
             category: 'top-stories',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/entertainment/live-nation-doj-settlement-9.7120378' },
-                { title: 'AP News', url: 'https://apnews.com/article/livenation-antitrust-justice-department-0a6ef66f497e5f626096de753bfff8ce' }
+                { title: 'AP News', url: 'https://apnews.com/article/iran-intelligence-assessment-trump-ad20c1f1168d4318af516d7b19d372e7' },
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/trump-iran-war-9.7121478' }
             ]
         }
     ],
@@ -46,32 +46,32 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Canadian Military Personnel Identified on White Supremacist Dating Site',
-            summary: 'A CBC News visual investigation has revealed that members of the Canadian Armed Forces are among the profiles leaked from a whites-only dating website that promoted white supremacist ideology. The discovery raises serious questions about the military\'s ability to identify and root out extremism within its ranks, an issue that has plagued the institution for years despite repeated pledges to address it. The leaked profiles were cross-referenced with publicly available information to confirm the identities of serving members. Defence experts say the findings underscore the need for more aggressive screening and monitoring, while civil liberties advocates caution that any crackdown must respect due process and privacy rights.',
-            tags: ['Canadian military', 'white supremacy', 'extremism', 'Armed Forces', 'investigation'],
+            headline: 'Canadian Coast Guard Captain Fired for Ignoring Distress Call',
+            summary: 'A Canadian Coast Guard captain has been fired after a labour board found he "willfully" ignored a maritime distress call, a serious dereliction of duty that put lives at risk. The former captain maintains he did nothing wrong and says he was "railroaded" by the process, but the labour board sided with the Coast Guard\'s decision to terminate him. The case highlights the critical importance of distress response protocols at sea and the consequences of failing to follow them. Maritime safety advocates say the firing sends a strong message, though the former captain is reportedly considering an appeal. The incident has renewed scrutiny of Coast Guard training and oversight practices across the country.',
+            tags: ['Coast Guard', 'distress call', 'maritime safety', 'firing', 'labour board'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/whitedate-canada-military-9.7117307' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/canadian-coast-guard-captain-fired-9.7117840' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Alberta Schools Pull More Than 160 Titles Under Ban on Explicit Images',
-            summary: 'Alberta school divisions complying with a provincial order have removed more than 160 titles from their shelves, ranging from illustrated versions of literary classics to coming-of-age memoirs and dramatic retellings of mythology. The ban targets books containing explicit images of sexual acts, but critics say the dragnet approach has swept up acclaimed graphic novels that deal thoughtfully with identity, history, and adolescence. Access to information requests reveal the full scope of the removals for the first time, sparking fierce debate over where to draw the line between protecting children and censoring important literary works. Educators and librarians warn that the ban is having a chilling effect on what teachers feel comfortable including in their curricula.',
-            tags: ['Alberta', 'book ban', 'schools', 'graphic novels', 'censorship'],
+            headline: 'Ontario Braces for Freezing Rain with Flood and Power Outage Risks',
+            summary: 'Ontario is preparing for a major winter storm expected to bring widespread freezing rain, significant flood risks, and potentially prolonged power outages across the province. Emergency officials are warning residents to stock up on essentials and prepare for the possibility of being without electricity for an extended period. The storm system is forecast to coat large areas with a dangerous layer of ice, weighing down power lines and tree branches. Municipal crews are on standby for flood mitigation as the combination of ice melt and rainfall could overwhelm drainage systems. The timing is particularly concerning as the province is still dealing with the economic fallout of the Iran war and elevated energy prices, making any disruption to heating and transportation even more consequential for vulnerable populations.',
+            tags: ['Ontario', 'winter storm', 'freezing rain', 'power outages', 'flooding'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/edmonton/alberta-school-book-ban-order-graphic-novels-9.7118495' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-ontario-storm-freezing-rain-flood-power-outage-risk/' }
             ]
         },
         {
             id: 'cdn-3',
-            headline: 'Ontario Premier Defends Health-Care Record as Hospitals Warn of Financial Crisis',
-            summary: 'Ontario Premier Doug Ford is defending his government\'s health-care spending record as hospitals across the province warn that a financial crisis is looming. Hospital administrators say years of underfunding, compounded by inflation and surging demand, have pushed the system to a breaking point where facilities may be forced to cut services or close beds. Ford insists his government has invested record amounts in health care, but critics point out that per-capita spending has actually declined when adjusted for inflation and population growth. The clash comes at a politically sensitive time as health care consistently ranks as the top concern for Ontario voters, and opposition parties are seizing on the hospital warnings as evidence of government failure.',
-            tags: ['Ontario', 'health care', 'hospitals', 'Doug Ford', 'funding'],
+            headline: 'Port of Vancouver Hits Record Cargo Volumes Driven by Non-U.S. Trade',
+            summary: 'The Port of Vancouver has posted record cargo volumes for 2025, with the surge driven primarily by trade with countries other than the United States. The milestone reflects Canada\'s accelerating efforts to diversify its trade relationships away from its southern neighbour, a strategic shift that has gained urgency amid ongoing tariff disputes and political tensions with Washington. The port handled unprecedented volumes of goods flowing to and from Asian and European markets, underscoring British Columbia\'s growing importance as a Pacific trade gateway. Industry officials say continued investment in port infrastructure will be essential to maintain the momentum, while the record also highlights how geopolitical disruptions — including the Iran war — are reshaping global shipping routes in Canada\'s favour.',
+            tags: ['Port of Vancouver', 'trade diversification', 'cargo', 'British Columbia', 'exports'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/toronto/doug-ford-health-care-spending-9.7116136' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/british-columbia/port-vancouver-2025-cargo-volumes-9.7121516' }
             ]
         }
     ],
@@ -79,33 +79,32 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'Carney Calls Special Elections for Three Ridings That Could Deliver Majority Government',
-            summary: 'Prime Minister Mark Carney has called special elections in three federal districts, a strategic move that could hand the Liberals a majority government if they sweep all three seats. The byelections are a critical test of whether Carney\'s early popularity as PM translates into actual ballot-box support. With Parliament sitting as a minority, every seat matters, and the Liberals are betting that Carney\'s honeymoon period and the rally-around-the-flag effect of the Iran war will carry them to victory. The NDP and Conservatives are expected to campaign hard, framing the races as a referendum on Liberal governance rather than a personal vote on Carney\'s appeal.',
-            tags: ['Carney', 'byelections', 'majority government', 'Liberals', 'Parliament'],
+            headline: 'Carney to Face Commons After Criticism He\'s Hiding From Middle East Debate',
+            summary: 'Prime Minister Mark Carney is set to face the House of Commons today after drawing sharp criticism for skipping Monday night\'s take-note debate on the hostilities in the Middle East and Canada\'s response. Opposition parties accused Carney of ducking accountability on the country\'s most pressing foreign policy crisis, and the optics of his absence were particularly damaging given the escalating Iran war. The PM\'s office says he will address the House directly, but the episode has dented Carney\'s carefully cultivated image as a steady, transparent leader. The debate also exposed divisions within Parliament over how aggressively Canada should be involved in the conflict and whether the government has been forthcoming about its commitments in the region.',
+            tags: ['Carney', 'Commons', 'Middle East', 'Iran war', 'accountability'],
             category: 'canadian-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/carney-liberals-election-majority-parliament-1b165c66e00a9f76b0072b815a458d5f' },
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/voting-ndp-leadership-race-convention-9.7119241' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-mark-carney-commons-debate-middle-east/' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'Voting Begins for New Federal NDP Leader',
-            summary: 'Voting has officially opened in the federal NDP leadership race, as the party looks to choose a successor who can rebuild its brand and challenge both the Liberals and Conservatives. The race comes at a pivotal moment for the NDP, which is trying to carve out a distinct identity under a new leader while navigating the political complexities of the Iran war and a shifting economic landscape. Candidates have debated issues from housing affordability to pharmacare, with the party\'s activist base pushing for a more aggressive progressive platform. The outcome will shape the NDP\'s strategy heading into potential byelections and an eventual general election, with the winner needing to quickly unify the party and raise its national profile.',
-            tags: ['NDP', 'leadership race', 'federal politics', 'voting', 'progressive'],
+            headline: 'MPs Demand Answers on Failure to Deport Iranian Regime Officials',
+            summary: 'Members of Parliament are demanding answers from immigration and border officials after revelations that suspected Iranian regime officials living in Canada have not been deported despite being identified. The failure has sparked outrage across party lines, with MPs questioning how individuals linked to a government Canada is effectively in conflict with are being allowed to remain in the country. Critics say the situation exposes a systemic weakness in Canada\'s immigration enforcement that has persisted for years. The issue has taken on new urgency given the ongoing Iran war, with some MPs arguing that the presence of regime-connected individuals poses a potential security risk. Officials are expected to testify before a parliamentary committee in the coming days.',
+            tags: ['immigration', 'Iran officials', 'deportation', 'Parliament', 'national security'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/voting-ndp-leadership-race-convention-9.7119241' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-immigration-border-officials-criticized-for-not-deporting-suspected/' }
             ]
         },
         {
             id: 'cdnpol-3',
-            headline: 'Carney Government Proposes Parliamentary Debate on Iran War',
-            summary: 'The Carney government has proposed a formal House of Commons debate on Canada\'s role in the Iran war, a move that could force all parties to publicly state their positions on the conflict. The proposal comes as Canadians grow increasingly anxious about the war\'s economic fallout — particularly soaring energy prices — and its implications for Canadian troops and diplomats in the region. Opposition parties have called for greater transparency about Canada\'s military contributions and diplomatic strategy, and a debate would provide a forum for those questions. The motion also tests the dynamics of Carney\'s minority Parliament, where he\'ll need opposition support to pass any meaningful resolutions on the conflict.',
-            tags: ['Carney', 'Iran war', 'Parliament', 'debate', 'foreign policy'],
+            headline: 'First Nations Leaders Rally Against Separatism at Alberta Legislature',
+            summary: 'First Nations leaders gathered at the Alberta legislature to voice strong opposition to the province\'s separatist movement, asserting that Indigenous peoples have treaty rights with the Crown that would be fundamentally jeopardized by any bid to leave Confederation. The rally sends a powerful message to Alberta\'s political establishment at a time when separatist sentiment has been simmering over federal energy and climate policies. Indigenous leaders argued that their nations were not consulted about separation and would not consent to it, invoking constitutional protections and the duty to consult. The demonstration adds a significant constitutional dimension to the separatism debate that proponents have largely failed to address, and bolsters the argument that leaving Canada would be far more legally and politically complicated than advocates suggest.',
+            tags: ['First Nations', 'Alberta', 'separatism', 'treaty rights', 'Indigenous'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-carney-government-debate-iran-war-house-leader/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/alberta/article-first-nations-leaders-show-opposition-to-separatism-at-alberta/' }
             ]
         }
     ],
@@ -113,32 +112,32 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'DHS Shutdown Causes Chaos at Airport Security Checkpoints Nationwide',
-            summary: 'Travellers across the United States are encountering hours-long waits at airport security checkpoints as a Department of Homeland Security shutdown disrupts TSA operations. The staffing crisis has left checkpoints understaffed at major airports, with some passengers reporting missing flights due to the delays. The shutdown stems from a congressional budget impasse that has left DHS without funding, and there\'s no clear timeline for resolution. Airlines are urging passengers to arrive at least three hours early for domestic flights, while lawmakers trade blame over the funding gridlock. The disruption highlights the real-world consequences of Washington\'s political dysfunction, hitting millions of ordinary travellers during what is already a stressful travel season.',
-            tags: ['DHS shutdown', 'TSA', 'airports', 'travel delays', 'Congress'],
+            headline: 'Justices Jackson and Kavanaugh Publicly Spar Over Supreme Court Orders Favoring Trump',
+            summary: 'In a rare public exchange, Supreme Court Justices Ketanji Brown Jackson and Brett Kavanaugh sparred openly over the court\'s recent pattern of issuing emergency orders that have consistently favored the Trump administration. Speaking on a shared stage, Jackson questioned whether the court\'s "shadow docket" was being used to circumvent normal legal processes, while Kavanaugh defended the orders as appropriate exercises of judicial authority in urgent circumstances. The exchange highlights the deepening ideological rift on the bench and the growing controversy over how the court handles emergency appeals. Legal scholars say the public disagreement is extraordinary and reflects genuine institutional tension over whether the court is maintaining its independence or being drawn into partisan governance.',
+            tags: ['Supreme Court', 'Jackson', 'Kavanaugh', 'shadow docket', 'Trump'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/airports-long-lines-tsa-be150ad677e71fe5fd5fecf57ba12a52' }
+                { title: 'AP News', url: 'https://apnews.com/article/supreme-court-kavanaugh-jackson-emergency-appeals-84fa9402f5b449316d2cd28bdda1d06b' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'Trump\'s "Roaring" Economy Meets a Rough Start to 2026',
-            summary: 'Despite President Trump\'s insistence that the American economy is "roaring," the latest numbers paint a grimmer picture as 2026 gets underway. Oil prices driven sky-high by the Iran war are pushing gas costs up sharply, inflation remains stubbornly above target, and consumer confidence is dropping. The jobs picture, while still technically strong, is softening in key sectors as businesses brace for the economic ripple effects of war and lingering tariffs. Trump continues to dismiss the headwinds, rejecting calls to tap the Strategic Petroleum Reserve and blaming negative indicators on media bias. Economists warn that if the conflict drags on, the combination of energy costs and trade disruptions could tip the economy into a genuine slowdown.',
-            tags: ['economy', 'inflation', 'oil prices', 'Trump', 'recession risk'],
+            headline: 'Alexander Brothers Convicted of Sex Trafficking in Case That Shocked Real Estate World',
+            summary: 'The Alexander brothers have been convicted of sex trafficking in a case that sent shockwaves through the real estate industry where they were prominent figures. The trial revealed a pattern of exploitation and abuse that prosecutors say was enabled by the brothers\' wealth and social connections. The conviction marks the end of a high-profile case that drew comparisons to other recent scandals involving powerful men using their status to prey on vulnerable individuals. Victims who testified described a system of coercion and control that operated behind the facade of luxury real estate dealings. The case has prompted calls for greater accountability in industries where wealth and influence can be used to silence victims and evade scrutiny.',
+            tags: ['sex trafficking', 'Alexander brothers', 'real estate', 'conviction', 'crime'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/trump-economy-iran-inflation-jobs-gas-prices-7fbd5e99e3b6023963dd3de226aee4e4' }
+                { title: 'AP News', url: 'https://apnews.com/article/alexander-brothers-sex-trafficking-trial-b63be68c654dd8d3d6359707c2f02c65' }
             ]
         },
         {
             id: 'uspol-3',
-            headline: 'Fox News Apologizes for Airing Old Footage of Hatless Trump at Dignified Transfer',
-            summary: 'Fox News has issued an apology after broadcasting old video footage showing President Trump without a hat at a dignified transfer ceremony at Dover Air Force Base, where fallen service members\' remains are received. The network admitted the editing error was a mistake and not intentional, but the incident has ignited a firestorm on social media and drawn criticism from both sides of the political aisle. The dignified transfer ceremonies have taken on heightened significance during the Iran war, as the number of American casualties mounts. The gaffe is particularly embarrassing for Fox, which has been Trump\'s most reliable media ally, and it underscores the intense scrutiny surrounding every aspect of the president\'s conduct during wartime.',
-            tags: ['Fox News', 'Trump', 'dignified transfer', 'media', 'Iran war'],
+            headline: 'Anthropic Sues Trump Administration Over "Supply Chain Risk" Designation',
+            summary: 'AI company Anthropic has filed a lawsuit against the Trump administration, seeking to overturn a "supply chain risk" designation imposed by the Pentagon under Secretary Hegseth\'s direction. The designation effectively restricts Anthropic\'s ability to work with government contractors and could cut the company off from significant revenue streams. Anthropic argues the designation is politically motivated and lacks any legitimate national security basis, calling it an abuse of regulatory power. The case raises fundamental questions about the government\'s authority to blacklist American technology companies and the growing politicization of AI policy. Industry observers see the lawsuit as a test case that could determine how much power the executive branch has to pick winners and losers in the rapidly evolving AI sector.',
+            tags: ['Anthropic', 'Trump', 'Pentagon', 'AI policy', 'lawsuit'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/baseball-cap-fox-news-trump-dover-dignified-transfer-29a8f2c1a4a6b2218d18daa2eb5109d9' }
+                { title: 'AP News', url: 'https://apnews.com/article/anthropic-trump-pentagon-hegseth-ai-104c6c39306f1adeea3b637d2c1c601b' }
             ]
         }
     ],
@@ -146,33 +145,32 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'Microsoft Brings Anthropic\'s Claude Cowork to Copilot for Multi-Step AI Tasks',
-            summary: 'Microsoft is integrating Anthropic\'s Claude Cowork feature into its Copilot assistant, a significant collaboration aimed at helping users perform long-running, multi-step tasks. The integration was built in close partnership with Anthropic and represents a notable shift in the AI competitive landscape, with Microsoft embracing a rival\'s technology to enhance its own product. The Cowork feature is designed to handle complex workflows that go beyond simple question-and-answer interactions, such as research projects, document analysis, and code reviews. It\'s currently in testing and will be available to preview later this month through Microsoft\'s Frontier program. The partnership signals that the AI industry may be moving toward more interoperability between competing systems.',
-            tags: ['Microsoft', 'Anthropic', 'Claude', 'Copilot', 'AI agents'],
+            headline: 'Google Adds Toggle to Disable AI-Powered Search in Photos',
+            summary: 'Google is rolling out a new toggle in Google Photos that lets users choose between the classic search experience and the AI-powered "Ask Photos" mode powered by Gemini. The move comes after the AI search feature had a rocky launch plagued by speed and accuracy issues, and users have been vocal about wanting more control over their search results. Google Photos lead Shimrit Ben-Yair confirmed the change, saying the team listened to feedback from users who preferred the reliability of traditional search. The toggle represents a broader trend in the tech industry of giving users opt-out mechanisms for AI features rather than forcing adoption. It\'s a notable concession from Google, which has been aggressively pushing AI integration across all its products.',
+            tags: ['Google', 'Photos', 'AI search', 'Gemini', 'user control'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence/860730/anthropic-cowork-feature-ai-agents-claude-code' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'Qualcomm Unveils Arduino Ventuno Q Board for Robots and AI',
-            summary: 'Following its acquisition of Arduino last October, Qualcomm has announced the Arduino Ventuno Q, a new single-board computer designed for building autonomous robots and AI-powered machines. The board is powered by a Dragonwing IQ8 processor with 16GB of RAM and a 40 TOPS neural processing unit, making it a serious contender for edge AI applications. Pricing and availability haven\'t been confirmed yet, but the specs position it as a significant step up from hobby-grade boards. The Ventuno Q is designed to process input from connected sensors and enable machines to function autonomously, targeting the growing market for robotics development platforms that bridge the gap between prototyping and production-ready hardware.',
-            tags: ['Qualcomm', 'Arduino', 'robotics', 'AI hardware', 'edge computing'],
+            headline: 'AT&T Announces $250 Billion Network Investment Over Five Years',
+            summary: 'AT&T has announced plans to invest a staggering $250 billion in building out its network infrastructure over the next five years, with the money going toward expanding fiber broadband, 5G home internet, and satellite connectivity across the United States. The company also plans to hire thousands of technicians this year to support the massive buildout. The investment represents one of the largest infrastructure commitments by a single telecom company and comes as competition for broadband customers intensifies. The satellite connectivity component is particularly notable, as it signals AT&T\'s ambition to compete in the growing market for rural and remote internet access. The announcement arrives at a time when reliable internet connectivity is increasingly viewed as essential infrastructure.',
+            tags: ['AT&T', '5G', 'fiber', 'infrastructure', 'telecom'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
-                { title: 'Arduino Blog', url: 'https://blog.arduino.cc/2026/03/09/introducing-arduino-ventuno-q-your-new-ai-robotics-and-actuation-platform/' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'Apple Launches $599 iPhone 17e and New MacBook in Budget-Friendly Push',
-            summary: 'Apple has kicked off what it\'s calling a "big week" with the launch of two $599 devices aimed squarely at budget-conscious buyers: the iPhone 17e and an updated entry-level MacBook. The dual launch signals Apple\'s recognition that not every customer wants a $1,000+ flagship, especially as inflation and economic uncertainty squeeze consumer spending. The iPhone 17e slots in as Apple\'s most affordable current-generation iPhone while still including key features like the latest A-series chip and improved cameras. The new MacBook targets students and first-time buyers with a competitive price point for Apple silicon. Both launches come as Apple navigates a complicated global market disrupted by the Iran war and tariff uncertainty.',
-            tags: ['Apple', 'iPhone 17e', 'MacBook', 'budget devices', 'consumer tech'],
+            headline: 'A Quarter of iPhones Are Now Made in India as Apple Accelerates Shift from China',
+            summary: 'Apple manufactured 55 million iPhones in India in 2025, up from 36 million the previous year, meaning roughly a quarter of all iPhones are now produced in the country. The dramatic acceleration in Indian production follows Apple\'s concerted effort to diversify manufacturing away from China in response to Trump\'s tariffs and broader geopolitical tensions. Apple\'s goal is reportedly to shift all 60 million annual U.S.-bound iPhones to Indian production by the end of this year. The move represents a seismic shift in global electronics manufacturing and a major win for India\'s push to become a tech manufacturing hub. However, analysts note that China still dominates Apple\'s overall supply chain, and the transition faces ongoing challenges around infrastructure, workforce training, and component sourcing.',
+            tags: ['Apple', 'iPhone', 'India', 'manufacturing', 'China'],
             category: 'ai-tech',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/apple-iphone17e-macbook-monitors-ipad-e52b1d9b4df4c0bc6b40b11dc155450b' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
             ]
         }
     ]
