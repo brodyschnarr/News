@@ -4,41 +4,40 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Tuesday, March 10, 2026',
+    date: 'Wednesday, March 11, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'Hegseth Vows "Most Intense Day of Strikes" on Iran as Tehran Targets Gulf States',
-            summary: 'U.S. Secretary of War Pete Hegseth has warned that today will be the "most intense day of strikes inside Iran" yet, as the conflict enters its eleventh day with no sign of a ceasefire. Iran\'s parliament speaker declared the country is "definitely not looking for a ceasefire," while Iranian forces launched barrages targeting both Israel and Gulf state nations. Tehran has threatened to block oil shipments from the Persian Gulf unless U.S. and Israeli attacks cease, weaponizing energy exports as global markets reel. Oil prices remain volatile, with the TSX rising on gold gains even as crude dipped on Trump\'s conflicting comments about ending the war. The escalation has drawn Australia into the conflict, with Prime Minister Albanese announcing defensive military assistance to Gulf nations.',
-            tags: ['Iran war', 'Hegseth', 'Gulf states', 'oil prices', 'Middle East'],
+            headline: 'Iran Shuts Down Strait of Hormuz as Oil Prices Spike and Global Energy Crisis Deepens',
+            summary: 'Iran has effectively stopped all cargo traffic through the Strait of Hormuz, one of the world\'s most critical energy chokepoints, sending oil prices surging past $120 a barrel before Trump\'s comments about a "short-term" war pulled prices back to around $90. The blockade represents Iran\'s most powerful retaliatory weapon against the U.S.-Israeli military campaign, now entering its twelfth day. The IEA has responded by proposing the largest-ever release of oil from strategic reserves to stabilize prices, while China — heavily dependent on Gulf oil — has remained conspicuously on the sidelines despite needing the strait open. The crisis has triggered global shipping disruptions, rattled consumer confidence, and forced G7 energy ministers into emergency consultations as the economic fallout of the war threatens to overshadow the military campaign itself.',
+            tags: ['Iran war', 'Strait of Hormuz', 'oil prices', 'energy crisis', 'IEA'],
             category: 'top-stories',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/livestory/iran-israel-us-war-day-11-9.7119190' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-war-us-israel-strikes-oil-exports-trump/' },
-                { title: 'AP News', url: 'https://apnews.com/article/iran-israel-us-march-10-2026-acf2af139d179fbef62927a8bf9bea55' }
+                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump--03-11-2026' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/industry-news/energy-and-resources/article-iea-reportedly-proposes-largest-ever-oil-release-from-strategic/' },
+                { title: 'AP News', url: 'https://apnews.com/article/iran-us-israel-war-attrition-analysis-5d7e50c3a6da57414bbf4a5e255e4a7e' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'Family of Tumbler Ridge Shooting Victim Sues OpenAI',
-            summary: 'The parents of a 12-year-old injured in the Tumbler Ridge, B.C. mass shooting have filed a lawsuit against OpenAI, alleging the company had specific knowledge that the shooter was using ChatGPT to plan a mass casualty event. The legal claim asserts that OpenAI failed to act on warning signs and bears responsibility for the harm caused. The case could set a major precedent for AI liability, testing whether companies can be held accountable when their tools are used to facilitate violence. It comes amid growing scrutiny of AI safety practices across the industry and adds to mounting legal pressure on OpenAI from multiple jurisdictions. The Tumbler Ridge shooting shocked Canada and reignited debates about both gun control and the unintended consequences of powerful AI systems.',
-            tags: ['OpenAI', 'Tumbler Ridge', 'AI liability', 'lawsuit', 'mass shooting'],
+            headline: 'Iran War Becomes a Contest of Who Can Take the Most Pain',
+            summary: 'A major AP analysis frames the Iran conflict as a war of attrition where both sides are betting the other will break first. For the U.S., the biggest vulnerability is economic: surging gas prices have rattled consumers and financial markets, and Trump has sent mixed signals — calling the war "short-term" one moment while vowing to keep up the punishment on Iran the next. For Iran, the calculus is surviving a near-total bombardment of its military infrastructure while leveraging its ability to disrupt global energy markets through the Strait of Hormuz blockade and attacks on commercial shipping. Iran has also targeted Dubai\'s airport and oil facilities in the Gulf, expanding the conflict\'s footprint. The analysis warns that neither side has a clear off-ramp, raising the specter of a prolonged conflict with mounting civilian and economic costs on all sides.',
+            tags: ['Iran war', 'attrition', 'oil markets', 'Trump', 'geopolitics'],
             category: 'top-stories',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/british-columbia/openai-sued-tumbler-ridge-victim-9.7121635' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/british-columbia/article-family-of-12-year-old-injured-in-tumbler-ridge-mass-shooting-sues/' }
+                { title: 'AP News', url: 'https://apnews.com/article/iran-us-israel-war-attrition-analysis-5d7e50c3a6da57414bbf4a5e255e4a7e' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-china-strait-of-hormuz-iran-war/' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'Pre-War U.S. Intel Found Iran Intervention Unlikely to Change Leadership',
-            summary: 'A newly revealed pre-war U.S. intelligence assessment concluded that military intervention in Iran was unlikely to change the country\'s leadership, raising serious questions about the strategic rationale for the ongoing strikes. The assessment, which predates the current conflict, found that Iran\'s political establishment was resilient enough to survive external military pressure, and that regime change would require far more than airstrikes alone. The revelation comes as Trump delivers mixed messages about ending the war, at one point saying it could be over soon while insisting the U.S. hasn\'t "won enough" yet. Critics are seizing on the intelligence report as evidence that the administration pursued military action despite its own analysts warning it wouldn\'t achieve its stated goals.',
-            tags: ['Iran war', 'intelligence', 'regime change', 'Trump', 'foreign policy'],
+            headline: 'Shooting at U.S. Consulate in Toronto Called a "National Security Incident"',
+            summary: 'A shooting at the U.S. consulate in Toronto is being investigated as a national security incident, with Canadian authorities treating it as a potential act of political violence tied to the heightened tensions surrounding the Iran war. Details remain limited, but the incident has prompted an immediate security review at diplomatic facilities across Canada. The attack comes at an extraordinarily sensitive moment in Canada-U.S. relations, already strained by tariff disputes and differing approaches to the Middle East conflict. Officials are urging the public not to speculate while the investigation is underway, but the incident has intensified concerns about the domestic security implications of the overseas conflict spilling into North America.',
+            tags: ['Toronto', 'U.S. consulate', 'shooting', 'national security', 'Canada'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/iran-intelligence-assessment-trump-ad20c1f1168d4318af516d7b19d372e7' },
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/trump-iran-war-9.7121478' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/toronto/us-consulate-toronto-shooting-9.7123412' }
             ]
         }
     ],
@@ -46,32 +45,34 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Canadian Coast Guard Captain Fired for Ignoring Distress Call',
-            summary: 'A Canadian Coast Guard captain has been fired after a labour board found he "willfully" ignored a maritime distress call, a serious dereliction of duty that put lives at risk. The former captain maintains he did nothing wrong and says he was "railroaded" by the process, but the labour board sided with the Coast Guard\'s decision to terminate him. The case highlights the critical importance of distress response protocols at sea and the consequences of failing to follow them. Maritime safety advocates say the firing sends a strong message, though the former captain is reportedly considering an appeal. The incident has renewed scrutiny of Coast Guard training and oversight practices across the country.',
-            tags: ['Coast Guard', 'distress call', 'maritime safety', 'firing', 'labour board'],
+            headline: 'Massive Freezing Rain Storm Shuts Down Schools Across Ontario and Quebec',
+            summary: 'A punishing ice storm is battering Ontario and Quebec, forcing widespread school closures, cancelling flights, and flooding Toronto roads as heavy rain sweeps across southern Ontario ahead of dangerous freezing rain. Meteorologists are comparing the system to the devastating April 2023 ice storm, warning of prolonged power outages as ice accumulates on power lines and tree branches. Schools and bus services have been cancelled across Ottawa, Montreal, and much of eastern Ontario, while northeastern Ontario faces separate winter storm and snowfall warnings. Emergency crews are on standby for flood mitigation as the storm threatens to overwhelm drainage systems. The timing compounds existing pressure on households already dealing with elevated energy prices driven by the Iran war\'s disruption of global oil markets.',
+            tags: ['ice storm', 'Ontario', 'Quebec', 'school closures', 'power outages'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/canadian-coast-guard-captain-fired-9.7117840' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/ottawa/school-bus-cancel-weather-ottawa-today-9.7122283' },
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/montreal/quebec-montreal-freezing-rain-wednesday-9.7123662' },
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/toronto/southern-ontario-rainfall-freezing-rain-9.7123595' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Ontario Braces for Freezing Rain with Flood and Power Outage Risks',
-            summary: 'Ontario is preparing for a major winter storm expected to bring widespread freezing rain, significant flood risks, and potentially prolonged power outages across the province. Emergency officials are warning residents to stock up on essentials and prepare for the possibility of being without electricity for an extended period. The storm system is forecast to coat large areas with a dangerous layer of ice, weighing down power lines and tree branches. Municipal crews are on standby for flood mitigation as the combination of ice melt and rainfall could overwhelm drainage systems. The timing is particularly concerning as the province is still dealing with the economic fallout of the Iran war and elevated energy prices, making any disruption to heating and transportation even more consequential for vulnerable populations.',
-            tags: ['Ontario', 'winter storm', 'freezing rain', 'power outages', 'flooding'],
+            headline: 'Canadians Fleeing Middle East War Arrive in Saudi Arabia',
+            summary: 'Canadian citizens evacuating the Middle East conflict zone have begun arriving in Saudi Arabia as the government scrambles to assist nationals caught in the rapidly escalating Iran war. The evacuees describe harrowing journeys out of conflict areas, with some reporting near-misses from airstrikes and days of uncertainty before being able to leave. Global Affairs Canada says it is working with regional partners to facilitate further evacuations, but the closure of the Strait of Hormuz and attacks on commercial shipping are making logistics increasingly difficult. The arrivals underscore the human cost of the conflict for Canadians abroad and the growing pressure on Ottawa to do more to protect its citizens in the region.',
+            tags: ['evacuation', 'Middle East', 'Canadians abroad', 'Iran war', 'Saudi Arabia'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-ontario-storm-freezing-rain-flood-power-outage-risk/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/canadians-fleeing-middle-east-9.7123420' }
             ]
         },
         {
             id: 'cdn-3',
-            headline: 'Port of Vancouver Hits Record Cargo Volumes Driven by Non-U.S. Trade',
-            summary: 'The Port of Vancouver has posted record cargo volumes for 2025, with the surge driven primarily by trade with countries other than the United States. The milestone reflects Canada\'s accelerating efforts to diversify its trade relationships away from its southern neighbour, a strategic shift that has gained urgency amid ongoing tariff disputes and political tensions with Washington. The port handled unprecedented volumes of goods flowing to and from Asian and European markets, underscoring British Columbia\'s growing importance as a Pacific trade gateway. Industry officials say continued investment in port infrastructure will be essential to maintain the momentum, while the record also highlights how geopolitical disruptions — including the Iran war — are reshaping global shipping routes in Canada\'s favour.',
-            tags: ['Port of Vancouver', 'trade diversification', 'cargo', 'British Columbia', 'exports'],
+            headline: 'Ottawa Eyeing Moves to Boost Oil Production Amid Global Supply Shock',
+            summary: 'The Canadian federal government is exploring measures to ramp up domestic oil production in response to the global supply shock triggered by Iran\'s blockade of the Strait of Hormuz. With the IEA proposing a record release of strategic reserves and G7 energy ministers in emergency talks, Ottawa sees an opportunity to position Canada as a more reliable energy supplier to allies. The move would mark a significant policy pivot for the Carney government, which has faced criticism for its climate-focused energy agenda. Industry groups in Alberta and Saskatchewan are pushing for fast-tracked approvals, arguing that the geopolitical crisis demonstrates the strategic value of Canadian energy independence. The challenge will be balancing emergency production increases with the government\'s long-term emissions reduction commitments.',
+            tags: ['oil production', 'energy policy', 'Canada', 'Iran war', 'supply shock'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/british-columbia/port-vancouver-2025-cargo-volumes-9.7121516' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/international-business/article-iea-meeting-g7-energy-ministers-release-strategic-oil-reserves/' }
             ]
         }
     ],
@@ -79,32 +80,33 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'Carney to Face Commons After Criticism He\'s Hiding From Middle East Debate',
-            summary: 'Prime Minister Mark Carney is set to face the House of Commons today after drawing sharp criticism for skipping Monday night\'s take-note debate on the hostilities in the Middle East and Canada\'s response. Opposition parties accused Carney of ducking accountability on the country\'s most pressing foreign policy crisis, and the optics of his absence were particularly damaging given the escalating Iran war. The PM\'s office says he will address the House directly, but the episode has dented Carney\'s carefully cultivated image as a steady, transparent leader. The debate also exposed divisions within Parliament over how aggressively Canada should be involved in the conflict and whether the government has been forthcoming about its commitments in the region.',
-            tags: ['Carney', 'Commons', 'Middle East', 'Iran war', 'accountability'],
+            headline: 'NDP MP Lori Idlout Crosses Floor to Liberals, Bringing Carney Closer to Majority',
+            summary: 'Nunavut NDP MP Lori Idlout has crossed the floor to join the Liberals, bringing Prime Minister Mark Carney\'s caucus to 170 seats and setting him up to secure a majority government if upcoming byelections go his way. Idlout is the fourth MP to join the Liberals since November, and interim NDP Leader Don Davies appeared to scoop the announcement by releasing a statement expressing disappointment before the Liberals could make it official. The NDP has a longstanding position against floor crossing, calling it a betrayal of voters\' trust. For Carney, the move is a significant political win that strengthens his hand heading into three critical byelections. The Liberals need to win all three races to lock in a narrow majority, and Idlout\'s defection builds momentum at a time when the opposition is struggling to gain traction.',
+            tags: ['Idlout', 'NDP', 'Liberals', 'floor crossing', 'Carney majority'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-mark-carney-commons-debate-middle-east/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/idlout-crossing-floor-liberals-9.7123443' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'MPs Demand Answers on Failure to Deport Iranian Regime Officials',
-            summary: 'Members of Parliament are demanding answers from immigration and border officials after revelations that suspected Iranian regime officials living in Canada have not been deported despite being identified. The failure has sparked outrage across party lines, with MPs questioning how individuals linked to a government Canada is effectively in conflict with are being allowed to remain in the country. Critics say the situation exposes a systemic weakness in Canada\'s immigration enforcement that has persisted for years. The issue has taken on new urgency given the ongoing Iran war, with some MPs arguing that the presence of regime-connected individuals poses a potential security risk. Officials are expected to testify before a parliamentary committee in the coming days.',
-            tags: ['immigration', 'Iran officials', 'deportation', 'Parliament', 'national security'],
+            headline: 'NDP and Conservatives Slam Carney\'s "Contradictory" Iran War Position',
+            summary: 'Both the NDP and Conservatives are attacking Prime Minister Carney from opposite flanks on the Iran war, with NDP\'s Don Davies calling the government\'s position "contradictory" and Conservative MPs dismissing Carney\'s response as "mumbo jumbo." The criticism follows Carney\'s absence from Monday\'s take-note debate and his government\'s struggle to articulate a clear stance on Canada\'s role in the conflict. The NDP wants a stronger push for ceasefire and diplomatic solutions, while Conservatives are pressing for more muscular support of the U.S.-led campaign. Carney is caught in a political vice, trying to maintain allied solidarity while responding to a Canadian public that is deeply uneasy about the war\'s economic fallout and the risk of deeper involvement.',
+            tags: ['Carney', 'Iran war', 'NDP', 'Conservatives', 'foreign policy'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-immigration-border-officials-criticized-for-not-deporting-suspected/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/ndp-davies-carney-iran-contradictory-9.7123087' },
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/conservative-mp-carney-iran-response-9.7121665' }
             ]
         },
         {
             id: 'cdnpol-3',
-            headline: 'First Nations Leaders Rally Against Separatism at Alberta Legislature',
-            summary: 'First Nations leaders gathered at the Alberta legislature to voice strong opposition to the province\'s separatist movement, asserting that Indigenous peoples have treaty rights with the Crown that would be fundamentally jeopardized by any bid to leave Confederation. The rally sends a powerful message to Alberta\'s political establishment at a time when separatist sentiment has been simmering over federal energy and climate policies. Indigenous leaders argued that their nations were not consulted about separation and would not consent to it, invoking constitutional protections and the duty to consult. The demonstration adds a significant constitutional dimension to the separatism debate that proponents have largely failed to address, and bolsters the argument that leaving Canada would be far more legally and politically complicated than advocates suggest.',
-            tags: ['First Nations', 'Alberta', 'separatism', 'treaty rights', 'Indigenous'],
+            headline: 'Ontario Secures $229M in Federal Funding to Help Tariff-Affected Sectors',
+            summary: 'Ontario has secured $229 million in federal funding aimed at helping industries hit hardest by U.S. tariffs, providing a lifeline to manufacturers and exporters struggling with the trade barriers imposed by the Trump administration. The funding package targets sectors including auto parts, steel, and agriculture that have seen significant revenue declines since the tariffs took effect. The announcement reflects the Carney government\'s attempt to demonstrate it is actively mitigating the economic damage from the trade war, even as the Iran conflict adds new layers of uncertainty to the economy. Provincial officials say the money will go toward retraining programs, supply chain diversification, and direct support for affected businesses.',
+            tags: ['Ontario', 'tariffs', 'federal funding', 'trade war', 'manufacturing'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/alberta/article-first-nations-leaders-show-opposition-to-separatism-at-alberta/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/ontario-federal-funding-tariffs-9.7123117' }
             ]
         }
     ],
@@ -112,32 +114,32 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Justices Jackson and Kavanaugh Publicly Spar Over Supreme Court Orders Favoring Trump',
-            summary: 'In a rare public exchange, Supreme Court Justices Ketanji Brown Jackson and Brett Kavanaugh sparred openly over the court\'s recent pattern of issuing emergency orders that have consistently favored the Trump administration. Speaking on a shared stage, Jackson questioned whether the court\'s "shadow docket" was being used to circumvent normal legal processes, while Kavanaugh defended the orders as appropriate exercises of judicial authority in urgent circumstances. The exchange highlights the deepening ideological rift on the bench and the growing controversy over how the court handles emergency appeals. Legal scholars say the public disagreement is extraordinary and reflects genuine institutional tension over whether the court is maintaining its independence or being drawn into partisan governance.',
-            tags: ['Supreme Court', 'Jackson', 'Kavanaugh', 'shadow docket', 'Trump'],
+            headline: 'Federal Judge Backs Lawmakers in Press Credentials Dispute with Conservative Media',
+            summary: 'A federal judge in Washington state has ruled that Democratic lawmakers were within their rights to deny press passes to three conservative media figures, finding they are political participants rather than bona fide journalists. The case involved Ari Hoffman of AM 570 KVI, podcaster Brandi Kruse, and Jonathan Choe of the Discovery Institute, who sued after being denied Capitol access. Judge David Estudillo rejected their emergency request for a temporary restraining order, upholding the legislature\'s authority to set its own credentialing standards. The ruling echoes a broader national debate about who qualifies as a journalist in the age of podcasts, influencers, and partisan media. First Amendment advocates are divided, with some warning the decision could be used to exclude legitimate independent media from government proceedings.',
+            tags: ['press freedom', 'media credentials', 'First Amendment', 'conservative media', 'Washington'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/supreme-court-kavanaugh-jackson-emergency-appeals-84fa9402f5b449316d2cd28bdda1d06b' }
+                { title: 'AP News', url: 'https://apnews.com/article/press-pass-podcasters-conservative-media-a8f5b5ceac3627dc1931b07a87952551' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'Alexander Brothers Convicted of Sex Trafficking in Case That Shocked Real Estate World',
-            summary: 'The Alexander brothers have been convicted of sex trafficking in a case that sent shockwaves through the real estate industry where they were prominent figures. The trial revealed a pattern of exploitation and abuse that prosecutors say was enabled by the brothers\' wealth and social connections. The conviction marks the end of a high-profile case that drew comparisons to other recent scandals involving powerful men using their status to prey on vulnerable individuals. Victims who testified described a system of coercion and control that operated behind the facade of luxury real estate dealings. The case has prompted calls for greater accountability in industries where wealth and influence can be used to silence victims and evade scrutiny.',
-            tags: ['sex trafficking', 'Alexander brothers', 'real estate', 'conviction', 'crime'],
+            headline: 'Federal Judges Decline to Extend Interim U.S. Attorney Appointment in Milwaukee',
+            summary: 'Federal judges in Milwaukee have declined to extend the appointment of interim U.S. Attorney Brad Schimel, creating a potential vacancy in one of Wisconsin\'s most important federal prosecutor positions. The decision is a rebuke of the Trump administration\'s approach to filling U.S. attorney slots, which has relied heavily on interim appointments that bypass Senate confirmation. Schimel, a former Wisconsin attorney general, was installed under a provision that allows courts to appoint interim prosecutors, but the judges\' refusal to extend his term signals growing judicial discomfort with the practice. The vacancy could disrupt ongoing federal cases in the district and adds to a pattern of courts pushing back against executive overreach in the appointment process.',
+            tags: ['U.S. attorney', 'Milwaukee', 'judicial independence', 'Trump appointments', 'Wisconsin'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/alexander-brothers-sex-trafficking-trial-b63be68c654dd8d3d6359707c2f02c65' }
+                { title: 'AP News', url: 'https://apnews.com/article/us-attorney-brad-schimel-interim-appointment-6a4683ca3c516cdd44b9d641fcedaec3' }
             ]
         },
         {
             id: 'uspol-3',
-            headline: 'Anthropic Sues Trump Administration Over "Supply Chain Risk" Designation',
-            summary: 'AI company Anthropic has filed a lawsuit against the Trump administration, seeking to overturn a "supply chain risk" designation imposed by the Pentagon under Secretary Hegseth\'s direction. The designation effectively restricts Anthropic\'s ability to work with government contractors and could cut the company off from significant revenue streams. Anthropic argues the designation is politically motivated and lacks any legitimate national security basis, calling it an abuse of regulatory power. The case raises fundamental questions about the government\'s authority to blacklist American technology companies and the growing politicization of AI policy. Industry observers see the lawsuit as a test case that could determine how much power the executive branch has to pick winners and losers in the rapidly evolving AI sector.',
-            tags: ['Anthropic', 'Trump', 'Pentagon', 'AI policy', 'lawsuit'],
+            headline: 'Hungary\'s Orbán Seizes $82 Million in Ukrainian Cash and Gold',
+            summary: 'Hungarian Prime Minister Viktor Orbán has ordered authorities to hold approximately $82 million in seized Ukrainian cash and gold, a provocative move that further strains relations between NATO allies at a time when Western unity is already tested by the Iran war. The seizure, which Hungary frames as a legal enforcement action, has been condemned by Kyiv as an act of hostility and by EU officials as a dangerous escalation within the alliance. The incident highlights Orbán\'s continued willingness to undermine Western consensus on Ukraine, even as the broader geopolitical situation demands solidarity. The move comes as the Russia-Ukraine war continues with no resolution in sight, and analysts warn it could embolden other actors to take similar unilateral actions against Ukrainian assets.',
+            tags: ['Orbán', 'Hungary', 'Ukraine', 'gold seizure', 'NATO'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/anthropic-trump-pentagon-hegseth-ai-104c6c39306f1adeea3b637d2c1c601b' }
+                { title: 'AP News', url: 'https://apnews.com/article/hungary-orban-ukraine-cash-gold-shipment-1dbb870993cd1386b4270bb473fee733' }
             ]
         }
     ],
@@ -145,32 +147,32 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'Google Adds Toggle to Disable AI-Powered Search in Photos',
-            summary: 'Google is rolling out a new toggle in Google Photos that lets users choose between the classic search experience and the AI-powered "Ask Photos" mode powered by Gemini. The move comes after the AI search feature had a rocky launch plagued by speed and accuracy issues, and users have been vocal about wanting more control over their search results. Google Photos lead Shimrit Ben-Yair confirmed the change, saying the team listened to feedback from users who preferred the reliability of traditional search. The toggle represents a broader trend in the tech industry of giving users opt-out mechanisms for AI features rather than forcing adoption. It\'s a notable concession from Google, which has been aggressively pushing AI integration across all its products.',
-            tags: ['Google', 'Photos', 'AI search', 'Gemini', 'user control'],
+            headline: 'Anthropic Launches Research Institute as Co-Founder Jack Clark Takes the Helm',
+            summary: 'Anthropic has announced the creation of the Anthropic Institute, a new research arm led by co-founder Jack Clark that will focus on AI safety and policy research independent of the company\'s commercial operations. Clark said he has "no concerns" about research funding and emphasized the institute\'s mission to study the long-term implications of advanced AI systems. The move positions Anthropic to shape AI policy conversations from a dedicated research platform while maintaining separation from its increasingly competitive commercial AI business. The institute launch comes at a fraught moment for the company, which is navigating both rapid growth and political headwinds from the Trump administration. Industry observers see the move as both a genuine commitment to safety research and a strategic effort to build credibility with policymakers and the public.',
+            tags: ['Anthropic', 'AI safety', 'Jack Clark', 'research institute', 'AI policy'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
+                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'AT&T Announces $250 Billion Network Investment Over Five Years',
-            summary: 'AT&T has announced plans to invest a staggering $250 billion in building out its network infrastructure over the next five years, with the money going toward expanding fiber broadband, 5G home internet, and satellite connectivity across the United States. The company also plans to hire thousands of technicians this year to support the massive buildout. The investment represents one of the largest infrastructure commitments by a single telecom company and comes as competition for broadband customers intensifies. The satellite connectivity component is particularly notable, as it signals AT&T\'s ambition to compete in the growing market for rural and remote internet access. The announcement arrives at a time when reliable internet connectivity is increasingly viewed as essential infrastructure.',
-            tags: ['AT&T', '5G', 'fiber', 'infrastructure', 'telecom'],
+            headline: 'Google Expands Gemini in Chrome to Canada and Over 50 Languages',
+            summary: 'Google is expanding its Gemini AI assistant built into Chrome to users in Canada, New Zealand, and India, along with support for more than 50 languages including Spanish, French, Hindi, and Chinese. The AI assistant can answer questions about on-screen content, send messages in Gmail, create comparison tables across open tabs, and remix images found online. The rollout represents Google\'s aggressive push to embed AI capabilities directly into its browser, making Gemini a constant companion for everyday web browsing. The expansion to Canada is particularly timely given the country\'s growing tech sector and demand for AI tools. The move intensifies competition with Microsoft\'s Copilot integration in Edge, as both tech giants race to make their browsers the primary interface for AI-assisted productivity.',
+            tags: ['Google', 'Gemini', 'Chrome', 'AI assistant', 'Canada'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
+                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence/781192/chrome-gemini-ai-agentic-update-google-mac-windows' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'A Quarter of iPhones Are Now Made in India as Apple Accelerates Shift from China',
-            summary: 'Apple manufactured 55 million iPhones in India in 2025, up from 36 million the previous year, meaning roughly a quarter of all iPhones are now produced in the country. The dramatic acceleration in Indian production follows Apple\'s concerted effort to diversify manufacturing away from China in response to Trump\'s tariffs and broader geopolitical tensions. Apple\'s goal is reportedly to shift all 60 million annual U.S.-bound iPhones to Indian production by the end of this year. The move represents a seismic shift in global electronics manufacturing and a major win for India\'s push to become a tech manufacturing hub. However, analysts note that China still dominates Apple\'s overall supply chain, and the transition faces ongoing challenges around infrastructure, workforce training, and component sourcing.',
-            tags: ['Apple', 'iPhone', 'India', 'manufacturing', 'China'],
+            headline: 'Microsoft Teases Next-Gen Xbox "Project Helix" Reveal at GDC 2026',
+            summary: 'Microsoft\'s official Game Dev account has posted images tagged as a "sneak peek" for GDC 2026, fuelling speculation that the long-teased Project Helix — Microsoft\'s next Xbox console that will reportedly play PC games natively — is about to be officially revealed. The images appear to show dev kits reminiscent of older Xbox One and Series X hardware, but the GDC timing suggests the new hardware will be unveiled at the developer conference. Project Helix has been one of the gaming industry\'s worst-kept secrets, with Microsoft previously confirming the console would bridge the gap between Xbox and PC gaming. If the reveal happens at GDC, it would mark a departure from the traditional E3 or dedicated Xbox event format, signalling Microsoft\'s focus on courting developers first.',
+            tags: ['Microsoft', 'Xbox', 'Project Helix', 'GDC', 'gaming'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
+                { title: 'The Verge', url: 'https://www.theverge.com/games/890194/microsoft-teases-its-next-xbox-says-project-helix-will-play-pc-games-too' }
             ]
         }
     ]
