@@ -4,40 +4,40 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Wednesday, March 11, 2026',
+    date: 'Thursday, March 12, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'Iran Shuts Down Strait of Hormuz as Oil Prices Spike and Global Energy Crisis Deepens',
-            summary: 'Iran has effectively stopped all cargo traffic through the Strait of Hormuz, one of the world\'s most critical energy chokepoints, sending oil prices surging past $120 a barrel before Trump\'s comments about a "short-term" war pulled prices back to around $90. The blockade represents Iran\'s most powerful retaliatory weapon against the U.S.-Israeli military campaign, now entering its twelfth day. The IEA has responded by proposing the largest-ever release of oil from strategic reserves to stabilize prices, while China — heavily dependent on Gulf oil — has remained conspicuously on the sidelines despite needing the strait open. The crisis has triggered global shipping disruptions, rattled consumer confidence, and forced G7 energy ministers into emergency consultations as the economic fallout of the war threatens to overshadow the military campaign itself.',
-            tags: ['Iran war', 'Strait of Hormuz', 'oil prices', 'energy crisis', 'IEA'],
+            headline: 'Iran\'s New Supreme Leader Vows to Keep Strait of Hormuz Closed as Oil Nears $100',
+            summary: 'Mojtaba Khamenei, Iran\'s newly appointed Supreme Leader, has issued his first public statement vowing to keep the Strait of Hormuz closed and demanding the U.S. close all military bases in the region before any negotiations can begin. The defiant posture sent oil prices surging to nearly $100 a barrel in Thursday trading, while global stock markets plummeted on fears of a prolonged energy crisis. The IEA has declared this the largest oil supply disruption in history, and G7 energy ministers are scrambling to coordinate a response. The closure has paralyzed one of the world\'s most critical shipping lanes, through which roughly 20% of global oil passes daily, and Iran may have also laid sea mines to enforce the blockade.',
+            tags: ['Iran war', 'Strait of Hormuz', 'oil prices', 'Mojtaba Khamenei', 'energy crisis'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump--03-11-2026' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/industry-news/energy-and-resources/article-iea-reportedly-proposes-largest-ever-oil-release-from-strategic/' },
-                { title: 'AP News', url: 'https://apnews.com/article/iran-us-israel-war-attrition-analysis-5d7e50c3a6da57414bbf4a5e255e4a7e' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/article-iran-war-oil-tankers-energy-prices-trump/' },
+                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-03-12-2026' },
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/business/oil-prices-markets-thursday-march-12-9.7125437' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'Iran War Becomes a Contest of Who Can Take the Most Pain',
-            summary: 'A major AP analysis frames the Iran conflict as a war of attrition where both sides are betting the other will break first. For the U.S., the biggest vulnerability is economic: surging gas prices have rattled consumers and financial markets, and Trump has sent mixed signals — calling the war "short-term" one moment while vowing to keep up the punishment on Iran the next. For Iran, the calculus is surviving a near-total bombardment of its military infrastructure while leveraging its ability to disrupt global energy markets through the Strait of Hormuz blockade and attacks on commercial shipping. Iran has also targeted Dubai\'s airport and oil facilities in the Gulf, expanding the conflict\'s footprint. The analysis warns that neither side has a clear off-ramp, raising the specter of a prolonged conflict with mounting civilian and economic costs on all sides.',
-            tags: ['Iran war', 'attrition', 'oil markets', 'Trump', 'geopolitics'],
+            headline: 'U.S. Military Strike on Iranian School Confirmed by Internal Probe',
+            summary: 'An internal U.S. military investigation has reportedly confirmed that American forces were responsible for a deadly strike on an Iranian elementary school, with outdated intelligence likely leading to the catastrophic targeting error. The revelation, first reported by the AP, is expected to intensify international condemnation of the U.S. campaign and complicate the Trump administration\'s narrative about precision strikes. Pentagon chief Pete Hegseth has simultaneously blocked photographers from his Iran war briefings, drawing accusations of restricting press access during wartime. The school strike is already being compared to some of the most infamous civilian casualty incidents in recent American military history, and could become a defining moment in public opinion on the conflict.',
+            tags: ['Iran war', 'school strike', 'Pentagon', 'Hegseth', 'civilian casualties'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/iran-us-israel-war-attrition-analysis-5d7e50c3a6da57414bbf4a5e255e4a7e' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-china-strait-of-hormuz-iran-war/' }
+                { title: 'AP News', url: 'https://apnews.com/article/iran-us-school-hegseth-trump-2ffff06808f7a584b0a03831897ab0b8' },
+                { title: 'AP News', url: 'https://apnews.com/article/hegseth-pentagon-briefings-photographers-ad0cc21ad17d299c90284788fba62b5a' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'Shooting at U.S. Consulate in Toronto Called a "National Security Incident"',
-            summary: 'A shooting at the U.S. consulate in Toronto is being investigated as a national security incident, with Canadian authorities treating it as a potential act of political violence tied to the heightened tensions surrounding the Iran war. Details remain limited, but the incident has prompted an immediate security review at diplomatic facilities across Canada. The attack comes at an extraordinarily sensitive moment in Canada-U.S. relations, already strained by tariff disputes and differing approaches to the Middle East conflict. Officials are urging the public not to speculate while the investigation is underway, but the incident has intensified concerns about the domestic security implications of the overseas conflict spilling into North America.',
-            tags: ['Toronto', 'U.S. consulate', 'shooting', 'national security', 'Canada'],
+            headline: 'Tornadoes Kill Two in Indiana as Severe Weather Ravages the Midwest',
+            summary: 'Deadly tornadoes tore through northwestern Indiana and Kankakee, Illinois on Wednesday, killing at least two people and leveling buildings across a wide swath of the Midwest. The storms are part of an intense weather system that has also battered eastern Canada with freezing rain and ice. Emergency crews are conducting search and rescue operations in the hardest-hit areas, where entire blocks have been flattened. The severe weather event comes on top of the economic stress many American households are already facing from surging energy prices tied to the Iran conflict, compounding the sense of crisis across the country.',
+            tags: ['tornadoes', 'Indiana', 'Illinois', 'severe weather', 'Midwest'],
             category: 'top-stories',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/toronto/us-consulate-toronto-shooting-9.7123412' }
+                { title: 'AP News', url: 'https://apnews.com/article/tornado-severe-weather-illinois-indiana-midwest-dce09b60816c498aad9c2a79c18285c1' }
             ]
         }
     ],
@@ -45,34 +45,32 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Massive Freezing Rain Storm Shuts Down Schools Across Ontario and Quebec',
-            summary: 'A punishing ice storm is battering Ontario and Quebec, forcing widespread school closures, cancelling flights, and flooding Toronto roads as heavy rain sweeps across southern Ontario ahead of dangerous freezing rain. Meteorologists are comparing the system to the devastating April 2023 ice storm, warning of prolonged power outages as ice accumulates on power lines and tree branches. Schools and bus services have been cancelled across Ottawa, Montreal, and much of eastern Ontario, while northeastern Ontario faces separate winter storm and snowfall warnings. Emergency crews are on standby for flood mitigation as the storm threatens to overwhelm drainage systems. The timing compounds existing pressure on households already dealing with elevated energy prices driven by the Iran war\'s disruption of global oil markets.',
-            tags: ['ice storm', 'Ontario', 'Quebec', 'school closures', 'power outages'],
+            headline: 'Hundreds of Thousands Without Power as Quebec and Atlantic Canada Hammered by Storm',
+            summary: 'A massive winter storm has left hundreds of thousands of homes and businesses without power across Quebec and Atlantic Canada, with school closures continuing for a second day and Newfoundland facing what forecasters are calling a "dog\'s breakfast" of dangerous weather conditions. The storm system, which combines freezing rain, heavy snow, and high winds, has paralyzed transportation networks and forced emergency shelters to open across multiple provinces. Hydro-Québec crews are working around the clock to restore power, but officials warn some areas may remain in the dark for days. The storm compounds an already difficult winter for Canadians dealing with soaring energy costs driven by the Iran war\'s disruption of global oil supplies.',
+            tags: ['storm', 'power outages', 'Quebec', 'Newfoundland', 'school closures'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/ottawa/school-bus-cancel-weather-ottawa-today-9.7122283' },
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/montreal/quebec-montreal-freezing-rain-wednesday-9.7123662' },
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/toronto/southern-ontario-rainfall-freezing-rain-9.7123595' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/montreal/storm-power-outages-quebec-9.7125282' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Canadians Fleeing Middle East War Arrive in Saudi Arabia',
-            summary: 'Canadian citizens evacuating the Middle East conflict zone have begun arriving in Saudi Arabia as the government scrambles to assist nationals caught in the rapidly escalating Iran war. The evacuees describe harrowing journeys out of conflict areas, with some reporting near-misses from airstrikes and days of uncertainty before being able to leave. Global Affairs Canada says it is working with regional partners to facilitate further evacuations, but the closure of the Strait of Hormuz and attacks on commercial shipping are making logistics increasingly difficult. The arrivals underscore the human cost of the conflict for Canadians abroad and the growing pressure on Ottawa to do more to protect its citizens in the region.',
-            tags: ['evacuation', 'Middle East', 'Canadians abroad', 'Iran war', 'Saudi Arabia'],
+            headline: 'Air Transat and Air Canada Hike Ticket Prices as Jet Fuel Costs Soar',
+            summary: 'Canadian airlines are passing the pain of the oil crisis directly to travellers, with Air Transat announcing higher fares on European routes and Air Canada adjusting prices across its network as jet fuel costs spike to levels not seen in years. The price increases are a direct consequence of the Iran war\'s disruption of global energy markets, with the Strait of Hormuz blockade sending crude oil toward $100 a barrel. Industry analysts warn the fare hikes are likely just the beginning, as airlines burn through fuel hedges secured at lower prices. The increases will hit hardest during the spring and summer travel season, potentially dampening demand for international travel at a time when Canadian carriers were counting on a strong recovery year.',
+            tags: ['airlines', 'jet fuel', 'Air Transat', 'Air Canada', 'oil crisis'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/canadians-fleeing-middle-east-9.7123420' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/business/air-transat-charging-more-flights-europe-9.7124548' }
             ]
         },
         {
             id: 'cdn-3',
-            headline: 'Ottawa Eyeing Moves to Boost Oil Production Amid Global Supply Shock',
-            summary: 'The Canadian federal government is exploring measures to ramp up domestic oil production in response to the global supply shock triggered by Iran\'s blockade of the Strait of Hormuz. With the IEA proposing a record release of strategic reserves and G7 energy ministers in emergency talks, Ottawa sees an opportunity to position Canada as a more reliable energy supplier to allies. The move would mark a significant policy pivot for the Carney government, which has faced criticism for its climate-focused energy agenda. Industry groups in Alberta and Saskatchewan are pushing for fast-tracked approvals, arguing that the geopolitical crisis demonstrates the strategic value of Canadian energy independence. The challenge will be balancing emergency production increases with the government\'s long-term emissions reduction commitments.',
-            tags: ['oil production', 'energy policy', 'Canada', 'Iran war', 'supply shock'],
+            headline: 'Canada\'s Trade Deficit Widens to $3.65 Billion in January on Auto Weakness',
+            summary: 'Canada\'s trade deficit ballooned to $3.65 billion in January, larger than economists expected, driven primarily by a sharp drop in motor vehicle and parts exports. The figures from Statistics Canada underscore the ongoing damage from U.S. tariffs on the auto sector, which has been one of the hardest-hit industries in the Canada-U.S. trade war. The wider deficit adds to concerns about the health of the Canadian economy heading into a period of heightened uncertainty, with the Iran conflict piling energy-related inflation on top of the existing tariff pressures. The data will likely factor into the Bank of Canada\'s upcoming rate decision, as policymakers weigh slowing trade against persistent inflationary forces.',
+            tags: ['trade deficit', 'auto sector', 'tariffs', 'Statistics Canada', 'economy'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/international-business/article-iea-meeting-g7-energy-ministers-release-strategic-oil-reserves/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/economy/article-canada-trade-deficit-january-statistics-canada/' }
             ]
         }
     ],
@@ -80,33 +78,34 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'NDP MP Lori Idlout Crosses Floor to Liberals, Bringing Carney Closer to Majority',
-            summary: 'Nunavut NDP MP Lori Idlout has crossed the floor to join the Liberals, bringing Prime Minister Mark Carney\'s caucus to 170 seats and setting him up to secure a majority government if upcoming byelections go his way. Idlout is the fourth MP to join the Liberals since November, and interim NDP Leader Don Davies appeared to scoop the announcement by releasing a statement expressing disappointment before the Liberals could make it official. The NDP has a longstanding position against floor crossing, calling it a betrayal of voters\' trust. For Carney, the move is a significant political win that strengthens his hand heading into three critical byelections. The Liberals need to win all three races to lock in a narrow majority, and Idlout\'s defection builds momentum at a time when the opposition is struggling to gain traction.',
-            tags: ['Idlout', 'NDP', 'Liberals', 'floor crossing', 'Carney majority'],
+            headline: 'Carney Heads to Arctic War Games as NATO Flexes Muscle in Norway',
+            summary: 'Prime Minister Mark Carney is travelling to Norway for a defence-focused trip with Nordic countries, stopping first in Yellowknife on Thursday before heading to observe NATO Arctic military exercises. The trip comes at a critical moment as the Iran war tests Western alliance cohesion and Canada faces growing pressure to demonstrate its commitment to collective defence. Carney is expected to discuss Arctic sovereignty, military readiness, and energy security with Nordic leaders, all issues that have taken on new urgency as the geopolitical landscape shifts. Critics argue Carney should be focused on domestic priorities, but supporters say the trip sends an important signal about Canada\'s willingness to step up on the world stage during a time of global crisis.',
+            tags: ['Carney', 'NATO', 'Arctic', 'Norway', 'defence'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/idlout-crossing-floor-liberals-9.7123443' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/carney-nato-war-games-norway-canada-9.7124665' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-carney-travel-norway-defence-focused-northern-trip/' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'NDP and Conservatives Slam Carney\'s "Contradictory" Iran War Position',
-            summary: 'Both the NDP and Conservatives are attacking Prime Minister Carney from opposite flanks on the Iran war, with NDP\'s Don Davies calling the government\'s position "contradictory" and Conservative MPs dismissing Carney\'s response as "mumbo jumbo." The criticism follows Carney\'s absence from Monday\'s take-note debate and his government\'s struggle to articulate a clear stance on Canada\'s role in the conflict. The NDP wants a stronger push for ceasefire and diplomatic solutions, while Conservatives are pressing for more muscular support of the U.S.-led campaign. Carney is caught in a political vice, trying to maintain allied solidarity while responding to a Canadian public that is deeply uneasy about the war\'s economic fallout and the risk of deeper involvement.',
-            tags: ['Carney', 'Iran war', 'NDP', 'Conservatives', 'foreign policy'],
+            headline: 'Gun Control Advocates Press for Answers on Weapons Used in Tumbler Ridge Shooting',
+            summary: 'Gun control advocates are demanding that the RCMP release details about the weapons used in the Tumbler Ridge, B.C. shooting, as the Mounties say information cannot be made public until their investigation is complete. The Globe and Mail\'s editorial board has weighed in, arguing that the families of victims and all Canadians deserve clarity from Ottawa, the B.C. government, and the RCMP about the silent aftermath of the tragedy. The case has reignited the national debate over firearms policy, with advocates arguing that transparency about the weapons involved is essential for informed policy-making. The Carney government has signaled support for further gun control measures but has not yet introduced new legislation.',
+            tags: ['gun control', 'Tumbler Ridge', 'RCMP', 'firearms policy', 'British Columbia'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/ndp-davies-carney-iran-contradictory-9.7123087' },
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/conservative-mp-carney-iran-response-9.7121665' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-gun-control-advocates-rcmp-weapons-tumbler-ridge-shooting/' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/opinion/editorials/article-tumbler-ridge-ottawa-bc-rcmp-carney/' }
             ]
         },
         {
             id: 'cdnpol-3',
-            headline: 'Ontario Secures $229M in Federal Funding to Help Tariff-Affected Sectors',
-            summary: 'Ontario has secured $229 million in federal funding aimed at helping industries hit hardest by U.S. tariffs, providing a lifeline to manufacturers and exporters struggling with the trade barriers imposed by the Trump administration. The funding package targets sectors including auto parts, steel, and agriculture that have seen significant revenue declines since the tariffs took effect. The announcement reflects the Carney government\'s attempt to demonstrate it is actively mitigating the economic damage from the trade war, even as the Iran conflict adds new layers of uncertainty to the economy. Provincial officials say the money will go toward retraining programs, supply chain diversification, and direct support for affected businesses.',
-            tags: ['Ontario', 'tariffs', 'federal funding', 'trade war', 'manufacturing'],
+            headline: 'Russia Sentences 19 for Deadly 2024 Concert Hall Attack That Killed 149',
+            summary: 'A Russian court has sentenced 19 people for their roles in the devastating 2024 Crocus City Hall concert attack that killed 149 people, one of the deadliest terrorist incidents in modern Russian history. The sentencing comes as Russia\'s attention is divided between its ongoing war in Ukraine and the geopolitical opportunity presented by the Iran war, which analysts say is giving Moscow room to operate with less Western scrutiny. The case has raised questions about Russian intelligence failures and the country\'s vulnerability to extremist violence even as it projects military power abroad. For Canada, the sentencing is a reminder of the complex security landscape that PM Carney navigates as he meets with NATO allies in Norway this week.',
+            tags: ['Russia', 'concert attack', 'terrorism', 'sentencing', 'security'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/ontario-federal-funding-tariffs-9.7123117' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/russia-sentencing-moscow-concert-hall-attacks-9.7125322' }
             ]
         }
     ],
@@ -114,32 +113,32 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Federal Judge Backs Lawmakers in Press Credentials Dispute with Conservative Media',
-            summary: 'A federal judge in Washington state has ruled that Democratic lawmakers were within their rights to deny press passes to three conservative media figures, finding they are political participants rather than bona fide journalists. The case involved Ari Hoffman of AM 570 KVI, podcaster Brandi Kruse, and Jonathan Choe of the Discovery Institute, who sued after being denied Capitol access. Judge David Estudillo rejected their emergency request for a temporary restraining order, upholding the legislature\'s authority to set its own credentialing standards. The ruling echoes a broader national debate about who qualifies as a journalist in the age of podcasts, influencers, and partisan media. First Amendment advocates are divided, with some warning the decision could be used to exclude legitimate independent media from government proceedings.',
-            tags: ['press freedom', 'media credentials', 'First Amendment', 'conservative media', 'Washington'],
+            headline: 'Pentagon Blocks Photographers from Hegseth\'s Iran War Briefings',
+            summary: 'The Pentagon has barred photographers from Defense Secretary Pete Hegseth\'s briefings on the Iran war, a move that press freedom advocates are calling an unprecedented restriction on wartime media access. The decision comes just as revelations emerge about a U.S. strike on an Iranian elementary school, raising suspicions that the administration is tightening information control as the war generates increasingly negative headlines. Media organizations have filed formal protests, arguing that visual documentation of official briefings is a cornerstone of press freedom and government accountability. The restriction adds to a pattern of the Trump administration limiting media access during the conflict, and congressional Democrats are calling for hearings on wartime transparency.',
+            tags: ['Pentagon', 'Hegseth', 'press freedom', 'Iran war', 'media access'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/press-pass-podcasters-conservative-media-a8f5b5ceac3627dc1931b07a87952551' }
+                { title: 'AP News', url: 'https://apnews.com/article/hegseth-pentagon-briefings-photographers-ad0cc21ad17d299c90284788fba62b5a' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'Federal Judges Decline to Extend Interim U.S. Attorney Appointment in Milwaukee',
-            summary: 'Federal judges in Milwaukee have declined to extend the appointment of interim U.S. Attorney Brad Schimel, creating a potential vacancy in one of Wisconsin\'s most important federal prosecutor positions. The decision is a rebuke of the Trump administration\'s approach to filling U.S. attorney slots, which has relied heavily on interim appointments that bypass Senate confirmation. Schimel, a former Wisconsin attorney general, was installed under a provision that allows courts to appoint interim prosecutors, but the judges\' refusal to extend his term signals growing judicial discomfort with the practice. The vacancy could disrupt ongoing federal cases in the district and adds to a pattern of courts pushing back against executive overreach in the appointment process.',
-            tags: ['U.S. attorney', 'Milwaukee', 'judicial independence', 'Trump appointments', 'Wisconsin'],
+            headline: 'Trump Administration Launches New Process to Replace Tariffs Struck Down by Supreme Court',
+            summary: 'The Trump administration is kicking off a new legal process to try to reimpose tariffs that were struck down by the Supreme Court, signaling it has no intention of backing away from its protectionist trade agenda despite judicial setbacks. The new approach attempts to use different statutory authority to achieve the same tariff levels on Chinese, EU, and other imports. Trade experts are skeptical the new framework will survive legal challenges either, but the move keeps uncertainty elevated for businesses on both sides of the border. For Canada, which is already dealing with the fallout from existing tariffs, the administration\'s persistence signals that trade tensions are unlikely to ease anytime soon.',
+            tags: ['tariffs', 'Supreme Court', 'Trump', 'trade war', 'China'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/us-attorney-brad-schimel-interim-appointment-6a4683ca3c516cdd44b9d641fcedaec3' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-tariffs-manufacturing-china-eu-6f4243502a1d8ce6c301f39c083a93e9' }
             ]
         },
         {
             id: 'uspol-3',
-            headline: 'Hungary\'s Orbán Seizes $82 Million in Ukrainian Cash and Gold',
-            summary: 'Hungarian Prime Minister Viktor Orbán has ordered authorities to hold approximately $82 million in seized Ukrainian cash and gold, a provocative move that further strains relations between NATO allies at a time when Western unity is already tested by the Iran war. The seizure, which Hungary frames as a legal enforcement action, has been condemned by Kyiv as an act of hostility and by EU officials as a dangerous escalation within the alliance. The incident highlights Orbán\'s continued willingness to undermine Western consensus on Ukraine, even as the broader geopolitical situation demands solidarity. The move comes as the Russia-Ukraine war continues with no resolution in sight, and analysts warn it could embolden other actors to take similar unilateral actions against Ukrainian assets.',
-            tags: ['Orbán', 'Hungary', 'Ukraine', 'gold seizure', 'NATO'],
+            headline: 'Jill Biden Opens Up About Joe\'s Decision to End 2024 Reelection Bid',
+            summary: 'Former First Lady Jill Biden has released a memoir detailing the agonizing internal deliberations that led to President Joe Biden\'s decision to end his 2024 reelection campaign. The book provides an intimate look at the family discussions, political calculations, and emotional toll of the decision, which upended the Democratic primary and ultimately paved the way for Trump\'s return to the White House. Biden writes candidly about her own conflicted feelings, revealing she believed her husband could still win but ultimately supported his choice to step aside. The memoir arrives at a moment when many Democrats are second-guessing the decision as Trump\'s second term unfolds amid the Iran war and escalating domestic tensions.',
+            tags: ['Jill Biden', 'memoir', 'Joe Biden', '2024 election', 'Democrats'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/hungary-orban-ukraine-cash-gold-shipment-1dbb870993cd1386b4270bb473fee733' }
+                { title: 'AP News', url: 'https://apnews.com/article/jill-biden-memoir-joe-2024-presidential-campaign-1b262b2148a945f101c6268e0d568ac4' }
             ]
         }
     ],
@@ -147,32 +146,32 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'Anthropic Launches Research Institute as Co-Founder Jack Clark Takes the Helm',
-            summary: 'Anthropic has announced the creation of the Anthropic Institute, a new research arm led by co-founder Jack Clark that will focus on AI safety and policy research independent of the company\'s commercial operations. Clark said he has "no concerns" about research funding and emphasized the institute\'s mission to study the long-term implications of advanced AI systems. The move positions Anthropic to shape AI policy conversations from a dedicated research platform while maintaining separation from its increasingly competitive commercial AI business. The institute launch comes at a fraught moment for the company, which is navigating both rapid growth and political headwinds from the Trump administration. Industry observers see the move as both a genuine commitment to safety research and a strategic effort to build credibility with policymakers and the public.',
-            tags: ['Anthropic', 'AI safety', 'Jack Clark', 'research institute', 'AI policy'],
+            headline: 'Microsoft and Retired Military Chiefs Back Anthropic in Court Fight Against Pentagon',
+            summary: 'Microsoft and a group of retired military leaders have filed briefs supporting AI company Anthropic in its escalating legal battle with the Pentagon over the use of AI in military applications. The case centers on whether AI companies can refuse to allow their technology to be used for lethal military purposes, a question with profound implications for the entire tech industry. Anthropic has argued that its safety-focused approach to AI development requires it to maintain control over how its models are deployed, while the Pentagon contends that national security needs should override corporate policy. The involvement of Microsoft — itself a major defense contractor — on Anthropic\'s side signals deep industry unease about government overreach into AI governance.',
+            tags: ['Anthropic', 'Pentagon', 'Microsoft', 'AI military', 'AI safety'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-anthropic-ai-microsoft-pentagon-c4210e7eddd9ad90161e7fa2da9736e2' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'Google Expands Gemini in Chrome to Canada and Over 50 Languages',
-            summary: 'Google is expanding its Gemini AI assistant built into Chrome to users in Canada, New Zealand, and India, along with support for more than 50 languages including Spanish, French, Hindi, and Chinese. The AI assistant can answer questions about on-screen content, send messages in Gmail, create comparison tables across open tabs, and remix images found online. The rollout represents Google\'s aggressive push to embed AI capabilities directly into its browser, making Gemini a constant companion for everyday web browsing. The expansion to Canada is particularly timely given the country\'s growing tech sector and demand for AI tools. The move intensifies competition with Microsoft\'s Copilot integration in Edge, as both tech giants race to make their browsers the primary interface for AI-assisted productivity.',
-            tags: ['Google', 'Gemini', 'Chrome', 'AI assistant', 'Canada'],
+            headline: 'Meta Launches MTIA 300 Chip, Reveals Roadmap for AI-Focused Silicon Through 2027',
+            summary: 'Meta has unveiled its MTIA 300 chip, the latest in its custom silicon family designed to train the ranking and recommendation AI systems that power Instagram and Facebook. More significantly, the company revealed an ambitious roadmap through 2027 with the MTIA 400, 450, and 500 chips that will be capable of handling all AI workloads, though Meta says it will primarily use them for generative AI inference in the near term. The move represents Meta\'s deepening commitment to reducing its dependence on Nvidia GPUs, a strategic priority as AI compute demand continues to outstrip supply across the industry. The chip launch positions Meta alongside Google, Amazon, and Microsoft in the growing club of tech giants designing their own AI accelerators.',
+            tags: ['Meta', 'MTIA', 'AI chips', 'custom silicon', 'AI infrastructure'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence/781192/chrome-gemini-ai-agentic-update-google-mac-windows' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'Microsoft Teases Next-Gen Xbox "Project Helix" Reveal at GDC 2026',
-            summary: 'Microsoft\'s official Game Dev account has posted images tagged as a "sneak peek" for GDC 2026, fuelling speculation that the long-teased Project Helix — Microsoft\'s next Xbox console that will reportedly play PC games natively — is about to be officially revealed. The images appear to show dev kits reminiscent of older Xbox One and Series X hardware, but the GDC timing suggests the new hardware will be unveiled at the developer conference. Project Helix has been one of the gaming industry\'s worst-kept secrets, with Microsoft previously confirming the console would bridge the gap between Xbox and PC gaming. If the reveal happens at GDC, it would mark a departure from the traditional E3 or dedicated Xbox event format, signalling Microsoft\'s focus on courting developers first.',
-            tags: ['Microsoft', 'Xbox', 'Project Helix', 'GDC', 'gaming'],
+            headline: 'Cyberattack Disrupts Stryker\'s Global Medical Equipment Networks',
+            summary: 'Medical equipment giant Stryker has disclosed a major cyberattack that has disrupted its global networks, affecting the company\'s ability to manufacture and distribute critical medical devices. The attack comes at a particularly dangerous time as hospitals worldwide are preparing for potential mass casualty scenarios related to the Iran war, and healthcare systems in the Middle East are already under extreme strain. Stryker, which makes surgical equipment, implants, and hospital beds used in operating rooms globally, says it is working with cybersecurity firms and law enforcement to contain the breach. The incident highlights the growing vulnerability of healthcare supply chains to cyber threats, a risk that has been amplified by geopolitical tensions.',
+            tags: ['Stryker', 'cyberattack', 'medical equipment', 'cybersecurity', 'healthcare'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/games/890194/microsoft-teases-its-next-xbox-says-project-helix-will-play-pc-games-too' }
+                { title: 'AP News', url: 'https://apnews.com/article/stryker-cyberattack-iran-medical-equipment-products-8dd418618a3bd4fa4c97caf7978c11ee' }
             ]
         }
     ]
