@@ -4,41 +4,41 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Friday, March 13, 2026',
+    date: 'Saturday, March 14, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'Explosion Rocks Tehran During Quds Day Rally Amid Intensifying U.S.-Israeli Strikes',
-            summary: 'A large explosion rocked central Tehran on Friday as thousands gathered for the annual Quds Day demonstration, the latest in an escalating wave of U.S. and Israeli airstrikes against Iran. Defense Secretary Pete Hegseth claimed Ayatollah Khamenei "is wounded and likely disfigured," though he provided no evidence. The strike on Iran\'s capital during a mass public gathering marks a dramatic escalation in the conflict and has drawn sharp international condemnation. The Strait of Hormuz remains closed, and Hegseth dismissed concerns about oil supply disruption, telling reporters "don\'t need to worry about" the closure even as global energy markets continue to reel from the blockade.',
-            tags: ['Iran war', 'Tehran', 'airstrikes', 'Quds Day', 'Hegseth'],
+            headline: 'Iran War Enters Third Week as U.S. Strikes Kharg Island, Deploys 2,500 More Marines',
+            summary: 'The U.S.-Iran conflict entered its third week with strikes on Kharg Island, a critical hub for Iranian oil exports, as Trump warned that oil infrastructure could be next if Iran continues to interfere with shipping through the Strait of Hormuz. The Pentagon is deploying an additional 2,500 Marines to the region. Iran has struck a defiant tone, claiming its oil exports continue normally and further threatening the UAE. The escalation has sent oil prices soaring and displaced millions of people inside Iran according to the UN Refugee Agency. The Hormuz energy crisis is now punishing poorer Middle Eastern nations, with analysts warning it could trigger Lebanon\'s economic collapse.',
+            tags: ['Iran war', 'Kharg Island', 'oil', 'Marines', 'Strait of Hormuz'],
             category: 'top-stories',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/iran-tehran-strikes-israel-united-states-strait-of-hormuz-9.7127055' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/article-iran-war-us-israel-ferdowsi-square-explosion/' },
-                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-03-13-2026' }
+                { title: 'AP News', url: 'https://apnews.com/article/iran-iraq-us-trump-march-14-2026-oil-prices-a2399398b4c590995b814d7640362a11' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-us-israel-kharg-island/' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/commentary/article-hormuz-energy-crisis-is-punishing-poor-mideast-countries-and-could/' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'U.S. Military Refueling Plane Crashes in Iraq, Killing at Least 4',
-            summary: 'A U.S. Air Force KC-135 refueling aircraft crashed in Iraq on Friday, killing at least four service members in the latest operational loss tied to the Iran conflict. The crash is under investigation but comes amid an intense tempo of military operations across the Middle East as the U.S. sustains its air campaign against Iranian targets. Meanwhile, the U.S. issued a 30-day sanctions waiver allowing the purchase of Russian oil stranded at sea, a move designed to calm energy markets jolted by the war. The crash underscores the human cost of the conflict beyond the headline-grabbing strikes, and is likely to fuel growing domestic debate over the scope of U.S. military involvement.',
-            tags: ['Iraq', 'military crash', 'KC-135', 'Iran war', 'oil sanctions'],
+            headline: 'U.S. Economy Showing Cracks as War Drives Oil Prices Higher',
+            summary: 'Cracks are emerging in what had been a resilient U.S. economy even before the Iran war sent oil prices rocketing, according to AP analysis. Consumer spending is weakening, and the government shutdown earlier this year already dented GDP growth. Now the war-driven energy shock is compounding those pressures, with gasoline prices surging and businesses bracing for a prolonged disruption. Trump signed executive orders aimed at addressing home affordability ahead of the midterms, signaling White House concern about the economic mood. Meanwhile, a federal judge quashed subpoenas in the Justice Department\'s investigation of Fed Chair Jerome Powell, adding another layer of uncertainty to an already jittery economic landscape.',
+            tags: ['economy', 'oil prices', 'Iran war', 'housing', 'Federal Reserve'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/us-iran-tanker-aircraft-crash-iraq-kc135-c337359a58be6280dc96fdbf1cb48a5b' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-us-issues-30-day-sanctions-waiver-for-purchase-of-russian-oil-stranded/' }
+                { title: 'AP News', url: 'https://apnews.com/article/economy-gdp-consumer-spending-trump-government-shutdown-3172b6d0023717644c173cee94d44a79' },
+                { title: 'AP News', url: 'https://apnews.com/article/trump-housing-executive-orders-bafb561bcc5da770de8f44ec06676d0d' },
+                { title: 'AP News', url: 'https://apnews.com/article/feeral-reserve-trump-0fdd36447a6aa8ae3e7125930d03950f' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'ROTC Students Subdue and Kill Gunman at Old Dominion University',
-            summary: 'ROTC students at Old Dominion University in Virginia heroically subdued and killed a shooter who opened fire on campus, leaving one person dead and two others injured. The incident is the latest in a grim series of American campus shootings, but the quick action of the military training students prevented what could have been a far worse tragedy. Separately, authorities identified the man who rammed his vehicle into a Michigan synagogue as a naturalized citizen from Lebanon, according to DHS. Both incidents highlight the ongoing challenge of domestic violence and extremism in the United States, even as the nation\'s attention is largely focused on the Iran war abroad.',
-            tags: ['shooting', 'Old Dominion', 'ROTC', 'campus safety', 'Michigan synagogue'],
+            headline: 'Zelenskyy Slams U.S. 30-Day Waiver on Russian Oil Sanctions as "Not the Right Decision"',
+            summary: 'Ukrainian President Volodymyr Zelenskyy sharply criticized the United States for issuing a 30-day waiver on Russian oil sanctions, calling it "not the right decision" as it effectively funds Russia\'s war machine while Washington fights its own conflict in the Middle East. The waiver was designed to ease global energy markets roiled by the Iran war and Hormuz closure, but Kyiv sees it as a betrayal that undermines the broader sanctions regime painstakingly built to isolate Moscow. The move highlights the impossible balancing act the U.S. faces — trying to manage energy prices at home while maintaining pressure on Russia and prosecuting a war against Iran simultaneously.',
+            tags: ['Zelenskyy', 'Ukraine', 'Russia', 'oil sanctions', 'Iran war'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/old-dominion-university-virginia-gunman-dead-e49b6d42f2b76d2ad92a2ee72833e9ad' },
-                { title: 'AP News', url: 'https://apnews.com/article/west-bloomfield-michigan-synagogue-99884aa558523928953bf5d31018c150' }
+                { title: 'AP News', url: 'https://apnews.com/article/russia-ukraine-war-macron-oil-drones-a9330482d471ea67890a0e8ec1913db7' }
             ]
         }
     ],
@@ -46,34 +46,32 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Canada\'s Economy Sheds 84,000 Jobs in February, Unemployment Rises to 6.7%',
-            summary: 'Canada\'s economy lost a staggering 84,000 jobs in February, far worse than economists expected, while the unemployment rate ticked up to 6.7 per cent, Statistics Canada reported Friday. The losses spanned both the services and goods-producing sectors, painting a picture of broad economic weakness at a time when the country is already grappling with trade war fallout and energy market turmoil from the Iran conflict. The shocking jobs number will put intense pressure on the Bank of Canada to cut interest rates at its next decision, even as inflation concerns from soaring oil prices complicate the picture. The report is the worst single-month employment decline since the pandemic recovery era.',
-            tags: ['jobs', 'unemployment', 'Statistics Canada', 'economy', 'labour market'],
+            headline: 'Canada\'s Economy Lost 84,000 Jobs in February as Unemployment Hits 6.7%',
+            summary: 'Canada\'s labour market took a brutal hit in February, shedding 84,000 jobs as the unemployment rate climbed to 6.7 per cent. The losses — far worse than forecasts — spanned both goods-producing and service sectors, signalling broad economic weakness at a time when trade tensions and the Iran-driven energy crisis are battering confidence. The report marks the worst single-month employment decline since the pandemic era and will intensify pressure on the Bank of Canada to cut rates, even as soaring oil prices complicate the inflation picture. For ordinary Canadians, the numbers mean a tightening job market heading into spring with no clear relief in sight.',
+            tags: ['jobs', 'unemployment', 'economy', 'Statistics Canada', 'labour market'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/business/canada-labour-force-survey-february-2026-9.7127105' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/economy/jobs/article-canada-february-jobs-report-unemployment-statistics/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/business/canada-labour-force-survey-february-2026-9.7127105' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Hospital ERs Across Canada at Breaking Point — Is This the New Normal?',
-            summary: 'Emergency rooms across Canada are buckling under unprecedented strain, with patients spending days on stretchers and in storage rooms waiting for beds, according to a sweeping CBC investigation. The crisis spans every province and territory, driven by staffing shortages, an aging population, and years of underinvestment in healthcare infrastructure. Doctors and nurses describe a system operating in permanent crisis mode where hallway medicine has become standard practice. The report raises urgent questions about whether Canadian politicians at every level of government have the will to make the massive investments needed to fix a healthcare system that many insiders say is already broken beyond incremental repair.',
-            tags: ['healthcare', 'emergency rooms', 'hospitals', 'wait times', 'health crisis'],
+            headline: 'Immigration Worker Arrested by Border Guards After Permit Cancelled Without Notice',
+            summary: 'A social worker specializing in youth mental health is heading back to Ireland after he says Immigration, Refugees and Citizenship Canada cancelled his work permit without his knowledge and without giving him a chance to respond. Border guards arrested him on the street in British Columbia, leaving him with no time to contest the decision. The case has drawn outrage from immigration advocates who say it illustrates the opaque and often arbitrary nature of Canada\'s immigration enforcement system. It raises serious questions about due process for temporary foreign workers who follow all the rules but still find themselves caught in bureaucratic traps with life-altering consequences.',
+            tags: ['immigration', 'work permits', 'IRCC', 'British Columbia', 'due process'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/canada-hospitals-wait-times-9.7123684' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/british-columbia/mental-health-worker-border-guard-arrest-9.7128359' }
             ]
         },
         {
             id: 'cdn-3',
-            headline: 'Canada Gives TikTok the Green Light to Continue Operating',
-            summary: 'Canada has approved TikTok to continue operating in the country, even as the Canadian Security Intelligence Service urged Canadians to "proceed cautiously" with the platform and conduct their own research on data collection practices. The decision comes after months of national security reviews and contrasts with the more aggressive approach taken by some other Western nations. CSIS had previously warned against using TikTok due to concerns about Chinese government access to user data. The green light will be welcomed by the millions of Canadians who use the platform daily, but privacy advocates argue the government is prioritizing popularity over genuine security concerns about foreign data harvesting.',
-            tags: ['TikTok', 'CSIS', 'national security', 'social media', 'data privacy'],
+            headline: '22-Year-Old Student Dies Donating Plasma at For-Profit Winnipeg Clinic',
+            summary: 'Loved ones are seeking answers after a 22-year-old student died while donating plasma at a for-profit collection site in Winnipeg. Health Canada says four such deaths have occurred in the last decade, and the tragedy has reignited debate about the safety of commercial plasma collection as Manitoba considers banning the practice. The student\'s family is demanding a full investigation into what went wrong during what should have been a routine donation. Critics of for-profit plasma argue that financial incentives push donors to give more frequently than is safe, while industry defenders say the operations are heavily regulated and essential for meeting Canada\'s growing demand for plasma-derived medicines.',
+            tags: ['plasma donation', 'Winnipeg', 'Health Canada', 'student death', 'Manitoba'],
             category: 'canadian-news',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
-                { title: 'CBC News', url: 'https://www.cbc.ca/news' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-loved-ones-seek-answers-after-22-year-old-student-dies-while-donating/' }
             ]
         }
     ],
@@ -81,33 +79,32 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'Ontario to Exempt Premier and Cabinet from Freedom of Information Requests',
-            summary: 'The Ontario government is introducing legislation to exempt the Premier and cabinet ministers from freedom of information requests, a move critics are calling a brazen assault on government transparency. The proposed changes follow Ontario\'s loss of a court battle over call logs from Premier Doug Ford\'s personal cellphone, suggesting the government is legislating its way around judicial accountability. Opposition parties and press freedom advocates have condemned the bill, arguing it would create an unprecedented shield around the province\'s most powerful officials at a time when public trust in government is already fragile. The bill is expected to face fierce debate but will likely pass given the Progressive Conservatives\' majority in the legislature.',
-            tags: ['Ontario', 'Doug Ford', 'FOI', 'transparency', 'legislation'],
+            headline: 'Federal Departments Reveal Plans to Find Billions in Internal Savings Through Cuts',
+            summary: 'Federal departments and agencies have released details on how they plan to find billions of dollars in internal savings, with cuts including winding down a construction project at Transport Canada and scaling back legal support for veterans appealing rulings about their benefits. The austerity measures come as Ottawa faces mounting fiscal pressure from the Iran war, energy market disruption, and slowing economic growth. Veterans groups have condemned the legal-aid cuts as particularly cruel, arguing the government is balancing its books on the backs of those who served. The savings plan signals a broader belt-tightening across the federal government that will affect services Canadians rely on.',
+            tags: ['federal budget', 'austerity', 'veterans', 'Transport Canada', 'savings'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-ontario-freedom-of-information-requests-premier-cabinet/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-federal-departments-details-plans-billions-internal-savings/' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'Carney Heads to Norway to Discuss Energy Security and Observe NATO Drills',
-            summary: 'Prime Minister Mark Carney is embarking on a three-day trip to Norway focused on energy security and NATO military readiness, as the Iran war reshapes global energy markets and tests Western alliance cohesion. Carney is expected to observe NATO Arctic exercises and hold discussions with Nordic leaders about securing alternative energy supplies while the Strait of Hormuz remains blocked. The trip takes on added urgency after revelations that Ottawa failed to disclose an attack on a military base in Kuwait where Canadian forces were stationed, with Conservative MPs calling the lack of transparency "shameful." The dual focus on energy and defence reflects the interconnected crises facing Canada on the world stage.',
-            tags: ['Carney', 'Norway', 'NATO', 'energy security', 'Kuwait'],
+            headline: 'Mark Carney at One Year: Useful in a Crisis, But Is He Any Good at Politics?',
+            summary: 'A Globe and Mail analysis examines Prime Minister Mark Carney\'s first year in office, noting that while he has proven himself capable in crisis management — navigating the Iran war, trade tensions with Trump, and energy market chaos — questions linger about his political instincts. For the first time, Canada has a PM who is figuring out how to be a politician on the job, in front of everyone. His technocratic approach wins praise from policy wonks but sometimes falls flat in the retail politics of connecting with everyday Canadians. As Carney heads to Norway to discuss energy security and observe NATO drills, the piece asks whether crisis competence alone is enough to win the next election.',
+            tags: ['Mark Carney', 'Prime Minister', 'leadership', 'politics', 'analysis'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-mark-carney-energy-security-trip-norway-oil/' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-canadian-troops-kuwait-iran-war/' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/opinion/article-hes-useful-in-a-crisis-but-is-he-any-good-at-politics-a-look-at-mark/' }
             ]
         },
         {
             id: 'cdnpol-3',
-            headline: 'Conservatives Split on Immigration as Editorial Board Identifies "Two Tory Mindsets"',
-            summary: 'A Globe and Mail editorial has identified a growing rift within the Conservative Party over immigration policy, contrasting one faction that offers constructive reform ideas that could push the Liberals toward meaningful change with another that is primarily focused on stoking online outrage. The editorial argues that the party\'s most productive voices on immigration are being drowned out by those who treat the issue as a culture war wedge rather than a policy challenge. The split matters because immigration is shaping up to be one of the defining issues of the next federal election, and how the Conservatives navigate their internal divide will determine whether they offer Canadians a credible alternative or simply more partisan heat.',
-            tags: ['Conservatives', 'immigration', 'CPC', 'policy', 'federal politics'],
+            headline: 'Ottawa to Allow Rural Employers to Hire More Temporary Foreign Workers',
+            summary: 'The federal government is allowing rural employers to increase the proportion of temporary foreign workers in their workforce, a policy shift aimed at addressing chronic labour shortages in areas that struggle to attract domestic workers. The move comes amid a broader national debate about immigration levels and the role of temporary workers in the Canadian economy. Critics argue the policy will further depress wages in rural communities and make employers dependent on cheap foreign labour rather than investing in automation or better pay. Supporters counter that without the change, many rural businesses — from farms to food processors — would simply shut down, devastating already fragile small-town economies.',
+            tags: ['temporary foreign workers', 'rural', 'immigration', 'labour', 'federal policy'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/opinion/editorials/article-tory-conservative-mindset-immigration-asylum/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/temporary-foreign-workers-rural-employers-9.7128274' }
             ]
         }
     ],
@@ -115,33 +112,32 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Trump\'s Gas Price Boasts Come Back to Haunt Him as Iran War Sends Oil Soaring',
-            summary: 'President Trump, who spent years bragging about low gas prices, is now doing an awkward about-face as the Iran conflict sends oil prices toward $100 a barrel and American consumers face sticker shock at the pump. The administration is scrambling to manage the narrative, with Hegseth dismissing supply concerns and the White House issuing a 30-day sanctions waiver for Russian oil purchases to ease pressure on global markets. The political reversal is particularly damaging because Trump made cheap energy a cornerstone of his economic messaging, and rising fuel costs are hitting the working-class voters who form his base the hardest. Democrats are seizing on the contradiction, arguing the president\'s reckless escalation in Iran has undone his own signature economic achievement.',
-            tags: ['Trump', 'gas prices', 'Iran war', 'oil', 'economy'],
+            headline: 'Trump Signs Housing Executive Orders as Midterm Pressure Mounts',
+            summary: 'President Trump signed a batch of executive orders aimed at addressing home affordability concerns, a clear signal that the White House is worried about the economic mood heading into the 2026 midterms. The orders target federal land use, permitting reform, and mortgage regulation, though critics say executive action alone can\'t solve a housing crisis driven by decades of underbuilding and soaring interest rates. The move comes as the broader economy shows cracks — consumer spending is weakening, oil prices are surging from the Iran war, and Trump\'s approval ratings have taken a hit. Democrats dismissed the orders as "election-year window dressing" that won\'t meaningfully bring down housing costs for struggling Americans.',
+            tags: ['Trump', 'housing', 'executive orders', 'midterms', 'affordability'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/trump-iran-oil-hormuz-7abbe9d8140de1e61355fb3ddb94639d' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-housing-executive-orders-bafb561bcc5da770de8f44ec06676d0d' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'Republicans Plan Long Talkathon on Voting Bill Under Pressure from Trump',
-            summary: 'Senate Republicans are planning an extended floor session on a voting bill that would require proof of citizenship to cast a ballot, bowing to pressure from President Trump who has made election integrity a top priority ahead of the 2026 midterms. The talkathon is designed to highlight the issue and put Democrats on the defensive, even though the bill faces a likely filibuster. Critics argue the legislation would disenfranchise eligible voters who lack readily available citizenship documentation, while supporters say it\'s a common-sense measure to secure elections. The push comes as Trump seeks to energize his base around cultural issues even as his approval ratings take a hit from the Iran war and rising prices.',
-            tags: ['voting', 'Republicans', 'Trump', 'midterms', 'citizenship'],
+            headline: 'State Department Slashes Fee to Renounce U.S. Citizenship by 80%',
+            summary: 'The State Department has cut the fee to renounce U.S. citizenship by 80 per cent, from $2,350 down to just $450, a move that is raising eyebrows given the current political climate. The timing is striking: it comes amid rising emigration interest among Americans disillusioned with the political direction of the country, the Iran war, and economic uncertainty. While the State Department framed the change as a routine fee adjustment, critics see it as either tone-deaf or deliberately provocative. The number of Americans renouncing citizenship has been trending upward in recent years, and the dramatically lower cost could accelerate that trend — a symbolic indictment of the national mood.',
+            tags: ['citizenship', 'State Department', 'emigration', 'fees', 'policy'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/voting-trump-midterms-citizenship-republican-filibuster-b83df9d9d92f82aded39c0859750ae9f' }
+                { title: 'AP News', url: 'https://apnews.com/article/us-citizenship-state-department-ab78db7aced64919edff3de26eebb681' }
             ]
         },
         {
             id: 'uspol-3',
-            headline: 'Iran-Linked Hackers Target U.S. Infrastructure as Cyberwar Escalates',
-            summary: 'Iran-linked hacking groups are intensifying cyberattacks against U.S. targets, raising the risk of a major digital infrastructure breach as the kinetic war continues in the Middle East. Security researchers have identified campaigns targeting energy infrastructure, government networks, and financial systems, with the sophistication of attacks increasing since the conflict began. California Governor Newsom said there is no imminent threat despite warnings about a possible Iranian drone attack on the state, but the cyber dimension of the conflict is adding a layer of vulnerability that extends far beyond the battlefield. U.S. cyber command is reportedly conducting offensive operations of its own against Iranian networks, making this the most active state-on-state cyber conflict in history.',
-            tags: ['cybersecurity', 'Iran', 'hackers', 'infrastructure', 'cyberwar'],
+            headline: 'ICE Replaces Contractor at Largest Detention Camp After Conditions Scrutiny',
+            summary: 'ICE has replaced the private contractor running its largest detention facility in eastern Montana following intense scrutiny of living conditions at the camp. The move comes after reports of overcrowding, inadequate medical care, and unsanitary conditions that drew bipartisan criticism. Separately, ICE operations continue to expand in Minnesota, where activists report drones surveilling their neighbourhoods and the Department of Homeland Security has used license-plate readers and facial recognition technology to monitor anti-ICE organizers in Minneapolis. The contractor swap acknowledges the severity of conditions but does little to address broader concerns about the scale and methods of the Trump administration\'s immigration enforcement apparatus.',
+            tags: ['ICE', 'detention', 'immigration', 'Montana', 'surveillance'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/cyber-threats-iran-war-trump-israel-hackers-2c0ae77b1799b3d1c5b1353f7798f8ff' },
-                { title: 'AP News', url: 'https://apnews.com/article/iran-california-drones-newsom-trump-82afa326f0b362e0ae96b97e1e6c3d7e' }
+                { title: 'AP News', url: 'https://apnews.com/article/ice-detention-facility-camp-east-montana-conditions-contract-c7d369ed5fcbe19d87868b9b337f5211' }
             ]
         }
     ],
@@ -149,9 +145,9 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'Meta Delays Its Next AI Model "Avocado" as Performance Falls Short of Rivals',
-            summary: 'Meta has postponed the release of its next major AI model, codenamed Avocado, from March until at least May after internal testing showed its performance falls short of competitors like Google, the New York Times reports. The delay is a setback for Meta\'s AI ambitions, especially after the company hired Scale AI CEO Alexandr Wang to revamp its efforts. Avocado was intended to be Meta\'s first major open-source model release under Wang\'s leadership and a proof point that the company could compete at the frontier of AI development. The postponement suggests that despite spending billions on AI infrastructure and talent, Meta is still struggling to close the gap with the leading labs.',
-            tags: ['Meta', 'AI', 'Avocado', 'Alexandr Wang', 'open source'],
+            headline: 'Meta Delays "Avocado" AI Model Until May as Performance Lags Behind Google',
+            summary: 'Meta has pushed back the release of its next major AI model, codenamed Avocado, from March to at least May after internal benchmarks showed it falling short of rivals like Google. The delay is embarrassing for Meta, which hired Scale AI\'s Alexandr Wang to overhaul its AI division and has poured billions into compute infrastructure. Avocado was supposed to prove Meta could compete at the AI frontier with an open-source approach, but the postponement suggests the gap with leading labs remains stubbornly wide. The news sent a ripple through the AI community, where Meta\'s open-source contributions have been widely valued — raising questions about whether the company\'s ambitions are outpacing its execution.',
+            tags: ['Meta', 'AI', 'Avocado', 'Google', 'open source'],
             category: 'ai-tech',
             sources: [
                 { title: 'The Verge', url: 'https://www.theverge.com/news/841809/meta-avocado-ai-model-charge-open-source-mark-zuckerberg' }
@@ -159,23 +155,23 @@ const newsData = {
         },
         {
             id: 'tech-2',
-            headline: 'Adobe CEO Shantanu Narayen Steps Down After 18 Years as AI Reshapes Creative Industry',
-            summary: 'Adobe CEO Shantanu Narayen is stepping down after an 18-year tenure that transformed the company from a boxed-software seller into a cloud-based creative powerhouse. In his departing statement, Narayen said "the next era of creativity is being written right now — shaped by AI, by new workflows and by entirely new forms of expression." His exit comes at a pivotal moment for Adobe, which faces intense competition from AI-native startups that are challenging its dominance in design and creative tools. The leadership transition will be closely watched by the entire tech industry as a bellwether for how legacy software companies navigate the AI revolution that is fundamentally reshaping their markets.',
-            tags: ['Adobe', 'CEO', 'Shantanu Narayen', 'AI', 'creative tools'],
+            headline: 'Google Overhauls Maps with AI-Powered Features Using Gemini',
+            summary: 'Google is rolling out a major overhaul of its Maps app, adding AI features powered by its Gemini model to help people navigate more intelligently. The update includes natural-language trip planning, smarter route suggestions that factor in real-time conditions, and contextual recommendations for nearby businesses. It\'s the most significant Maps redesign in years and represents Google\'s strategy of embedding Gemini across its entire product suite rather than keeping AI confined to standalone chatbots. The update positions Google Maps as not just a navigation tool but an AI-powered local guide — a move that could further entrench Google\'s dominance in local search and put more pressure on competitors like Apple Maps.',
+            tags: ['Google', 'Maps', 'Gemini', 'AI', 'navigation'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
+                { title: 'AP News', url: 'https://apnews.com/article/google-maps-ai-gemini-update-1933c40eaecfdbb9aa54d8ae3efcec2e' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'Google Fiber Spins Off Into Independent Company, Partners with Stonepeak\'s Astound',
-            summary: 'Google Fiber is spinning off from Alphabet to become an independent fiber internet provider, combining with Stonepeak-backed Astound Broadband. Google will retain a minority stake while investment firm Stonepeak holds the majority. GFiber CEO Dinni Jain said the partnership "is the next step in our decade-long mission to redefine what customers can expect from their internet provider." The move marks the end of Google\'s direct experiment in becoming an ISP, a project that launched with enormous ambition but faced years of slow expansion and regulatory headaches. The new entity will aim to expand fiber coverage more aggressively with dedicated infrastructure investment capital.',
-            tags: ['Google Fiber', 'Astound', 'Stonepeak', 'ISP', 'broadband'],
+            headline: 'BuzzFeed Posts $57M Loss After AI Pivot Backfires Spectacularly',
+            summary: 'BuzzFeed\'s aggressive embrace of AI has proven catastrophic, with the company posting a $57.3 million loss in 2025 and its stock cratering to just $0.70 per share. Three years ago, CEO Jonah Peretti bet the company\'s future on using AI to generate articles and quiz responses, but readers rejected the machine-generated content en masse. Despite the dismal results, Peretti remains undeterred and is planning to bring "new AI apps" to market — a move that has left investors and industry observers baffled. The BuzzFeed saga has become a cautionary tale about the gap between AI hype and consumer reality: just because content can be generated cheaply by machines doesn\'t mean anyone wants to read it.',
+            tags: ['BuzzFeed', 'AI', 'media', 'Jonah Peretti', 'content'],
             category: 'ai-tech',
             sources: [
                 { title: 'The Verge', url: 'https://www.theverge.com/tech' },
-                { title: 'Google Fiber Blog', url: 'https://fiber.google.com/blog/2026/03/gfiber-and-stonepeaks-astound-to.html' }
+                { title: 'Futurism', url: 'https://futurism.com/artificial-intelligence/buzzfeed-disastrous-earnings-ai' }
             ]
         }
     ]
