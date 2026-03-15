@@ -4,41 +4,39 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Saturday, March 14, 2026',
+    date: 'Sunday, March 15, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'Iran War Enters Third Week as U.S. Strikes Kharg Island, Deploys 2,500 More Marines',
-            summary: 'The U.S.-Iran conflict entered its third week with strikes on Kharg Island, a critical hub for Iranian oil exports, as Trump warned that oil infrastructure could be next if Iran continues to interfere with shipping through the Strait of Hormuz. The Pentagon is deploying an additional 2,500 Marines to the region. Iran has struck a defiant tone, claiming its oil exports continue normally and further threatening the UAE. The escalation has sent oil prices soaring and displaced millions of people inside Iran according to the UN Refugee Agency. The Hormuz energy crisis is now punishing poorer Middle Eastern nations, with analysts warning it could trigger Lebanon\'s economic collapse.',
-            tags: ['Iran war', 'Kharg Island', 'oil', 'Marines', 'Strait of Hormuz'],
+            headline: 'Trump Urges Allies to Send Warships to Strait of Hormuz as Gulf States Intercept Iranian Missiles',
+            summary: 'President Trump called on U.S. allies to deploy warships to the Strait of Hormuz as the Iran war entered a dangerous new phase on Sunday. Gulf Arab states intercepted a fresh barrage of Iranian missiles and drones overnight, with Iran openly threatening to widen the conflict beyond its current borders. The UAE remains a focal point after Iran\'s foreign minister said Tehran would "try to be careful" not to hit populated areas — a statement that did little to reassure Gulf capitals already on high alert. Britain said it is weighing a "range of options" in response to Trump\'s request, while oil markets brace for another volatile week with the Strait — through which 20% of global oil passes — effectively a war zone.',
+            tags: ['Iran war', 'Strait of Hormuz', 'Trump', 'Gulf states', 'UAE'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/iran-iraq-us-trump-march-14-2026-oil-prices-a2399398b4c590995b814d7640362a11' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-us-israel-kharg-island/' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/commentary/article-hormuz-energy-crisis-is-punishing-poor-mideast-countries-and-could/' }
+                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-03-15-2026' },
+                { title: 'AP News', url: 'https://apnews.com/article/iran-iraq-us-trump-march-15-2026-9bbed3c906146844be08fdfd02595754' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/article-iran-us-israel-war-uae/' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'U.S. Economy Showing Cracks as War Drives Oil Prices Higher',
-            summary: 'Cracks are emerging in what had been a resilient U.S. economy even before the Iran war sent oil prices rocketing, according to AP analysis. Consumer spending is weakening, and the government shutdown earlier this year already dented GDP growth. Now the war-driven energy shock is compounding those pressures, with gasoline prices surging and businesses bracing for a prolonged disruption. Trump signed executive orders aimed at addressing home affordability ahead of the midterms, signaling White House concern about the economic mood. Meanwhile, a federal judge quashed subpoenas in the Justice Department\'s investigation of Fed Chair Jerome Powell, adding another layer of uncertainty to an already jittery economic landscape.',
-            tags: ['economy', 'oil prices', 'Iran war', 'housing', 'Federal Reserve'],
+            headline: 'U.S. Military Aircraft Crashes in Iran-Iraq Zone, Crew Members Killed',
+            summary: 'A U.S. military aircraft went down in the Iran-Iraq operational zone, killing several crew members including an Alabama father who had recently deployed and multiple service members from Ohio. The Pentagon confirmed the crash but offered few details about the circumstances, saying only that it occurred during operations related to the ongoing Iran campaign. The incident underscores the escalating human cost of a conflict that has now claimed American lives on the front lines. Families are demanding answers about the mission and conditions that led to the fatal crash, while the tragedy is likely to intensify domestic debate about the war\'s scope and whether Congress should have a greater role in authorizing operations.',
+            tags: ['military crash', 'Iran war', 'Pentagon', 'casualties', 'Iraq'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/economy-gdp-consumer-spending-trump-government-shutdown-3172b6d0023717644c173cee94d44a79' },
-                { title: 'AP News', url: 'https://apnews.com/article/trump-housing-executive-orders-bafb561bcc5da770de8f44ec06676d0d' },
-                { title: 'AP News', url: 'https://apnews.com/article/feeral-reserve-trump-0fdd36447a6aa8ae3e7125930d03950f' }
+                { title: 'AP News', url: 'https://apnews.com/article/us-military-aircraft-down-iran-iraq-7f56db745b94fd80a7553560cf49c292' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'Zelenskyy Slams U.S. 30-Day Waiver on Russian Oil Sanctions as "Not the Right Decision"',
-            summary: 'Ukrainian President Volodymyr Zelenskyy sharply criticized the United States for issuing a 30-day waiver on Russian oil sanctions, calling it "not the right decision" as it effectively funds Russia\'s war machine while Washington fights its own conflict in the Middle East. The waiver was designed to ease global energy markets roiled by the Iran war and Hormuz closure, but Kyiv sees it as a betrayal that undermines the broader sanctions regime painstakingly built to isolate Moscow. The move highlights the impossible balancing act the U.S. faces — trying to manage energy prices at home while maintaining pressure on Russia and prosecuting a war against Iran simultaneously.',
-            tags: ['Zelenskyy', 'Ukraine', 'Russia', 'oil sanctions', 'Iran war'],
+            headline: 'Iran War Economy: Even If the War Is Won, the Economic Damage Is Already Done',
+            summary: 'A stark Globe and Mail analysis argues that regardless of how the Iran war ends militarily, the economic fallout is already baked in. Oil prices have surged to levels not seen since 2008, supply chains are scrambling to reroute around the Persian Gulf, and inflation is ticking back up globally just as central banks were beginning to declare victory over the post-pandemic price spiral. The piece warns that the war has handed the global economy a stagflationary shock — rising prices combined with slowing growth — that will linger long after any ceasefire. For ordinary consumers, that means higher gas prices, more expensive groceries, and an increasingly uncertain job market heading into spring.',
+            tags: ['economy', 'Iran war', 'oil prices', 'inflation', 'stagflation'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/russia-ukraine-war-macron-oil-drones-a9330482d471ea67890a0e8ec1913db7' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/commentary/article-iran-war-oil-economy-trump-inflation/' }
             ]
         }
     ],
@@ -46,32 +44,33 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Canada\'s Economy Lost 84,000 Jobs in February as Unemployment Hits 6.7%',
-            summary: 'Canada\'s labour market took a brutal hit in February, shedding 84,000 jobs as the unemployment rate climbed to 6.7 per cent. The losses — far worse than forecasts — spanned both goods-producing and service sectors, signalling broad economic weakness at a time when trade tensions and the Iran-driven energy crisis are battering confidence. The report marks the worst single-month employment decline since the pandemic era and will intensify pressure on the Bank of Canada to cut rates, even as soaring oil prices complicate the inflation picture. For ordinary Canadians, the numbers mean a tightening job market heading into spring with no clear relief in sight.',
-            tags: ['jobs', 'unemployment', 'economy', 'Statistics Canada', 'labour market'],
+            headline: 'Canada and Nordic Countries Vow Closer Collaboration as "Middle Power" Bloc',
+            summary: 'Prime Minister Mark Carney joined leaders from Norway, Sweden, Denmark, Finland, and Iceland in Oslo for a mini-summit aimed at forging a closer "middle power" alliance. The meeting comes on the heels of a massive NATO exercise in northern Norway and focuses on Arctic security, Russian military threats, and the fallout from U.S. unpredictability under Trump. Few concrete details emerged about how the countries plan to collaborate, but the symbolism was clear: smaller democracies are banding together as the traditional Western alliance frays. For Canada, the Nordic pivot represents Carney\'s effort to diversify the country\'s strategic relationships beyond its overwhelming dependence on the United States.',
+            tags: ['Carney', 'Nordic summit', 'Arctic', 'NATO', 'middle powers'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/business/canada-labour-force-survey-february-2026-9.7127105' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-carney-canada-nordic-relations-oslo-norway-sweden-denmark-finland/' },
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Immigration Worker Arrested by Border Guards After Permit Cancelled Without Notice',
-            summary: 'A social worker specializing in youth mental health is heading back to Ireland after he says Immigration, Refugees and Citizenship Canada cancelled his work permit without his knowledge and without giving him a chance to respond. Border guards arrested him on the street in British Columbia, leaving him with no time to contest the decision. The case has drawn outrage from immigration advocates who say it illustrates the opaque and often arbitrary nature of Canada\'s immigration enforcement system. It raises serious questions about due process for temporary foreign workers who follow all the rules but still find themselves caught in bureaucratic traps with life-altering consequences.',
-            tags: ['immigration', 'work permits', 'IRCC', 'British Columbia', 'due process'],
+            headline: 'Ottawa Announces $35-Billion Arctic Investment to Connect Northern Communities',
+            summary: 'The federal government unveiled a $35-billion Arctic investment plan that includes the long-stalled Mackenzie Valley Highway and expanded infrastructure to connect remote northern families and communities. Northwest Territories Premier hailed the announcement as a generational investment that will transform life in the North, while the Carney government framed it as both an economic development initiative and a sovereignty play amid rising geopolitical tensions over Arctic resources and shipping routes. Critics question whether the massive price tag is realistic given Ottawa\'s fiscal constraints, but northern leaders say decades of neglect have left communities isolated and vulnerable — and that the cost of inaction is even higher.',
+            tags: ['Arctic', 'infrastructure', 'Mackenzie Valley Highway', 'NWT', 'federal spending'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/british-columbia/mental-health-worker-border-guard-arrest-9.7128359' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics' }
             ]
         },
         {
             id: 'cdn-3',
-            headline: '22-Year-Old Student Dies Donating Plasma at For-Profit Winnipeg Clinic',
-            summary: 'Loved ones are seeking answers after a 22-year-old student died while donating plasma at a for-profit collection site in Winnipeg. Health Canada says four such deaths have occurred in the last decade, and the tragedy has reignited debate about the safety of commercial plasma collection as Manitoba considers banning the practice. The student\'s family is demanding a full investigation into what went wrong during what should have been a routine donation. Critics of for-profit plasma argue that financial incentives push donors to give more frequently than is safe, while industry defenders say the operations are heavily regulated and essential for meeting Canada\'s growing demand for plasma-derived medicines.',
-            tags: ['plasma donation', 'Winnipeg', 'Health Canada', 'student death', 'Manitoba'],
+            headline: 'National Historic Courthouse in London, Ont. Faces Shadow from 54-Storey Tower Development',
+            summary: 'Plans for a 54-storey residential tower next to London, Ontario\'s castle-like Old Middlesex County Courthouse — a designated national historic site — are raising alarm among heritage advocates. The development would literally cast a shadow over the place where the city began, and critics say it exposes a glaring gap in federal heritage protection law: national historic site designation doesn\'t actually prevent incompatible development on adjacent land. Supporters of the project argue the city desperately needs housing density and that the tower has been designed to complement rather than diminish the historic structure. The clash encapsulates the tension between Canada\'s housing crisis and its commitment to preserving the built heritage that gives communities their character.',
+            tags: ['heritage', 'London Ontario', 'development', 'housing', 'historic sites'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-loved-ones-seek-answers-after-22-year-old-student-dies-while-donating/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/canada-ontario-london-old-middlesex-county-courthouse-development-9.7107268' }
             ]
         }
     ],
@@ -79,32 +78,32 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'Federal Departments Reveal Plans to Find Billions in Internal Savings Through Cuts',
-            summary: 'Federal departments and agencies have released details on how they plan to find billions of dollars in internal savings, with cuts including winding down a construction project at Transport Canada and scaling back legal support for veterans appealing rulings about their benefits. The austerity measures come as Ottawa faces mounting fiscal pressure from the Iran war, energy market disruption, and slowing economic growth. Veterans groups have condemned the legal-aid cuts as particularly cruel, arguing the government is balancing its books on the backs of those who served. The savings plan signals a broader belt-tightening across the federal government that will affect services Canadians rely on.',
-            tags: ['federal budget', 'austerity', 'veterans', 'Transport Canada', 'savings'],
+            headline: 'Liberals Introduce New Bill to Help Police Track and Identify Criminals Online',
+            summary: 'The Carney government introduced legislation giving police new powers to track and identify criminal suspects online, a second attempt after privacy concerns torpedoed an earlier version of the bill. The new version includes what the justice minister calls "safeguards" to protect Canadians\' privacy while still enabling law enforcement to keep pace with digital crime. Privacy advocates remain skeptical, arguing the bill still grants overly broad surveillance authority that could be abused. The Conservatives are offering qualified support but say the bill doesn\'t go far enough on enforcement, while the NDP wants stronger judicial oversight provisions before backing it. The legislation reflects a growing bipartisan consensus that online anonymity has become a shield for serious criminals — the debate is over where to draw the line.',
+            tags: ['online surveillance', 'privacy', 'police powers', 'legislation', 'Liberals'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-federal-departments-details-plans-billions-internal-savings/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'Mark Carney at One Year: Useful in a Crisis, But Is He Any Good at Politics?',
-            summary: 'A Globe and Mail analysis examines Prime Minister Mark Carney\'s first year in office, noting that while he has proven himself capable in crisis management — navigating the Iran war, trade tensions with Trump, and energy market chaos — questions linger about his political instincts. For the first time, Canada has a PM who is figuring out how to be a politician on the job, in front of everyone. His technocratic approach wins praise from policy wonks but sometimes falls flat in the retail politics of connecting with everyday Canadians. As Carney heads to Norway to discuss energy security and observe NATO drills, the piece asks whether crisis competence alone is enough to win the next election.',
-            tags: ['Mark Carney', 'Prime Minister', 'leadership', 'politics', 'analysis'],
+            headline: 'Why Are So Many MPs Crossing the Floor to Carney\'s Liberals?',
+            summary: 'A CBC At Issue panel examined the wave of opposition MPs crossing the floor to join Mark Carney\'s Liberal caucus, a trend that is reshaping the parliamentary landscape. The defections — from both the Conservatives and NDP — suggest that Carney\'s crisis-manager brand and centrist positioning are proving magnetic to politicians who see him as a winner. Critics say the floor-crossings reveal more about political opportunism than genuine ideological alignment, while Liberal strategists argue it proves Carney is building the kind of big-tent coalition Canada needs during wartime. The trend is infuriating opposition leaders who are watching their benches thin out, and raises questions about whether party loyalty means anything in an era of personality-driven politics.',
+            tags: ['Carney', 'Liberals', 'floor crossing', 'MPs', 'Parliament'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/opinion/article-hes-useful-in-a-crisis-but-is-he-any-good-at-politics-a-look-at-mark/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics' }
             ]
         },
         {
             id: 'cdnpol-3',
-            headline: 'Ottawa to Allow Rural Employers to Hire More Temporary Foreign Workers',
-            summary: 'The federal government is allowing rural employers to increase the proportion of temporary foreign workers in their workforce, a policy shift aimed at addressing chronic labour shortages in areas that struggle to attract domestic workers. The move comes amid a broader national debate about immigration levels and the role of temporary workers in the Canadian economy. Critics argue the policy will further depress wages in rural communities and make employers dependent on cheap foreign labour rather than investing in automation or better pay. Supporters counter that without the change, many rural businesses — from farms to food processors — would simply shut down, devastating already fragile small-town economies.',
-            tags: ['temporary foreign workers', 'rural', 'immigration', 'labour', 'federal policy'],
+            headline: 'Conservatives Table Bill to Give More Legal Protection for Home Self-Defence',
+            summary: 'The Conservative Party introduced a private member\'s bill that would expand legal protections for Canadians who use force to defend themselves against home intruders. The legislation responds to several high-profile cases where homeowners faced criminal charges after confronting burglars, which Conservatives argue is a failure of the justice system. The bill would create a stronger presumption of self-defence in home invasion scenarios, shifting the burden away from victims. The Liberals have been cautious in their response, acknowledging public frustration but warning that loosening self-defence laws could lead to American-style "stand your ground" problems. Legal experts are divided, with some calling it a common-sense reform and others cautioning it could escalate violence in domestic disputes.',
+            tags: ['self-defence', 'Conservatives', 'home invasion', 'criminal law', 'private member bill'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics/temporary-foreign-workers-rural-employers-9.7128274' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics' }
             ]
         }
     ],
@@ -112,32 +111,32 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Trump Signs Housing Executive Orders as Midterm Pressure Mounts',
-            summary: 'President Trump signed a batch of executive orders aimed at addressing home affordability concerns, a clear signal that the White House is worried about the economic mood heading into the 2026 midterms. The orders target federal land use, permitting reform, and mortgage regulation, though critics say executive action alone can\'t solve a housing crisis driven by decades of underbuilding and soaring interest rates. The move comes as the broader economy shows cracks — consumer spending is weakening, oil prices are surging from the Iran war, and Trump\'s approval ratings have taken a hit. Democrats dismissed the orders as "election-year window dressing" that won\'t meaningfully bring down housing costs for struggling Americans.',
-            tags: ['Trump', 'housing', 'executive orders', 'midterms', 'affordability'],
+            headline: 'Republican Election Bill\'s Citizenship Proof Requirement Could Burden Millions of Voters',
+            summary: 'The biggest change in the Republican-backed SAVE Act — requiring documentary proof of citizenship to vote — could become a significant burden for millions of American voters who lack readily accessible documents like passports or birth certificates. Analysis shows the requirement would disproportionately affect elderly, low-income, and minority voters who are less likely to have such documents on hand. Republicans frame the measure as essential to election security, citing concerns about non-citizen voting, though studies consistently show such fraud is exceedingly rare. Democrats and voting rights groups say the bill is a thinly veiled voter suppression effort designed to shrink the electorate ahead of the 2026 midterms, and have vowed legal challenges if it passes.',
+            tags: ['SAVE Act', 'voting rights', 'election security', 'Congress', 'midterms'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/trump-housing-executive-orders-bafb561bcc5da770de8f44ec06676d0d' }
+                { title: 'AP News', url: 'https://apnews.com/hub/iran' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'State Department Slashes Fee to Renounce U.S. Citizenship by 80%',
-            summary: 'The State Department has cut the fee to renounce U.S. citizenship by 80 per cent, from $2,350 down to just $450, a move that is raising eyebrows given the current political climate. The timing is striking: it comes amid rising emigration interest among Americans disillusioned with the political direction of the country, the Iran war, and economic uncertainty. While the State Department framed the change as a routine fee adjustment, critics see it as either tone-deaf or deliberately provocative. The number of Americans renouncing citizenship has been trending upward in recent years, and the dramatically lower cost could accelerate that trend — a symbolic indictment of the national mood.',
-            tags: ['citizenship', 'State Department', 'emigration', 'fees', 'policy'],
+            headline: 'FCC Chairman Warns Broadcasters Against Airing "Fake News" After Trump Complains About War Coverage',
+            summary: 'FCC Chairman issued a warning to broadcasters not to air "fake news" after President Trump publicly complained about media coverage of the Iran war, a move that press freedom advocates are calling an unprecedented threat to the First Amendment. The warning didn\'t specify which reports were considered false, but it comes as outlets have aired critical coverage of civilian casualties, the economic fallout, and questions about the war\'s strategic objectives. Media law experts say the FCC\'s warning, while lacking formal enforcement power over news content, represents a dangerous chilling effect — signalling to networks that critical war reporting could invite regulatory scrutiny. The incident echoes authoritarian patterns of using state regulators to intimidate independent press during wartime.',
+            tags: ['FCC', 'press freedom', 'fake news', 'Trump', 'Iran war coverage'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/us-citizenship-state-department-ab78db7aced64919edff3de26eebb681' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-us-fcc-chairman-warns-broadcasters-not-to-air-fake-news-after-trump/' }
             ]
         },
         {
             id: 'uspol-3',
-            headline: 'ICE Replaces Contractor at Largest Detention Camp After Conditions Scrutiny',
-            summary: 'ICE has replaced the private contractor running its largest detention facility in eastern Montana following intense scrutiny of living conditions at the camp. The move comes after reports of overcrowding, inadequate medical care, and unsanitary conditions that drew bipartisan criticism. Separately, ICE operations continue to expand in Minnesota, where activists report drones surveilling their neighbourhoods and the Department of Homeland Security has used license-plate readers and facial recognition technology to monitor anti-ICE organizers in Minneapolis. The contractor swap acknowledges the severity of conditions but does little to address broader concerns about the scale and methods of the Trump administration\'s immigration enforcement apparatus.',
-            tags: ['ICE', 'detention', 'immigration', 'Montana', 'surveillance'],
+            headline: 'Sinema Admits Romance with Security Guard as She Fights Ex-Wife\'s Lawsuit',
+            summary: 'Former Senator Kyrsten Sinema acknowledged a romantic relationship with her security guard as she battles a lawsuit filed by her ex-wife. The revelation adds a tabloid dimension to an already messy legal dispute that includes allegations of financial impropriety and misuse of campaign resources. Sinema, who left the Senate in 2025 after switching from Democrat to independent, has largely retreated from public life but remains a polarizing figure in Arizona politics. The lawsuit and its salacious details are dominating local media coverage and have become a cautionary tale about the personal wreckage that often follows high-profile political careers. Legal analysts say the relationship disclosure could complicate Sinema\'s defence by raising questions about judgment and potential conflicts of interest.',
+            tags: ['Sinema', 'lawsuit', 'Arizona', 'scandal', 'former senator'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/ice-detention-facility-camp-east-montana-conditions-contract-c7d369ed5fcbe19d87868b9b337f5211' }
+                { title: 'AP News', url: 'https://apnews.com/article/kyrsten-sinema-affair-lawsuit-9ce5a7cc816f0a11d767ec1479bcb761' }
             ]
         }
     ],
@@ -145,33 +144,32 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'Meta Delays "Avocado" AI Model Until May as Performance Lags Behind Google',
-            summary: 'Meta has pushed back the release of its next major AI model, codenamed Avocado, from March to at least May after internal benchmarks showed it falling short of rivals like Google. The delay is embarrassing for Meta, which hired Scale AI\'s Alexandr Wang to overhaul its AI division and has poured billions into compute infrastructure. Avocado was supposed to prove Meta could compete at the AI frontier with an open-source approach, but the postponement suggests the gap with leading labs remains stubbornly wide. The news sent a ripple through the AI community, where Meta\'s open-source contributions have been widely valued — raising questions about whether the company\'s ambitions are outpacing its execution.',
-            tags: ['Meta', 'AI', 'Avocado', 'Google', 'open source'],
+            headline: 'Palantir\'s Maven Smart System: An AI-Powered Kanban Board for Military Targeting',
+            summary: 'A chilling demonstration at Palantir\'s AIPCon conference revealed the full capabilities of the Maven Smart System, which the Department of War\'s Chief Digital and AI Officer showed can target anyone or anything for a military strike with just "left click, right click, left click." The system essentially functions as an AI-powered Kanban board for killing — a project management interface where the tasks are lethal military operations. The demo has sparked outrage among AI ethics researchers and tech workers who argue it represents the most disturbing real-world application of artificial intelligence to date. As AI labs like Anthropic deepen their Pentagon relationships, the Maven system forces an uncomfortable reckoning with what happens when Silicon Valley efficiency meets the machinery of war.',
+            tags: ['Palantir', 'Maven', 'military AI', 'Pentagon', 'ethics'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/news/841809/meta-avocado-ai-model-charge-open-source-mark-zuckerberg' }
+                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'Google Overhauls Maps with AI-Powered Features Using Gemini',
-            summary: 'Google is rolling out a major overhaul of its Maps app, adding AI features powered by its Gemini model to help people navigate more intelligently. The update includes natural-language trip planning, smarter route suggestions that factor in real-time conditions, and contextual recommendations for nearby businesses. It\'s the most significant Maps redesign in years and represents Google\'s strategy of embedding Gemini across its entire product suite rather than keeping AI confined to standalone chatbots. The update positions Google Maps as not just a navigation tool but an AI-powered local guide — a move that could further entrench Google\'s dominance in local search and put more pressure on competitors like Apple Maps.',
-            tags: ['Google', 'Maps', 'Gemini', 'AI', 'navigation'],
+            headline: 'OpenAI Hiring for "Emotionally Authentic" AI That Can Shift Between Feelings',
+            summary: 'A new OpenAI job listing is seeking candidates with the "ability to recognize, express, and shift between emotions in a way that feels authentic and human" — a striking glimpse into the company\'s ambitions for its next generation of AI products. The posting suggests OpenAI is moving beyond text-based intelligence toward systems that can simulate emotional awareness and responsiveness, raising profound questions about the boundaries between tool and companion. Critics warn that emotionally expressive AI could be manipulative by design, creating parasocial attachments that exploit human psychology. Supporters argue emotional intelligence is a natural evolution that will make AI assistants more helpful and intuitive. Either way, the listing signals that the race to build AI that feels human is accelerating rapidly.',
+            tags: ['OpenAI', 'emotional AI', 'hiring', 'AI ethics', 'human-AI interaction'],
             category: 'ai-tech',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/google-maps-ai-gemini-update-1933c40eaecfdbb9aa54d8ae3efcec2e' }
+                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'BuzzFeed Posts $57M Loss After AI Pivot Backfires Spectacularly',
-            summary: 'BuzzFeed\'s aggressive embrace of AI has proven catastrophic, with the company posting a $57.3 million loss in 2025 and its stock cratering to just $0.70 per share. Three years ago, CEO Jonah Peretti bet the company\'s future on using AI to generate articles and quiz responses, but readers rejected the machine-generated content en masse. Despite the dismal results, Peretti remains undeterred and is planning to bring "new AI apps" to market — a move that has left investors and industry observers baffled. The BuzzFeed saga has become a cautionary tale about the gap between AI hype and consumer reality: just because content can be generated cheaply by machines doesn\'t mean anyone wants to read it.',
-            tags: ['BuzzFeed', 'AI', 'media', 'Jonah Peretti', 'content'],
+            headline: 'Microsoft Brings Copilot AI Assistant to Xbox Consoles',
+            summary: 'Microsoft is launching its Copilot AI assistant directly on Xbox consoles, the latest expansion of the company\'s strategy to embed AI across every product in its ecosystem. The rollout follows Copilot\'s arrival on the Xbox mobile app, Windows 11, and the Xbox Ally handheld. On the console, Copilot will help gamers with game recommendations, troubleshooting, accessibility settings, and in-game tips — essentially becoming an AI-powered gaming companion. The move positions Microsoft ahead of Sony and Nintendo in integrating generative AI into the living room gaming experience, though some players are wary of AI creeping into a space they see as purely for entertainment. The Xbox integration is part of Microsoft\'s broader bet that Copilot will become as ubiquitous as Office across all its platforms.',
+            tags: ['Microsoft', 'Copilot', 'Xbox', 'gaming', 'AI assistant'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
-                { title: 'Futurism', url: 'https://futurism.com/artificial-intelligence/buzzfeed-disastrous-earnings-ai' }
+                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence' }
             ]
         }
     ]
