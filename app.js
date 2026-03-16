@@ -4,39 +4,39 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Sunday, March 15, 2026',
+    date: 'Monday, March 16, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'Trump Urges Allies to Send Warships to Strait of Hormuz as Gulf States Intercept Iranian Missiles',
-            summary: 'President Trump called on U.S. allies to deploy warships to the Strait of Hormuz as the Iran war entered a dangerous new phase on Sunday. Gulf Arab states intercepted a fresh barrage of Iranian missiles and drones overnight, with Iran openly threatening to widen the conflict beyond its current borders. The UAE remains a focal point after Iran\'s foreign minister said Tehran would "try to be careful" not to hit populated areas — a statement that did little to reassure Gulf capitals already on high alert. Britain said it is weighing a "range of options" in response to Trump\'s request, while oil markets brace for another volatile week with the Strait — through which 20% of global oil passes — effectively a war zone.',
-            tags: ['Iran war', 'Strait of Hormuz', 'Trump', 'Gulf states', 'UAE'],
+            headline: 'European Allies Seek Clarity on Trump\'s Calls to Send Warships to Strait of Hormuz',
+            summary: 'European allies scrambled Monday to respond to President Trump\'s escalating demands that NATO partners deploy warships to the Strait of Hormuz to secure global oil shipments during the Iran war. UK Prime Minister Starmer ruled out a NATO-led mission to forcibly open the strait after meeting with Canadian PM Carney, but said both leaders "condemned the Iranian regime\'s missile and drone attacks" and are working with allies on an alternative plan. The diplomatic confusion underscores fractures within the Western alliance over how far to go in supporting U.S. military operations against Iran, with European capitals wary of being drawn deeper into a conflict many of their publics oppose. Oil markets remain volatile as roughly 20% of global crude passes through the contested waterway.',
+            tags: ['Iran war', 'Strait of Hormuz', 'NATO', 'Starmer', 'Carney'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-03-15-2026' },
-                { title: 'AP News', url: 'https://apnews.com/article/iran-iraq-us-trump-march-15-2026-9bbed3c906146844be08fdfd02595754' },
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/article-iran-us-israel-war-uae/' }
+                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-03-16-2026' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-starmer-carney-meeting-strait-of-hormuz-iran-war/' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'U.S. Military Aircraft Crashes in Iran-Iraq Zone, Crew Members Killed',
-            summary: 'A U.S. military aircraft went down in the Iran-Iraq operational zone, killing several crew members including an Alabama father who had recently deployed and multiple service members from Ohio. The Pentagon confirmed the crash but offered few details about the circumstances, saying only that it occurred during operations related to the ongoing Iran campaign. The incident underscores the escalating human cost of a conflict that has now claimed American lives on the front lines. Families are demanding answers about the mission and conditions that led to the fatal crash, while the tragedy is likely to intensify domestic debate about the war\'s scope and whether Congress should have a greater role in authorizing operations.',
-            tags: ['military crash', 'Iran war', 'Pentagon', 'casualties', 'Iraq'],
+            headline: '\'One Battle After Another\' Sweeps Oscars with Six Wins Including Best Picture',
+            summary: 'Paul Thomas Anderson\'s sprawling political epic "One Battle After Another" dominated the 2026 Academy Awards on Sunday night, collecting six Oscars including Best Picture and Best Director. Sean Penn won Best Supporting Actor for his role but opted not to attend the ceremony. The film\'s sweep was a triumph for ambitious, auteur-driven filmmaking in an era increasingly dominated by franchises and sequels. Canadian talent also had a strong showing, with the Globe and Mail calling it a night where "Canadians triumph in heated rivalry with Hollywood." The ceremony itself drew praise for its pacing and relatively drama-free proceedings, though Penn\'s conspicuous absence generated its own share of backstage buzz and speculation.',
+            tags: ['Oscars 2026', 'One Battle After Another', 'Paul Thomas Anderson', 'Sean Penn', 'awards'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/us-military-aircraft-down-iran-iraq-7f56db745b94fd80a7553560cf49c292' }
+                { title: 'AP News', url: 'https://apnews.com/live/oscars-2026-updates' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/culture/film-and-tv/film/article-oscars-2026-best-and-worst-moments/' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'Iran War Economy: Even If the War Is Won, the Economic Damage Is Already Done',
-            summary: 'A stark Globe and Mail analysis argues that regardless of how the Iran war ends militarily, the economic fallout is already baked in. Oil prices have surged to levels not seen since 2008, supply chains are scrambling to reroute around the Persian Gulf, and inflation is ticking back up globally just as central banks were beginning to declare victory over the post-pandemic price spiral. The piece warns that the war has handed the global economy a stagflationary shock — rising prices combined with slowing growth — that will linger long after any ceasefire. For ordinary consumers, that means higher gas prices, more expensive groceries, and an increasingly uncertain job market heading into spring.',
-            tags: ['economy', 'Iran war', 'oil prices', 'inflation', 'stagflation'],
+            headline: 'USMCA Trade Negotiations Begin Monday as Tariff Tensions Simmer',
+            summary: 'Tricky negotiations to renew the United States-Mexico-Canada Agreement kicked off Monday with all three countries arriving at the table under starkly different circumstances than when the deal was first struck. Trump\'s aggressive tariff posture — including levies on Canadian steel and aluminum — has poisoned the atmosphere, while Mexico is pushing back on labour provisions it says unfairly target its manufacturing sector. For Canada, the stakes are existential: roughly 75% of Canadian exports go to the U.S., and a breakdown in talks could send the already-fragile Canadian economy into recession. Trade analysts say the negotiations could drag on for months, with each side using the threat of walking away as leverage in a high-stakes game of economic brinkmanship.',
+            tags: ['USMCA', 'trade', 'tariffs', 'Trump', 'Canada-US relations'],
             category: 'top-stories',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/commentary/article-iran-war-oil-economy-trump-inflation/' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-usmca-mexico-canada-trade-tariffs-7a838812f96da25af9f7975461421ed2' }
             ]
         }
     ],
@@ -44,33 +44,33 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Canada and Nordic Countries Vow Closer Collaboration as "Middle Power" Bloc',
-            summary: 'Prime Minister Mark Carney joined leaders from Norway, Sweden, Denmark, Finland, and Iceland in Oslo for a mini-summit aimed at forging a closer "middle power" alliance. The meeting comes on the heels of a massive NATO exercise in northern Norway and focuses on Arctic security, Russian military threats, and the fallout from U.S. unpredictability under Trump. Few concrete details emerged about how the countries plan to collaborate, but the symbolism was clear: smaller democracies are banding together as the traditional Western alliance frays. For Canada, the Nordic pivot represents Carney\'s effort to diversify the country\'s strategic relationships beyond its overwhelming dependence on the United States.',
-            tags: ['Carney', 'Nordic summit', 'Arctic', 'NATO', 'middle powers'],
+            headline: 'Canada\'s Inflation Rate Falls to 1.8% in February as Tax Holiday Effect Fades',
+            summary: 'Canada\'s annual inflation rate eased to 1.8% in February, Statistics Canada reported Monday, a reading driven partly by the tail end of last year\'s temporary sales tax holiday that kept consumer prices lower for part of the month. The figure gives the Bank of Canada some breathing room, though economists warn the number masks rising pressure from oil-driven costs tied to the Iran war that haven\'t fully filtered through yet. The Bank of Canada is widely expected to hold interest rates at its next decision amid uncertainty about whether energy prices will push inflation back up in coming months. For Canadian households already stretched by high mortgage costs, the modest inflation reading offers little comfort as grocery and fuel prices remain stubbornly elevated.',
+            tags: ['inflation', 'CPI', 'Bank of Canada', 'interest rates', 'economy'],
             category: 'canadian-news',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-carney-canada-nordic-relations-oslo-norway-sweden-denmark-finland/' },
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/business/canada-annual-inflation-rate-february-2026-9.7130104' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/economy/article-canadas-inflation-rate-february-statscan-interest-rates/' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Ottawa Announces $35-Billion Arctic Investment to Connect Northern Communities',
-            summary: 'The federal government unveiled a $35-billion Arctic investment plan that includes the long-stalled Mackenzie Valley Highway and expanded infrastructure to connect remote northern families and communities. Northwest Territories Premier hailed the announcement as a generational investment that will transform life in the North, while the Carney government framed it as both an economic development initiative and a sovereignty play amid rising geopolitical tensions over Arctic resources and shipping routes. Critics question whether the massive price tag is realistic given Ottawa\'s fiscal constraints, but northern leaders say decades of neglect have left communities isolated and vulnerable — and that the cost of inaction is even higher.',
-            tags: ['Arctic', 'infrastructure', 'Mackenzie Valley Highway', 'NWT', 'federal spending'],
+            headline: 'BCE Plans $1.7-Billion AI Data Centre in Saskatchewan',
+            summary: 'Canada\'s largest telecom company BCE announced plans to build a $1.7-billion artificial intelligence data centre in Saskatchewan, part of the company\'s push to diversify its revenue streams beyond traditional telecommunications. The facility would be one of the largest purpose-built AI computing centres in Canada and reflects the growing global race to secure data centre capacity as AI workloads explode. Saskatchewan\'s cold climate, relatively cheap electricity, and available land make it an attractive location for power-hungry computing infrastructure. The announcement comes as Canadian tech leaders warn that the country risks falling behind the U.S. and China in AI infrastructure investment, and positions BCE as a major player in the emerging AI compute economy.',
+            tags: ['BCE', 'AI', 'data centre', 'Saskatchewan', 'telecom'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/article-bce-plans-to-build-saskatchewan-ai-data-centre/' }
             ]
         },
         {
             id: 'cdn-3',
-            headline: 'National Historic Courthouse in London, Ont. Faces Shadow from 54-Storey Tower Development',
-            summary: 'Plans for a 54-storey residential tower next to London, Ontario\'s castle-like Old Middlesex County Courthouse — a designated national historic site — are raising alarm among heritage advocates. The development would literally cast a shadow over the place where the city began, and critics say it exposes a glaring gap in federal heritage protection law: national historic site designation doesn\'t actually prevent incompatible development on adjacent land. Supporters of the project argue the city desperately needs housing density and that the tower has been designed to complement rather than diminish the historic structure. The clash encapsulates the tension between Canada\'s housing crisis and its commitment to preserving the built heritage that gives communities their character.',
-            tags: ['heritage', 'London Ontario', 'development', 'housing', 'historic sites'],
+            headline: '\'Extremely Hazardous\' Winter Storm Closes Highways Across Northeastern Ontario',
+            summary: 'A major winter storm slammed northeastern Ontario on Monday, forcing highway closures, cancelling flights at Sudbury airport, and knocking out power to thousands of residents across Manitoulin Island and the French River area. Hydro One crews are working to restore service as blowing snow and ice make conditions dangerous for both travel and repair work. Environment Canada issued rare "extremely hazardous" warnings for the region, urging residents to stay home and avoid all non-essential travel. The storm is a reminder that despite calendar spring being days away, Canadian winters still pack a punch well into March — and that northern Ontario\'s aging power infrastructure remains vulnerable to severe weather events.',
+            tags: ['winter storm', 'Ontario', 'highways', 'power outages', 'Sudbury'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/canada-ontario-london-old-middlesex-county-courthouse-development-9.7107268' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/sudbury/livestory/ontario-winter-weather-warning-highway-closures-power-outages-9.7130111' }
             ]
         }
     ],
@@ -78,32 +78,32 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'Liberals Introduce New Bill to Help Police Track and Identify Criminals Online',
-            summary: 'The Carney government introduced legislation giving police new powers to track and identify criminal suspects online, a second attempt after privacy concerns torpedoed an earlier version of the bill. The new version includes what the justice minister calls "safeguards" to protect Canadians\' privacy while still enabling law enforcement to keep pace with digital crime. Privacy advocates remain skeptical, arguing the bill still grants overly broad surveillance authority that could be abused. The Conservatives are offering qualified support but say the bill doesn\'t go far enough on enforcement, while the NDP wants stronger judicial oversight provisions before backing it. The legislation reflects a growing bipartisan consensus that online anonymity has become a shield for serious criminals — the debate is over where to draw the line.',
-            tags: ['online surveillance', 'privacy', 'police powers', 'legislation', 'Liberals'],
+            headline: 'Starmer and Carney Meet to Coordinate on Iran, Rule Out NATO Hormuz Mission',
+            summary: 'UK Prime Minister Keir Starmer and Canadian PM Mark Carney held talks Monday focused on the Iran crisis, with Starmer publicly ruling out a NATO-led naval mission to forcibly reopen the Strait of Hormuz despite pressure from Washington. Both leaders condemned Iran\'s attacks but signaled they\'re pursuing a diplomatic track rather than military escalation, a position that puts them at odds with Trump\'s more hawkish demands. The meeting underscores Carney\'s strategy of positioning Canada as a bridge between European caution and American aggression on the world stage. For domestic audiences, Carney\'s restraint plays well with a Canadian public deeply skeptical of being dragged into another American-led Middle Eastern conflict.',
+            tags: ['Carney', 'Starmer', 'Iran war', 'NATO', 'diplomacy'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-starmer-carney-meeting-strait-of-hormuz-iran-war/' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'Why Are So Many MPs Crossing the Floor to Carney\'s Liberals?',
-            summary: 'A CBC At Issue panel examined the wave of opposition MPs crossing the floor to join Mark Carney\'s Liberal caucus, a trend that is reshaping the parliamentary landscape. The defections — from both the Conservatives and NDP — suggest that Carney\'s crisis-manager brand and centrist positioning are proving magnetic to politicians who see him as a winner. Critics say the floor-crossings reveal more about political opportunism than genuine ideological alignment, while Liberal strategists argue it proves Carney is building the kind of big-tent coalition Canada needs during wartime. The trend is infuriating opposition leaders who are watching their benches thin out, and raises questions about whether party loyalty means anything in an era of personality-driven politics.',
-            tags: ['Carney', 'Liberals', 'floor crossing', 'MPs', 'Parliament'],
+            headline: 'Poilievre Pitches Tariff-Free Auto Industry Pact with the U.S.',
+            summary: 'Conservative leader Pierre Poilievre proposed a bilateral tariff-free agreement specifically for the auto industry between Canada and the United States, an idea critics are already calling a throwback to the 1965 Auto Pact. The pitch comes as USMCA renegotiations begin and Canadian autoworkers face an uncertain future with Trump\'s tariff threats hanging over the sector. Poilievre framed the proposal as a way to protect hundreds of thousands of Canadian manufacturing jobs that depend on integrated cross-border supply chains. However, Globe and Mail columnist Campbell Clark noted that Poilievre is "arriving late to the auto debate" with a plan that may be more politically convenient than practically achievable, given that any such deal would require Trump to agree to sector-specific carve-outs he\'s shown no interest in.',
+            tags: ['Poilievre', 'auto industry', 'tariffs', 'trade', 'Conservatives'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-poilievre-pitches-tariff-free-auto-industry-pact-with-us/' }
             ]
         },
         {
             id: 'cdnpol-3',
-            headline: 'Conservatives Table Bill to Give More Legal Protection for Home Self-Defence',
-            summary: 'The Conservative Party introduced a private member\'s bill that would expand legal protections for Canadians who use force to defend themselves against home intruders. The legislation responds to several high-profile cases where homeowners faced criminal charges after confronting burglars, which Conservatives argue is a failure of the justice system. The bill would create a stronger presumption of self-defence in home invasion scenarios, shifting the burden away from victims. The Liberals have been cautious in their response, acknowledging public frustration but warning that loosening self-defence laws could lead to American-style "stand your ground" problems. Legal experts are divided, with some calling it a common-sense reform and others cautioning it could escalate violence in domestic disputes.',
-            tags: ['self-defence', 'Conservatives', 'home invasion', 'criminal law', 'private member bill'],
+            headline: 'Company Offers Private Deep-Water Baffin Island Port to National Defence',
+            summary: 'A private company has offered the Department of National Defence use of its deep-water port on Baffin Island, a move that could significantly bolster Canada\'s Arctic military presence without the decade-long wait for new government-built infrastructure. The port would give the Canadian Armed Forces year-round naval access to waters that are increasingly contested as climate change opens new Arctic shipping routes and Russia and China expand their northern ambitions. The offer highlights an emerging trend of private-sector solutions to Canada\'s chronic defence infrastructure gaps, though critics worry about relying on corporate partners for sovereign military capabilities. The proposal comes as the Carney government faces mounting pressure to demonstrate it\'s serious about Arctic sovereignty beyond just announcements and spending promises.',
+            tags: ['Arctic', 'Baffin Island', 'defence', 'sovereignty', 'military'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/politics' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/politics/article-baffin-island-port-department-of-national-defence-offer/' }
             ]
         }
     ],
@@ -111,32 +111,32 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Republican Election Bill\'s Citizenship Proof Requirement Could Burden Millions of Voters',
-            summary: 'The biggest change in the Republican-backed SAVE Act — requiring documentary proof of citizenship to vote — could become a significant burden for millions of American voters who lack readily accessible documents like passports or birth certificates. Analysis shows the requirement would disproportionately affect elderly, low-income, and minority voters who are less likely to have such documents on hand. Republicans frame the measure as essential to election security, citing concerns about non-citizen voting, though studies consistently show such fraud is exceedingly rare. Democrats and voting rights groups say the bill is a thinly veiled voter suppression effort designed to shrink the electorate ahead of the 2026 midterms, and have vowed legal challenges if it passes.',
-            tags: ['SAVE Act', 'voting rights', 'election security', 'Congress', 'midterms'],
+            headline: 'Trump Immigration Data Becomes Harder to Find as Deportation Push Accelerates',
+            summary: 'As the Trump administration ramps up its deportation campaign, key immigration data and statistics are becoming increasingly difficult to access, according to an AP investigation. Government websites that previously published regular enforcement figures have gone dark or been restructured, making it nearly impossible for journalists, researchers, and advocacy groups to independently verify the administration\'s claims about deportation numbers. The data blackout comes as ICE operations intensify across the country, with reports of drone surveillance over activist neighborhoods in Minnesota and expanded use of facial recognition technology. Critics say the lack of transparency is deliberate, designed to prevent accountability while allowing the administration to make unchallenged claims about the success of its immigration crackdown.',
+            tags: ['immigration', 'deportation', 'data transparency', 'Trump', 'ICE'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/hub/iran' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-immigration-data-numbers-deportations-000a289890193c94474f19b877eb37d1' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'FCC Chairman Warns Broadcasters Against Airing "Fake News" After Trump Complains About War Coverage',
-            summary: 'FCC Chairman issued a warning to broadcasters not to air "fake news" after President Trump publicly complained about media coverage of the Iran war, a move that press freedom advocates are calling an unprecedented threat to the First Amendment. The warning didn\'t specify which reports were considered false, but it comes as outlets have aired critical coverage of civilian casualties, the economic fallout, and questions about the war\'s strategic objectives. Media law experts say the FCC\'s warning, while lacking formal enforcement power over news content, represents a dangerous chilling effect — signalling to networks that critical war reporting could invite regulatory scrutiny. The incident echoes authoritarian patterns of using state regulators to intimidate independent press during wartime.',
-            tags: ['FCC', 'press freedom', 'fake news', 'Trump', 'Iran war coverage'],
+            headline: 'Trump Agency Threatens Media-Rating Company NewsGuard, Calling It a Threat to Free Speech',
+            summary: 'A Trump administration agency is threatening the livelihood of NewsGuard, a media-monitoring company that rates news outlets on reliability and transparency, reportedly through an FTC investigation that the company says is retaliatory. NewsGuard has consistently flagged misinformation from outlets sympathetic to the administration, making it a target for officials who view media accountability tools as censorship infrastructure. The company says the investigation is designed to intimidate it into silence and sends a chilling message to any organization that fact-checks or rates media credibility. Press freedom advocates warn the move fits a broader pattern of using government power to punish critics and undermine independent information ecosystems ahead of the 2026 midterms.',
+            tags: ['NewsGuard', 'media freedom', 'FTC', 'Trump', 'press freedom'],
             category: 'us-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-us-fcc-chairman-warns-broadcasters-not-to-air-fake-news-after-trump/' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-administration-newsguard-media-monitoring-ftc-investigation-291c71ebc2d00020326a56807ffccf5f' }
             ]
         },
         {
             id: 'uspol-3',
-            headline: 'Sinema Admits Romance with Security Guard as She Fights Ex-Wife\'s Lawsuit',
-            summary: 'Former Senator Kyrsten Sinema acknowledged a romantic relationship with her security guard as she battles a lawsuit filed by her ex-wife. The revelation adds a tabloid dimension to an already messy legal dispute that includes allegations of financial impropriety and misuse of campaign resources. Sinema, who left the Senate in 2025 after switching from Democrat to independent, has largely retreated from public life but remains a polarizing figure in Arizona politics. The lawsuit and its salacious details are dominating local media coverage and have become a cautionary tale about the personal wreckage that often follows high-profile political careers. Legal analysts say the relationship disclosure could complicate Sinema\'s defence by raising questions about judgment and potential conflicts of interest.',
-            tags: ['Sinema', 'lawsuit', 'Arizona', 'scandal', 'former senator'],
+            headline: 'Airline CEOs Demand Congress Restore Homeland Security Funding and Pay Airport Workers',
+            summary: 'The CEOs of America\'s largest airlines issued a rare joint demand Monday urging Congress to restore funding to the Department of Homeland Security and ensure airport security workers are paid, warning that the ongoing budget standoff is creating safety risks at airports nationwide. TSA staffing shortages caused by funding uncertainty are already leading to longer security lines and increased wait times at major hubs, and airline executives say the situation is unsustainable heading into the busy spring travel season. The appeal puts corporate America squarely at odds with congressional Republicans who have been using DHS funding as leverage in broader budget negotiations. For travelers, the message is blunt: political dysfunction in Washington is making flying less safe and less pleasant.',
+            tags: ['airlines', 'DHS funding', 'TSA', 'Congress', 'travel'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/kyrsten-sinema-affair-lawsuit-9ce5a7cc816f0a11d767ec1479bcb761' }
+                { title: 'AP News', url: 'https://apnews.com/article/airlines-ceo-homeland-security-funding-shutdown-789e7fdebd77ed80f1b529fa2fdebf01' }
             ]
         }
     ],
@@ -144,32 +144,32 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'Palantir\'s Maven Smart System: An AI-Powered Kanban Board for Military Targeting',
-            summary: 'A chilling demonstration at Palantir\'s AIPCon conference revealed the full capabilities of the Maven Smart System, which the Department of War\'s Chief Digital and AI Officer showed can target anyone or anything for a military strike with just "left click, right click, left click." The system essentially functions as an AI-powered Kanban board for killing — a project management interface where the tasks are lethal military operations. The demo has sparked outrage among AI ethics researchers and tech workers who argue it represents the most disturbing real-world application of artificial intelligence to date. As AI labs like Anthropic deepen their Pentagon relationships, the Maven system forces an uncomfortable reckoning with what happens when Silicon Valley efficiency meets the machinery of war.',
-            tags: ['Palantir', 'Maven', 'military AI', 'Pentagon', 'ethics'],
+            headline: 'Meta Reportedly Plans to Cut at Least 20% of Its Workforce as It Bets Everything on AI',
+            summary: 'Meta is planning to slash at least 20% of its global workforce in what would be one of the largest tech layoffs in history, according to reports from the Globe and Mail and multiple outlets. The cuts are driven by CEO Mark Zuckerberg\'s aggressive pivot toward artificial intelligence, with the company redirecting billions in savings from human employees toward AI infrastructure, compute capacity, and research talent. The layoffs would affect tens of thousands of workers across Meta\'s family of apps including Facebook, Instagram, and WhatsApp. The move signals that the era of big tech companies maintaining massive human workforces may be ending, as AI tools increasingly handle tasks from content moderation to code generation that previously required armies of employees.',
+            tags: ['Meta', 'layoffs', 'AI', 'Zuckerberg', 'big tech'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/technology/article-meta-platforms-layoffs-work-force-cuts-ai-spending/' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'OpenAI Hiring for "Emotionally Authentic" AI That Can Shift Between Feelings',
-            summary: 'A new OpenAI job listing is seeking candidates with the "ability to recognize, express, and shift between emotions in a way that feels authentic and human" — a striking glimpse into the company\'s ambitions for its next generation of AI products. The posting suggests OpenAI is moving beyond text-based intelligence toward systems that can simulate emotional awareness and responsiveness, raising profound questions about the boundaries between tool and companion. Critics warn that emotionally expressive AI could be manipulative by design, creating parasocial attachments that exploit human psychology. Supporters argue emotional intelligence is a natural evolution that will make AI assistants more helpful and intuitive. Either way, the listing signals that the race to build AI that feels human is accelerating rapidly.',
-            tags: ['OpenAI', 'emotional AI', 'hiring', 'AI ethics', 'human-AI interaction'],
+            headline: 'JD.com Launches Joybuy in Europe to Take on Amazon with Same-Day Delivery',
+            summary: 'Chinese e-commerce giant JD.com has officially launched its Joybuy platform in the UK, Germany, France, the Netherlands, Belgium, and Luxembourg — a direct challenge to Amazon\'s European dominance. The platform offers free same-day delivery on orders over £29 and a monthly membership at £3.99, significantly undercutting Amazon Prime\'s £8.99 UK price. Built on JD.com\'s own logistics network rather than relying on third-party carriers, Joybuy spans tech, beauty, grocery, appliances, and homeware categories. The launch represents the most ambitious attempt yet by a Chinese tech company to compete head-to-head with Amazon in Western markets, and comes at a time when geopolitical tensions between China and the West make the commercial rivalry all the more charged.',
+            tags: ['JD.com', 'Joybuy', 'Amazon', 'e-commerce', 'Europe'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'Microsoft Brings Copilot AI Assistant to Xbox Consoles',
-            summary: 'Microsoft is launching its Copilot AI assistant directly on Xbox consoles, the latest expansion of the company\'s strategy to embed AI across every product in its ecosystem. The rollout follows Copilot\'s arrival on the Xbox mobile app, Windows 11, and the Xbox Ally handheld. On the console, Copilot will help gamers with game recommendations, troubleshooting, accessibility settings, and in-game tips — essentially becoming an AI-powered gaming companion. The move positions Microsoft ahead of Sony and Nintendo in integrating generative AI into the living room gaming experience, though some players are wary of AI creeping into a space they see as purely for entertainment. The Xbox integration is part of Microsoft\'s broader bet that Copilot will become as ubiquitous as Office across all its platforms.',
-            tags: ['Microsoft', 'Copilot', 'Xbox', 'gaming', 'AI assistant'],
+            headline: 'Google Overhauls Maps with AI-Powered Features Using Gemini',
+            summary: 'Google announced a major overhaul of its Maps application on Monday, integrating Gemini AI features designed to help users navigate, discover places, and plan routes more intuitively. The update brings conversational search to Maps — users can now ask natural-language questions like "find a quiet café with good Wi-Fi near me" and get contextually relevant results. The AI can also summarize reviews, predict crowd levels, and suggest optimal departure times based on real-time traffic patterns. The refresh positions Google Maps as more of an AI-powered personal assistant for the physical world rather than just a navigation tool, and puts further pressure on Apple Maps to keep pace in the AI integration race that is reshaping every major consumer tech product.',
+            tags: ['Google', 'Maps', 'Gemini', 'AI', 'navigation'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence' }
+                { title: 'AP News', url: 'https://apnews.com/article/google-maps-ai-gemini-update-1933c40eaecfdbb9aa54d8ae3efcec2e' }
             ]
         }
     ]
