@@ -4,39 +4,40 @@
 // ─────────────────────────────────────────────
 
 const newsData = {
-    date: 'Tuesday, March 17, 2026',
+    date: 'Wednesday, March 18, 2026',
 
     'top-stories': [
         {
             id: 'top-1',
-            headline: 'Top U.S. Counterterrorism Official Joe Kent Resigns Over Trump\'s War on Iran',
-            summary: 'Joe Kent, the director of the National Counterterrorism Center, announced his resignation on Tuesday, saying he "cannot in good conscience" support the Trump administration\'s war in Iran. Kent, a decorated Green Beret and Gold Star husband who was one of Trump\'s most loyal appointees, said the conflict has veered far beyond its original counterterrorism justification and is now putting American lives at risk for objectives that have nothing to do with protecting the homeland. The resignation is a stunning break from within Trump\'s own national security apparatus and marks the highest-profile departure over the Iran war to date. Kent\'s credibility as a combat veteran and MAGA loyalist makes his dissent particularly damaging for an administration that has struggled to maintain unified support for the escalating conflict.',
-            tags: ['Joe Kent', 'Iran war', 'resignation', 'counterterrorism', 'Trump'],
+            headline: 'Israel Kills Another Top Iranian Official as Both Sides Escalate Attacks on Energy Facilities',
+            summary: 'Israel killed another senior Iranian official on Wednesday while both sides dramatically escalated attacks on energy infrastructure, sending oil prices surging to new highs. U.S. and Israeli strikes are systematically dismantling Iranian institutions and industrial capacity, while Iran has retaliated by threatening energy assets in Qatar, Saudi Arabia, and the UAE. Satellite imagery is now revealing the full scale of damage across Iran, with key military and industrial sites reduced to rubble. The conflict is reshaping the global energy landscape, with about 90 ships still crossing the Strait of Hormuz as Iran continues exporting millions of barrels despite the war — though analysts warn the corridor could close entirely at any moment. Persian Gulf countries are seeing war clouds overshadow Eid celebrations as the conflict shows no signs of de-escalation.',
+            tags: ['Israel', 'Iran war', 'energy', 'oil prices', 'Middle East'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-03-17-2026' },
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/joe-kent-resigns-iran-trump-war-9.7131639' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-war-us-israel-strait-of-hormuz-oil/' },
+                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-03-18-2026' }
             ]
         },
         {
             id: 'top-2',
-            headline: 'Israel Says Two Senior Iranian Officials Killed in Overnight Strikes',
-            summary: 'Israel announced Tuesday that two senior Iranian officials were killed in overnight airstrikes, a claim Iranian state media did not immediately confirm. The strikes represent a significant escalation in the broader Middle East conflict, with Israel increasingly targeting Iran\'s military and political leadership directly rather than limiting operations to proxy forces. Analysts say the killings, if confirmed, could further destabilize an already volatile situation in the region, particularly as Iran has effectively shut down the Strait of Hormuz — choking off roughly 20% of global oil supply. The Globe and Mail reports that Russia is emerging as the biggest winner from the Middle East chaos, with spiking oil prices filling Moscow\'s war chest while Western attention is diverted from Ukraine.',
-            tags: ['Israel', 'Iran', 'airstrikes', 'Middle East', 'oil'],
+            headline: 'Top Counterterrorism Official Kent Resigns, Says Iran Posed No Imminent Threat',
+            summary: 'The top U.S. counterterrorism official has resigned over Trump\'s Iran war, delivering a damning public statement that Iran posed no imminent threat to the United States — directly contradicting the administration\'s central justification for military action. Kent\'s resignation letter is the most significant break yet from within Trump\'s own national security team, carrying particular weight given his role as the official most directly responsible for assessing threats to the homeland. The departure comes as Trump\'s intelligence officials are set to testify before Congress on the Iran war and worldwide threats to the U.S., in what is expected to be a contentious hearing. Meanwhile, China is ignoring Trump\'s requests to help secure the Strait of Hormuz, and a planned presidential trip to Beijing appears to be slipping off the calendar as the war deepens.',
+            tags: ['Kent resignation', 'Iran war', 'counterterrorism', 'Trump', 'China'],
             category: 'top-stories',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-iran-israel-lebanon-war-strait-of-hormuz/' },
-                { title: 'AP News', url: 'https://apnews.com/live/iran-war-israel-trump-03-17-2026' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-iran-war-kent-resignation-e2e17a76d79617a68370f076c0291208' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/us-politics/article-trump-us-intelligence-officials-testify-iran-war-worldwide-threats/' }
             ]
         },
         {
             id: 'top-3',
-            headline: 'Islandwide Blackout Hits Cuba Amid Deepening Energy Crisis',
-            summary: 'Cuba was plunged into a nationwide blackout on Tuesday as the island\'s crumbling energy infrastructure collapsed under the strain of chronic fuel shortages, aging power plants, and a battered economy. The outage — the latest in a series of catastrophic grid failures over the past two years — left all 10 million residents without electricity, disrupting hospitals, water systems, and communications across the country. Cuba\'s energy crisis has been worsened by tightened U.S. sanctions, the loss of subsidized Venezuelan oil, and the government\'s inability to attract foreign investment for infrastructure upgrades. The recurring blackouts have fueled growing public frustration, with many Cubans seeing them as a symbol of the broader economic collapse under the island\'s aging socialist government.',
-            tags: ['Cuba', 'blackout', 'energy crisis', 'Caribbean', 'infrastructure'],
+            headline: 'Venezuela Beats U.S. 3-2 to Win First World Baseball Classic Title',
+            summary: 'Venezuela defeated the United States 3-2 in a thrilling final to capture its first-ever World Baseball Classic championship, delivering a stunning upset on the global stage. The victory sparked celebrations across Venezuela, a country that has endured years of economic collapse, political turmoil, and mass emigration — making the win an emotional moment of national unity. For the U.S. team, the loss is a disappointing end to a tournament they entered as favorites, and it comes amid a strange backdrop: WADA is delaying a decision on whether to potentially ban the U.S. from hosting major sporting events over ongoing anti-doping disputes with the Trump administration. The tournament showcased baseball\'s growing international competitiveness, with Latin American nations continuing to punch well above their weight.',
+            tags: ['World Baseball Classic', 'Venezuela', 'USA', 'sports', 'baseball'],
             category: 'top-stories',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/cuba-power-outage-electricity-4dcd92d4b7b3bbeda88622b543074ceb' }
+                { title: 'AP News', url: 'https://apnews.com/article/united-states-venezuela-score-wbc-6aee920fd528b59a752e6e2beb7bcb7b' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/world/article-venezuela-beats-us-3-2-to-win-first-world-baseball-classic-title/' }
             ]
         }
     ],
@@ -44,32 +45,32 @@ const newsData = {
     'canadian-news': [
         {
             id: 'cdn-1',
-            headline: 'Thinking of Moving to a More \'Affordable\' Part of Canada? It\'s Complicated',
-            summary: 'A new CBC analysis challenges common assumptions about regional affordability across Canada, finding that the calculus of moving to a "cheaper" province is far more complex than housing prices alone suggest. While Alberta offers relatively affordable housing compared to Ontario or B.C., higher childcare costs, fewer public services, and different tax structures can eat into savings quickly. Quebec\'s famously high taxes fund heavily subsidized daycare and lower tuition, making it surprisingly affordable for young families despite sticker shock on the tax bill. The report comes as Canadians increasingly consider interprovincial moves driven by the housing crisis, but warns that chasing lower rent without understanding the full cost-of-living picture can leave people worse off than expected.',
-            tags: ['affordability', 'housing', 'cost of living', 'provinces', 'moving'],
+            headline: 'Canada Reports First Annual Population Decline on Record',
+            summary: 'Canada\'s population fell by more than 100,000 people last year — the first annual decline ever recorded — driven by a mass exodus of temporary residents leaving the country. The stunning demographic reversal comes after years of record population growth fueled by international students and temporary foreign workers, and reflects the impact of the federal government\'s tightening of immigration pathways. The decline has significant implications for Canada\'s economy, which has relied heavily on population growth to drive GDP expansion, support the housing market, and fill chronic labor shortages. Economists are divided on whether the trend is a healthy correction after years of unsustainable growth, or an alarming signal that Canada is losing its appeal as a destination for global talent.',
+            tags: ['population decline', 'immigration', 'demographics', 'economy', 'Canada'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/affordability-canada-provinces-factors-9.7126052' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/article-canada-reports-first-annual-population-decline-on-record/' }
             ]
         },
         {
             id: 'cdn-2',
-            headline: 'Canada\'s Inflation Falls to 1.8% in February, but Iran War Impact Not Yet Reflected',
-            summary: 'Canada\'s annual inflation rate dipped to 1.8% in February, Statistics Canada reported, but economists are warning the number doesn\'t yet capture the full impact of the Iran war on energy prices. The relatively tame reading was partly driven by lingering effects of last year\'s temporary sales tax holiday and lower food price growth. However, with the Strait of Hormuz effectively shut down and global oil prices surging, analysts expect inflation to rebound sharply in coming months as higher fuel and transportation costs ripple through the economy. The Bank of Canada faces a difficult balancing act: the economy is sluggish enough to warrant rate cuts, but incoming energy-driven inflation could force the central bank to hold rates steady or even hike.',
-            tags: ['inflation', 'CPI', 'Bank of Canada', 'Iran war', 'oil prices'],
+            headline: 'Building Owner Charged with 7 Counts of Manslaughter in Old Montreal Fire',
+            summary: 'Émile Benamor, the owner of an Old Montreal building that caught fire in 2023 killing seven people, has been charged with seven counts of manslaughter — a rare and significant criminal prosecution in a case that exposed systemic failures in building safety oversight. The charges allege that Benamor\'s negligence in maintaining the heritage building directly contributed to the deaths, with investigators finding the property lacked basic fire safety equipment including working alarms and proper exits. The case has become a flashpoint for Montreal\'s ongoing struggle with unsafe converted buildings, many of which house vulnerable tenants in heritage properties that have been subdivided without proper permits or inspections. Advocates for housing safety say the charges send a powerful message, but warn that enforcement remains woefully inadequate across the city.',
+            tags: ['Old Montreal fire', 'manslaughter', 'building safety', 'Montreal', 'criminal charges'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/business/canada-annual-inflation-rate-february-2026-9.7130104' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/montreal/emile-benamor-charged-fire-9.7132912' }
             ]
         },
         {
             id: 'cdn-3',
-            headline: 'Loblaw Store Fined $10K for Misleading Promotions as Grocery Frustration Grows',
-            summary: 'Another Loblaw-owned grocery store has been hit with a $10,000 fine for misleading promotional pricing, adding fuel to the simmering public anger toward Canada\'s dominant grocery chains. The fine, while small relative to Loblaw\'s $56-billion annual revenue, comes amid ongoing scrutiny of grocery pricing practices following last year\'s Competition Bureau investigation into alleged bread price-fixing. Consumer advocates say the penalties are far too small to deter a company of Loblaw\'s size and are calling for stronger enforcement mechanisms. The case highlights a broader frustration among Canadian shoppers who feel grocery prices remain unjustifiably high even as input costs stabilize, with many pointing to market concentration — where five companies control roughly 80% of grocery sales — as the root cause.',
-            tags: ['Loblaw', 'grocery prices', 'fines', 'consumer protection', 'competition'],
+            headline: 'Canadian Computer Scientist Gilles Brassard Wins Turing Award',
+            summary: 'Canadian computer scientist Gilles Brassard has been named co-recipient of the prestigious Turing Award — often called the Nobel Prize of computing — alongside longtime collaborator Charles Bennett for their pioneering work in quantum information science. Brassard, a professor at the Université de Montréal, is best known for co-inventing the BB84 quantum key distribution protocol, which laid the theoretical groundwork for quantum-secure communications. Their work, which began in the 1980s when quantum computing was largely theoretical, has become increasingly relevant as governments and corporations race to develop quantum computers capable of breaking current encryption standards. The award recognizes decades of foundational contributions that are now shaping the future of cybersecurity, computing, and communications worldwide.',
+            tags: ['Turing Award', 'Gilles Brassard', 'quantum computing', 'Canada', 'science'],
             category: 'canadian-news',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/loblaw-fined-misleading-promotions-9.7130900' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/science/article-canadian-computer-scientist-gilles-brassard-wins-turing-award/' }
             ]
         }
     ],
@@ -77,32 +78,33 @@ const newsData = {
     'canadian-politics': [
         {
             id: 'cdnpol-1',
-            headline: 'Allies Aren\'t Leaping to Trump\'s Aid in the Strait of Hormuz — Including Canada',
-            summary: 'Iran has effectively shut down the Strait of Hormuz, and despite Trump\'s demands for allied naval support, neither Canada nor key European partners are rushing to join a U.S.-led mission to reopen the critical waterway. CBC\'s analysis notes that allies are wary of being drawn deeper into a conflict many see as driven by Trump\'s own escalation, with Carney\'s government carefully threading the needle between supporting Western solidarity and avoiding direct military involvement. The hesitation reflects a fundamental shift in how middle powers view American-led military coalitions after two decades of mixed results in the Middle East. For Canada specifically, the calculus involves not only military risk but also the delicate USMCA trade negotiations, where antagonizing Trump carries real economic consequences.',
-            tags: ['Strait of Hormuz', 'Iran war', 'Carney', 'allies', 'NATO'],
+            headline: 'Ottawa Spending $1.4 Billion to Ramp Up Domestic Ammunition Production',
+            summary: 'The federal government is investing $1.4 billion to dramatically expand Canada\'s domestic ammunition production capacity, splitting the funds between IMT Precision and General Dynamics Ordnance and Tactical Systems. The announcement reflects the Carney government\'s pivot toward defence self-sufficiency amid growing geopolitical instability, the Iran war, and persistent questions about the reliability of American supply chains under Trump. The investment is part of a broader Canadian defence spending surge that has seen Telesat shares soar on hopes for allied military contracts, as investors bet that NATO nations are entering a sustained rearmament cycle. Critics argue the spending is long overdue given that Canada has chronically underfunded its military, while others worry about the opportunity cost of diverting billions from social programs during an affordability crisis.',
+            tags: ['defence spending', 'ammunition', 'Carney', 'military', 'NATO'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/world/trump-iran-allies-strait-hormuz-oil-shipping-9.7131218' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/economy/article-ottawa-spending-14-billion-domestic-ammunition-production-capacity/' }
             ]
         },
         {
             id: 'cdnpol-2',
-            headline: 'Parental Mistrust and Hostile Interactions a Growing Concern for Alberta Teachers',
-            summary: 'Alberta teachers are reporting a troubling rise in hostile interactions with parents, fueled by political polarization and the spread of misinformation about school curricula, according to a CBC investigation. Teachers describe being confronted by parents who believe schools are secretly teaching children about gender ideology or critical race theory — claims that are largely unfounded but have been amplified by social media and some conservative politicians. The hostility ranges from aggressive emails and school board confrontations to outright threats, creating a climate of fear that teachers say is driving experienced educators out of the profession. The Alberta Teachers\' Association warns that the erosion of trust between parents and teachers is ultimately hurting students, as schools struggle to recruit and retain staff in an increasingly adversarial environment.',
-            tags: ['Alberta', 'teachers', 'education', 'parental mistrust', 'culture wars'],
+            headline: 'Ottawa Appeals Emergencies Act Case to the Supreme Court',
+            summary: 'The federal government is taking its Emergencies Act case to the Supreme Court of Canada, appealing a lower court ruling that found the Trudeau government\'s invocation of the Act during the 2022 convoy protests was unconstitutional. The appeal sets up a landmark constitutional showdown over the limits of executive power in a democracy, with the outcome potentially reshaping how future governments can respond to national crises. The case is politically fraught: while the Carney government inherited the legal battle from Trudeau, its decision to press forward signals it believes establishing broad emergency powers is worth the political risk. Civil liberties groups argue the case could set a dangerous precedent that normalizes sweeping government overreach, while supporters say the convoy blockades posed a genuine threat to public safety and economic stability.',
+            tags: ['Emergencies Act', 'Supreme Court', 'convoy protests', 'Carney', 'constitutional law'],
             category: 'canadian-politics',
             sources: [
-                { title: 'CBC News', url: 'https://www.cbc.ca/news/canada/calgary/inside-the-classroom-mistrust-9.7103297' }
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-ottawa-appeals-emergencies-act-case-to-the-supreme-court/' }
             ]
         },
         {
             id: 'cdnpol-3',
-            headline: 'Judge Granted Bail to Alberta Sexual Assault Accused Without Giving Reasons',
-            summary: 'A Globe and Mail investigation has revealed that a judge granted bail to an Alberta man accused of sexual assault without providing any written or verbal reasons for the decision — a rare glimpse inside Canada\'s typically secretive bail system that is fueling calls for reform. The case highlights longstanding concerns about transparency in bail hearings, where life-altering decisions are routinely made behind closed doors with minimal public accountability. Advocates for sexual assault survivors say the lack of reasoning is particularly troubling in cases involving violent offences, where victims deserve to understand why an accused person was released. The transcript offers a rare window into a process that legal experts say urgently needs modernization, including requirements for judges to document their reasoning in all bail decisions.',
-            tags: ['bail reform', 'sexual assault', 'Alberta', 'justice system', 'transparency'],
+            headline: 'Bank of Canada Holds Rate at 2.25% as Oil Shock Clouds Outlook',
+            summary: 'The Bank of Canada held its benchmark interest rate at 2.25% on Wednesday, citing the oil price shock from the Iran war as a major source of uncertainty for the Canadian economy. Governor Tiff Macklem said the central bank is "ready to respond" if needed, but acknowledged that the war has created an unusually difficult policy environment where inflation risks from surging energy prices clash with a slowing domestic economy. The decision was widely expected after February\'s CPI data showed inflation at a manageable 1.8%, but markets are already pricing in the likelihood that oil-driven cost pressures will force the Bank\'s hand in coming months. The hold contrasts with the Federal Reserve\'s own dilemma south of the border, where the Iran war has similarly upended expectations for rate cuts this year.',
+            tags: ['Bank of Canada', 'interest rates', 'oil prices', 'Tiff Macklem', 'inflation'],
             category: 'canadian-politics',
             sources: [
-                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/canada/article-judge-granted-bail-alberta-man-accused-sexual-assault/' }
+                { title: 'CBC News', url: 'https://www.cbc.ca/news/business/bank-of-canada-interest-rate-9.7132984' },
+                { title: 'Globe and Mail', url: 'https://www.theglobeandmail.com/business/economy/article-bank-of-canada-holds-benchmark-rate-oil-prices-inflation/' }
             ]
         }
     ],
@@ -110,32 +112,32 @@ const newsData = {
     'us-politics': [
         {
             id: 'uspol-1',
-            headline: 'Afghan Man Who Worked with U.S. Military Dies in ICE Custody',
-            summary: 'An Afghan man who served alongside the U.S. military as a translator and ally has died while in Immigration and Customs Enforcement detention, raising urgent questions about how the Trump administration is treating individuals who risked their lives to support American operations abroad. The man\'s death comes amid the administration\'s aggressive immigration crackdown, which critics say has increasingly swept up people with legitimate claims to U.S. protection, including Special Immigrant Visa holders and asylum seekers with approved applications. Veterans\' groups reacted with outrage, calling the death a betrayal of America\'s promise to those who served alongside its troops. The case has reignited debate about conditions in ICE detention facilities, where deaths have risen under expanded enforcement operations.',
-            tags: ['ICE', 'Afghanistan', 'immigration', 'detention', 'veterans'],
+            headline: 'Judge Throws Prosecutor Out of Court, Orders NJ U.S. Attorney Leaders to Testify',
+            summary: 'A federal judge took the extraordinary step of ejecting a prosecutor from the courtroom and ordering top officials from New Jersey\'s U.S. Attorney\'s office to testify, in a dramatic confrontation that has raised alarm about politicization of the Justice Department under the Trump administration. The incident stems from what the judge described as a pattern of improper conduct by federal prosecutors, and the order to compel testimony from office leadership is virtually unprecedented in the modern federal court system. The case has drawn national attention as part of a broader pattern of concerns about DOJ independence, with critics arguing the Trump administration has turned the nation\'s prosecutors into political enforcers rather than impartial servants of justice. Legal experts say the judge\'s actions signal deep frustration with what the bench perceives as a breakdown in prosecutorial norms.',
+            tags: ['DOJ', 'federal courts', 'New Jersey', 'Trump', 'prosecutorial misconduct'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/afghan-immigrant-death-ice-detention-e6cb522d03ae87bc827d47233759201c' }
+                { title: 'AP News', url: 'https://apnews.com/article/new-jersey-justice-department-federal-prosecutors-habba-c6882eeefa9432a349127715f3be7d55' }
             ]
         },
         {
             id: 'uspol-2',
-            headline: 'University of Florida Moves to Deactivate College Republicans Over Antisemitic Behavior',
-            summary: 'The University of Florida has moved to deactivate its College Republicans chapter following a report detailing antisemitic behavior by members of the organization. The decision marks a rare instance of a major public university taking formal action against a partisan student group over hate speech, and comes amid a broader national reckoning over antisemitism on college campuses that has typically focused on left-wing activist groups. The report reportedly documented a pattern of antisemitic rhetoric and harassment rather than isolated incidents. The move has drawn both praise from Jewish student organizations and criticism from conservative groups who say it amounts to political censorship, setting up a likely legal battle over the boundaries of free speech and institutional accountability on campus.',
-            tags: ['antisemitism', 'University of Florida', 'College Republicans', 'campus politics', 'free speech'],
+            headline: 'Trump\'s Tariffs Hurting American Manufacturers Instead of Helping Them',
+            summary: 'A sweeping AP analysis finds that Trump\'s tariff regime is backfiring on the American manufacturers it was supposed to protect, with rising input costs, supply chain disruptions, and retaliatory trade barriers eating into profits and forcing some companies to lay off workers. The tariffs on steel, aluminum, and Chinese goods have raised the cost of raw materials for domestic producers, while retaliatory tariffs from trading partners have shut American-made goods out of key export markets. Small and mid-sized manufacturers are being hit hardest, lacking the scale and supply chain flexibility to absorb the cost increases that large corporations can manage. The findings add to a growing body of evidence that the protectionist trade policy is failing on its own terms, even as the administration doubles down on the approach.',
+            tags: ['tariffs', 'manufacturing', 'trade war', 'economy', 'Trump'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/universities-florida-republicans-antisemitism-d49e6de7a9de5cdf66c4ef3abe979072' }
+                { title: 'AP News', url: 'https://apnews.com/article/trump-tariffs-manufacturing-china-030d58f482ce2505721a3ce86820d1da' }
             ]
         },
         {
             id: 'uspol-3',
-            headline: 'Last Immigration Protester from Trump\'s Campus Crackdown Released from Detention',
-            summary: 'The final protester who was detained during the Trump administration\'s crackdown on campus immigration demonstrations has been released from ICE custody, closing a chapter in one of the most controversial episodes of the administration\'s enforcement campaign. Leqaa Kordia had been held for weeks after being arrested at a campus protest, with her detention drawing widespread criticism from civil liberties organizations who argued that targeting protesters with immigration enforcement had a chilling effect on free speech. Her release came after sustained legal and public pressure, but advocates warn that the precedent has already been set: using immigration status as a weapon against political dissent. The case highlighted the intersection of immigration enforcement and First Amendment rights that has become a defining tension of the Trump era.',
-            tags: ['immigration', 'campus protests', 'ICE', 'free speech', 'Trump'],
+            headline: 'Judge Blocks Government from Slimming Down Vaccine Recommendations',
+            summary: 'A federal judge has blocked the Trump administration\'s effort to scale back official vaccine recommendations, dealing another legal blow to RFK Jr.\'s anti-vaccine agenda at the Department of Health and Human Services. The ruling halts proposed changes that would have weakened CDC guidance on childhood immunizations, a cornerstone of RFK Jr.\'s "MAHA" (Make America Healthy Again) initiative. The decision comes on the heels of a separate ruling that halted momentum on the administration\'s broader vaccine deregulation plans, effectively putting the most controversial elements of Kennedy\'s health agenda on ice through the courts. Public health officials praised the ruling as critical for protecting children, while the administration signaled it would appeal, setting up another round in the ongoing legal battle over federal vaccine policy.',
+            tags: ['vaccines', 'RFK Jr', 'courts', 'public health', 'Trump'],
             category: 'us-politics',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/leqaa-kordia-ice-immigration-trump-ec045939c' }
+                { title: 'AP News', url: 'https://apnews.com/article/kennedy-acip-vaccines-cdc-fc758951019f41d2f5e81e4e2faa22d3' }
             ]
         }
     ],
@@ -143,33 +145,34 @@ const newsData = {
     'ai-tech': [
         {
             id: 'tech-1',
-            headline: 'OpenAI Cuts Back on "Side Quests" to Focus on Coding and Enterprise',
-            summary: 'OpenAI\'s CEO of applications Fidji Simo has told staff the company will dramatically narrow its focus, prioritizing coding tools and enterprise customers over the sprawling array of projects it has been pursuing, the Wall Street Journal reports. On the chopping block are ambitious but scattered efforts including Sora (the deepfake-capable video generator), the Atlas AI-powered browser meant to challenge Chrome, and various hardware experiments including smart speakers, cameras, glasses, and lamps. The strategic retreat signals a maturing company recognizing it can\'t compete on every front simultaneously, and reflects investor pressure to show a path to profitability rather than chasing moonshots. For developers and businesses, the refocus could mean faster improvements to ChatGPT\'s coding capabilities and more robust API offerings.',
-            tags: ['OpenAI', 'Sora', 'enterprise', 'AI strategy', 'Fidji Simo'],
+            headline: 'Jensen Huang Fires Back at DLSS 5 Critics: "They\'re Completely Wrong"',
+            summary: 'Nvidia CEO Jensen Huang has responded forcefully to the growing backlash against DLSS 5, the company\'s latest AI-powered upscaling technology for gaming, telling critics they are "completely wrong" about how the system works. In an interview reported by Tom\'s Hardware, Huang explained that DLSS 5 "fuses controllability of geometry and textures" with generative AI, and emphasized that game developers can fine-tune the system — pushing back against fears that the technology produces unpredictable or unfaithful visual results. The controversy reflects a growing tension in the gaming community between AI-driven performance gains and concerns about visual authenticity, with many players arguing they want to see the game as the developer intended, not an AI\'s interpretation of it. Nvidia\'s aggressive defence suggests the company sees AI upscaling as the future of real-time graphics, regardless of current skepticism.',
+            tags: ['Nvidia', 'DLSS 5', 'Jensen Huang', 'gaming', 'AI graphics'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/ai-artificial-intelligence/893189/openai-chatgpt-sora-integration' },
-                { title: 'Wall Street Journal', url: 'https://www.wsj.com/tech/ai/openai-fidji-simo-strategy-coding-enterprise' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
+                { title: 'Tom\'s Hardware', url: 'https://www.tomshardware.com/pc-components/gpus/jensen-huang-says-gamers-are-completely-wrong-about-dlss-5-nvidia-ceo-responds-to-dlss-5-backlash' }
             ]
         },
         {
             id: 'tech-2',
-            headline: 'Apple AirPods Max 2 Arrives — Fixing None of the Original\'s Flaws',
-            summary: 'Apple has finally released the AirPods Max 2, more than five years after the original — and in a move that has baffled fans and critics alike, the sequel addresses virtually none of the complaints that plagued its predecessor. The headphones remain heavy, expensive, and ship with the same widely mocked Smart Case design. The primary upgrade is the H2 chip, which improves noise cancellation and enables new spatial audio features, but doesn\'t address the weight, the lack of a headphone jack, or the premium price point that puts them well above competing options from Sony and Bose. The Verge\'s review calls it a puzzling update from a company that usually excels at iterative improvement, leaving the impression that Apple views the Max line as a luxury status symbol rather than a product competing on practical merits.',
-            tags: ['Apple', 'AirPods Max', 'headphones', 'hardware', 'audio'],
+            headline: 'Samsung Discontinues Galaxy Z TriFold After Just Months on Sale',
+            summary: 'Samsung has pulled the plug on its Galaxy Z TriFold phone after just a few months on the market, amid reports that the company only ever manufactured a few thousand units. The device, which featured a screen that folded into three sections, was Samsung\'s most ambitious foldable yet — and its most short-lived. The discontinuation suggests the tri-fold form factor was more of a concept showcase than a viable product line, with the steep price point and limited app optimization proving insurmountable barriers to mass adoption. The TriFold\'s rapid demise raises questions about the future of experimental foldable designs, though Samsung remains committed to its mainstream Flip and Fold lines. RIP Galaxy Z TriFold, 2026–2026.',
+            tags: ['Samsung', 'TriFold', 'foldable phones', 'hardware', 'discontinued'],
             category: 'ai-tech',
             sources: [
-                { title: 'The Verge', url: 'https://www.theverge.com/tech/895155/apple-airpods-max-2-pricing-availability' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech/895879/samsung-galaxy-z-trifold-discontinued-stock-sold-out' }
             ]
         },
         {
             id: 'tech-3',
-            headline: 'Spain\'s King Acknowledges \'Much Abuse\' in the Conquest of the Americas',
-            summary: 'In a historic address that has reverberated across the Spanish-speaking world and the tech-powered information ecosystem, Spain\'s King Felipe VI publicly acknowledged "much abuse" committed during Spain\'s colonization of the Americas — the most direct reckoning with colonial history from a sitting Spanish monarch. The speech, delivered during a state visit to Mexico, was immediately amplified across social media platforms, generating millions of views and reigniting debates about colonial legacies, reparations, and historical accountability. The moment underscores how digital platforms have transformed diplomatic gestures into global media events, with AI-powered translation tools making the speech accessible in dozens of languages within minutes. Historians called it a significant, if long overdue, step toward reconciliation between Spain and Indigenous communities across Latin America.',
-            tags: ['Spain', 'colonialism', 'Americas', 'King Felipe', 'history'],
+            headline: 'Sony Developing "Protective AI" to Fight Ghibli-Style AI Slop',
+            summary: 'Sony\'s R&D division is training its own AI model specifically designed to identify and combat unauthorized AI-generated imitations of Studio Ghibli\'s distinctive art style, following a wave of AI-generated Ghibli-style content that has flooded social media. The "Protective AI" model is being trained on content from actual Ghibli films and is designed to eventually detect and flag AI-generated knockoffs of any protected creative content. The initiative comes alongside Sony\'s parallel effort to develop technology that identifies source material used to train AI music generators. Meanwhile, the broader debate over distinguishing human-made from AI-generated content continues to fragment, with BBC News counting eight separate competing initiatives trying to establish a "human-made" certification label — and experts warning that a single standard must emerge before consumers drown in confusion.',
+            tags: ['Sony', 'Studio Ghibli', 'AI art', 'copyright', 'content protection'],
             category: 'ai-tech',
             sources: [
-                { title: 'AP News', url: 'https://apnews.com/article/spain-mexico-conquest-indigenous-americas-de561ec7f6e00c332d60bbbc164db05d' }
+                { title: 'The Verge', url: 'https://www.theverge.com/tech' },
+                { title: 'BBC News', url: 'https://www.bbc.co.uk/news/articles/cj0d6el50ppo' }
             ]
         }
     ]
